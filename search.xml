@@ -4,6 +4,120 @@
   
     
     <entry>
+      <title><![CDATA[Sublime 与 Markdown]]></title>
+      <url>http://yoursite.com/2016/03/12/Sublime%E4%B8%8EMarkdown/</url>
+      <content type="html"><![CDATA[<h1 id="起"><a href="#起" class="headerlink" title="起"></a>起</h1><p>用Markdown来写博客，得选个合适的编辑器，找了网上的资料，看了<a href="http://www.zhihu.com/question/19637157" target="_blank" rel="external">用Markdown写作用什么文本编辑器？</a>和<a href="http://www.williamlong.info/archives/4319.html" target="_blank" rel="external">好用的Markdown编辑器一览</a>两篇内容，发现之前用的Sublime编辑器装装插件也能用，于是就找资料，参照<a href="http://www.jianshu.com/p/aa30cc25c91b" target="_blank" rel="external">Sublime插件：Markdown篇</a>的内容安装配置了一下。<br><a id="more"></a></p>
+<h1 id="承"><a href="#承" class="headerlink" title="承"></a>承</h1><p>把整个操作涉及到的常用快捷键总结如下：</p>
+<table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>功能</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ctrl+Shift+P</td>
+<td>打开Package Control来安装插件</td>
+<td></td>
+</tr>
+<tr>
+<td>Ctrl+B</td>
+<td>md文件生成html文件</td>
+<td>MarkdownPreview插件</td>
+</tr>
+<tr>
+<td>Ctrl+Alt+O</td>
+<td>浏览器中实时预览</td>
+<td>OmniMarkupPreviwer插件</td>
+</tr>
+<tr>
+<td>Shitf+Tab</td>
+<td>快速生成表格  <a href="http://upload-images.jianshu.io/upload_images/26219-256230846b591b50.gif" target="_blank" rel="external">预览效果</a></td>
+<td>TabEditor插件</td>
+</tr>
+</tbody>
+</table>
+<p>另外补充几个用得比较多的快捷键：</p>
+<table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ctrl+D</td>
+<td>选择单词</td>
+</tr>
+<tr>
+<td>Ctrl+L</td>
+<td>选择一行</td>
+</tr>
+<tr>
+<td>Ctrl+X</td>
+<td>删除当前行</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+上下键</td>
+<td>上下移动一行</td>
+</tr>
+<tr>
+<td>Ctrl+F</td>
+<td>查找内容</td>
+</tr>
+<tr>
+<td>Ctrl+/</td>
+<td>注释行</td>
+</tr>
+<tr>
+<td>Shift+F11</td>
+<td>全屏</td>
+</tr>
+<tr>
+<td>Ctrl+K+B</td>
+<td>侧边栏开关</td>
+</tr>
+</tbody>
+</table>
+<p>关于Sublime Text更多的内容可以去<a href="http://www.jianshu.com/p/d1b9a64e2e37" target="_blank" rel="external">Sublime Text：学习资源篇</a>看看。</p>
+<h1 id="转"><a href="#转" class="headerlink" title="转"></a>转</h1><p>上手了编辑器之后，还得对markdown语法有一点了解，<a href="http://xianbai.me/learn-md/" target="_blank" rel="external">Learning-Markdown (Markdown 入门参考)</a>和<a href="http://wowubuntu.com/markdown/index.html" target="_blank" rel="external">Markdown 语法说明 (简体中文版)</a>这两份文档可以看看，还有这个<a href="http://daringfireball.net/projects/markdown/dingus" target="_blank" rel="external">markdown 在线练习</a>网站可以练练手，不过我是直接在sublime中边写边练习。</p>
+<p>常用的几个语法内容如下：</p>
+<h1 id="1-标题样式"><a href="#1-标题样式" class="headerlink" title="1.标题样式"></a>1.标题样式</h1><ul>
+<li>大标题：<code># 大标题</code> 最大一级标题</li>
+<li>二级标题：<code>## 二级标题</code></li>
+<li>小标题：<code>### 小标题</code> 最小六级标题</li>
+</ul>
+<h2 id="2-文本样式"><a href="#2-文本样式" class="headerlink" title="2.文本样式"></a>2.文本样式</h2><h3 id="2-1-列表"><a href="#2-1-列表" class="headerlink" title="2.1 列表"></a>2.1 列表</h3><ol>
+<li>无序列表：<code>* + -</code></li>
+<li>有序列表：<code>1. 2.</code></li>
+</ol>
+<h3 id="2-2-内容"><a href="#2-2-内容" class="headerlink" title="2.2 内容"></a>2.2 内容</h3><ul>
+<li><strong>粗体</strong>：<code>**粗体**</code></li>
+<li><em>斜体</em>： <code>*斜体*</code></li>
+</ul>
+<blockquote>
+<p>引用：<code>&gt;引用</code></p>
+<blockquote>
+<p>嵌套引用：<code>&gt;&gt;嵌套引用</code></p>
+</blockquote>
+<p><strong>引用中可以使用其他语法</strong></p>
+</blockquote>
+<p>分割线：<code>---</code></p>
+<hr>
+<h2 id="3-代码样式"><a href="#3-代码样式" class="headerlink" title="3.代码样式"></a>3.代码样式</h2><p>内嵌代码：<code>print(&#39;Hello Markdown.&#39;)</code><br>代码块：</p>
+<pre><code>print(&apos;开头Tab键，表示一行代码&apos;)
+</code></pre><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Hello</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span></span>&#123;</span><br><span class="line">		System.out.println(<span class="string">"Hello!"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="4-超链接"><a href="#4-超链接" class="headerlink" title="4.超链接"></a>4.超链接</h2><p>文字链接：<br><a href="https://xiaoyaolml.github.io/" target="_blank" rel="external">我的博客</a></p>
+<p>图片链接：</p>
+<p><img src="https://avatars1.githubusercontent.com/u/8487928?v=3&amp;s=460" alt="我的头像" title="我的头像"></p>
+<h1 id="合"><a href="#合" class="headerlink" title="合"></a>合</h1><p>开始体验Markdown+Sublime书写之旅吧。</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[使用 hexo 写博客]]></title>
       <url>http://yoursite.com/2016/03/09/%E4%BD%BF%E7%94%A8hexo%E5%86%99%E5%8D%9A%E5%AE%A2/</url>
       <content type="html"><![CDATA[<p>参照<a href="http://www.jianshu.com/p/465830080ea9" target="_blank" rel="external">HEXO+Github,搭建属于自己的博客</a>和<a href="http://www.jianshu.com/p/858ecf233db9" target="_blank" rel="external">通过Hexo在Github上搭建博客教程</a>这两篇文章，结合<a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="external">heox的官方说明文档</a>，折腾折腾，在GitHub上搭建了博客。顺便记录一下这第一篇。<br><a id="more"></a></p>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-03-10T05:40:41.395Z</updated>
+  <updated>2016-03-12T08:22:45.466Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,138 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Sublime 与 Markdown</title>
+    <link href="http://yoursite.com/2016/03/12/Sublime%E4%B8%8EMarkdown/"/>
+    <id>http://yoursite.com/2016/03/12/Sublime与Markdown/</id>
+    <published>2016-03-12T06:47:51.000Z</published>
+    <updated>2016-03-12T08:22:45.466Z</updated>
+    
+    <content type="html">&lt;h1 id=&quot;起&quot;&gt;&lt;a href=&quot;#起&quot; class=&quot;headerlink&quot; title=&quot;起&quot;&gt;&lt;/a&gt;起&lt;/h1&gt;&lt;p&gt;用Markdown来写博客，得选个合适的编辑器，找了网上的资料，看了&lt;a href=&quot;http://www.zhihu.com/question/19637157&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;用Markdown写作用什么文本编辑器？&lt;/a&gt;和&lt;a href=&quot;http://www.williamlong.info/archives/4319.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;好用的Markdown编辑器一览&lt;/a&gt;两篇内容，发现之前用的Sublime编辑器装装插件也能用，于是就找资料，参照&lt;a href=&quot;http://www.jianshu.com/p/aa30cc25c91b&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sublime插件：Markdown篇&lt;/a&gt;的内容安装配置了一下。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;承&quot;&gt;&lt;a href=&quot;#承&quot; class=&quot;headerlink&quot; title=&quot;承&quot;&gt;&lt;/a&gt;承&lt;/h1&gt;&lt;p&gt;把整个操作涉及到的常用快捷键总结如下：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;快捷键&lt;/th&gt;
+&lt;th&gt;功能&lt;/th&gt;
+&lt;th&gt;备注&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+Shift+P&lt;/td&gt;
+&lt;td&gt;打开Package Control来安装插件&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+B&lt;/td&gt;
+&lt;td&gt;md文件生成html文件&lt;/td&gt;
+&lt;td&gt;MarkdownPreview插件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+Alt+O&lt;/td&gt;
+&lt;td&gt;浏览器中实时预览&lt;/td&gt;
+&lt;td&gt;OmniMarkupPreviwer插件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Shitf+Tab&lt;/td&gt;
+&lt;td&gt;快速生成表格  &lt;a href=&quot;http://upload-images.jianshu.io/upload_images/26219-256230846b591b50.gif&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;预览效果&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;TabEditor插件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;另外补充几个用得比较多的快捷键：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;快捷键&lt;/th&gt;
+&lt;th&gt;功能&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+D&lt;/td&gt;
+&lt;td&gt;选择单词&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+L&lt;/td&gt;
+&lt;td&gt;选择一行&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+X&lt;/td&gt;
+&lt;td&gt;删除当前行&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+Shift+上下键&lt;/td&gt;
+&lt;td&gt;上下移动一行&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+F&lt;/td&gt;
+&lt;td&gt;查找内容&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+/&lt;/td&gt;
+&lt;td&gt;注释行&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Shift+F11&lt;/td&gt;
+&lt;td&gt;全屏&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+K+B&lt;/td&gt;
+&lt;td&gt;侧边栏开关&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;关于Sublime Text更多的内容可以去&lt;a href=&quot;http://www.jianshu.com/p/d1b9a64e2e37&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sublime Text：学习资源篇&lt;/a&gt;看看。&lt;/p&gt;
+&lt;h1 id=&quot;转&quot;&gt;&lt;a href=&quot;#转&quot; class=&quot;headerlink&quot; title=&quot;转&quot;&gt;&lt;/a&gt;转&lt;/h1&gt;&lt;p&gt;上手了编辑器之后，还得对markdown语法有一点了解，&lt;a href=&quot;http://xianbai.me/learn-md/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Learning-Markdown (Markdown 入门参考)&lt;/a&gt;和&lt;a href=&quot;http://wowubuntu.com/markdown/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown 语法说明 (简体中文版)&lt;/a&gt;这两份文档可以看看，还有这个&lt;a href=&quot;http://daringfireball.net/projects/markdown/dingus&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;markdown 在线练习&lt;/a&gt;网站可以练练手，不过我是直接在sublime中边写边练习。&lt;/p&gt;
+&lt;p&gt;常用的几个语法内容如下：&lt;/p&gt;
+&lt;h1 id=&quot;1-标题样式&quot;&gt;&lt;a href=&quot;#1-标题样式&quot; class=&quot;headerlink&quot; title=&quot;1.标题样式&quot;&gt;&lt;/a&gt;1.标题样式&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;大标题：&lt;code&gt;# 大标题&lt;/code&gt; 最大一级标题&lt;/li&gt;
+&lt;li&gt;二级标题：&lt;code&gt;## 二级标题&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;小标题：&lt;code&gt;### 小标题&lt;/code&gt; 最小六级标题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;2-文本样式&quot;&gt;&lt;a href=&quot;#2-文本样式&quot; class=&quot;headerlink&quot; title=&quot;2.文本样式&quot;&gt;&lt;/a&gt;2.文本样式&lt;/h2&gt;&lt;h3 id=&quot;2-1-列表&quot;&gt;&lt;a href=&quot;#2-1-列表&quot; class=&quot;headerlink&quot; title=&quot;2.1 列表&quot;&gt;&lt;/a&gt;2.1 列表&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;无序列表：&lt;code&gt;* + -&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;有序列表：&lt;code&gt;1. 2.&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;2-2-内容&quot;&gt;&lt;a href=&quot;#2-2-内容&quot; class=&quot;headerlink&quot; title=&quot;2.2 内容&quot;&gt;&lt;/a&gt;2.2 内容&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;粗体&lt;/strong&gt;：&lt;code&gt;**粗体**&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;斜体&lt;/em&gt;： &lt;code&gt;*斜体*&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;引用：&lt;code&gt;&amp;gt;引用&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;嵌套引用：&lt;code&gt;&amp;gt;&amp;gt;嵌套引用&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;引用中可以使用其他语法&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;分割线：&lt;code&gt;---&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;3-代码样式&quot;&gt;&lt;a href=&quot;#3-代码样式&quot; class=&quot;headerlink&quot; title=&quot;3.代码样式&quot;&gt;&lt;/a&gt;3.代码样式&lt;/h2&gt;&lt;p&gt;内嵌代码：&lt;code&gt;print(&amp;#39;Hello Markdown.&amp;#39;)&lt;/code&gt;&lt;br&gt;代码块：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;print(&amp;apos;开头Tab键，表示一行代码&amp;apos;)
+&lt;/code&gt;&lt;/pre&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;Hello&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(String args[])&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		System.out.println(&lt;span class=&quot;string&quot;&gt;&quot;Hello!&quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;4-超链接&quot;&gt;&lt;a href=&quot;#4-超链接&quot; class=&quot;headerlink&quot; title=&quot;4.超链接&quot;&gt;&lt;/a&gt;4.超链接&lt;/h2&gt;&lt;p&gt;文字链接：&lt;br&gt;&lt;a href=&quot;https://xiaoyaolml.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;我的博客&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;图片链接：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://avatars1.githubusercontent.com/u/8487928?v=3&amp;amp;s=460&quot; alt=&quot;我的头像&quot; title=&quot;我的头像&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;合&quot;&gt;&lt;a href=&quot;#合&quot; class=&quot;headerlink&quot; title=&quot;合&quot;&gt;&lt;/a&gt;合&lt;/h1&gt;&lt;p&gt;开始体验Markdown+Sublime书写之旅吧。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;起&quot;&gt;&lt;a href=&quot;#起&quot; class=&quot;headerlink&quot; title=&quot;起&quot;&gt;&lt;/a&gt;起&lt;/h1&gt;&lt;p&gt;用Markdown来写博客，得选个合适的编辑器，找了网上的资料，看了&lt;a href=&quot;http://www.zhihu.com/question/19637157&quot;&gt;用Markdown写作用什么文本编辑器？&lt;/a&gt;和&lt;a href=&quot;http://www.williamlong.info/archives/4319.html&quot;&gt;好用的Markdown编辑器一览&lt;/a&gt;两篇内容，发现之前用的Sublime编辑器装装插件也能用，于是就找资料，参照&lt;a href=&quot;http://www.jianshu.com/p/aa30cc25c91b&quot;&gt;Sublime插件：Markdown篇&lt;/a&gt;的内容安装配置了一下。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="编辑器" scheme="http://yoursite.com/categories/%E7%BC%96%E8%BE%91%E5%99%A8/"/>
+    
+    
+      <category term="Sublime" scheme="http://yoursite.com/tags/Sublime/"/>
+    
+      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
+    
+  </entry>
   
   <entry>
     <title>使用 hexo 写博客</title>
