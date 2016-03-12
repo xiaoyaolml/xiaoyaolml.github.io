@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-03-12T08:22:45.466Z</updated>
+  <updated>2016-03-12T08:26:16.648Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/03/12/Sublime%E4%B8%8EMarkdown/"/>
     <id>http://yoursite.com/2016/03/12/Sublime与Markdown/</id>
     <published>2016-03-12T06:47:51.000Z</published>
-    <updated>2016-03-12T08:22:45.466Z</updated>
+    <updated>2016-03-12T08:26:16.648Z</updated>
     
     <content type="html">&lt;h1 id=&quot;起&quot;&gt;&lt;a href=&quot;#起&quot; class=&quot;headerlink&quot; title=&quot;起&quot;&gt;&lt;/a&gt;起&lt;/h1&gt;&lt;p&gt;用Markdown来写博客，得选个合适的编辑器，找了网上的资料，看了&lt;a href=&quot;http://www.zhihu.com/question/19637157&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;用Markdown写作用什么文本编辑器？&lt;/a&gt;和&lt;a href=&quot;http://www.williamlong.info/archives/4319.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;好用的Markdown编辑器一览&lt;/a&gt;两篇内容，发现之前用的Sublime编辑器装装插件也能用，于是就找资料，参照&lt;a href=&quot;http://www.jianshu.com/p/aa30cc25c91b&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sublime插件：Markdown篇&lt;/a&gt;的内容安装配置了一下。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;承&quot;&gt;&lt;a href=&quot;#承&quot; class=&quot;headerlink&quot; title=&quot;承&quot;&gt;&lt;/a&gt;承&lt;/h1&gt;&lt;p&gt;把整个操作涉及到的常用快捷键总结如下：&lt;/p&gt;
@@ -101,7 +101,7 @@
 &lt;p&gt;关于Sublime Text更多的内容可以去&lt;a href=&quot;http://www.jianshu.com/p/d1b9a64e2e37&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sublime Text：学习资源篇&lt;/a&gt;看看。&lt;/p&gt;
 &lt;h1 id=&quot;转&quot;&gt;&lt;a href=&quot;#转&quot; class=&quot;headerlink&quot; title=&quot;转&quot;&gt;&lt;/a&gt;转&lt;/h1&gt;&lt;p&gt;上手了编辑器之后，还得对markdown语法有一点了解，&lt;a href=&quot;http://xianbai.me/learn-md/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Learning-Markdown (Markdown 入门参考)&lt;/a&gt;和&lt;a href=&quot;http://wowubuntu.com/markdown/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown 语法说明 (简体中文版)&lt;/a&gt;这两份文档可以看看，还有这个&lt;a href=&quot;http://daringfireball.net/projects/markdown/dingus&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;markdown 在线练习&lt;/a&gt;网站可以练练手，不过我是直接在sublime中边写边练习。&lt;/p&gt;
 &lt;p&gt;常用的几个语法内容如下：&lt;/p&gt;
-&lt;h1 id=&quot;1-标题样式&quot;&gt;&lt;a href=&quot;#1-标题样式&quot; class=&quot;headerlink&quot; title=&quot;1.标题样式&quot;&gt;&lt;/a&gt;1.标题样式&lt;/h1&gt;&lt;ul&gt;
+&lt;h2 id=&quot;1-标题样式&quot;&gt;&lt;a href=&quot;#1-标题样式&quot; class=&quot;headerlink&quot; title=&quot;1.标题样式&quot;&gt;&lt;/a&gt;1.标题样式&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;大标题：&lt;code&gt;# 大标题&lt;/code&gt; 最大一级标题&lt;/li&gt;
 &lt;li&gt;二级标题：&lt;code&gt;## 二级标题&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;小标题：&lt;code&gt;### 小标题&lt;/code&gt; 最小六级标题&lt;/li&gt;
