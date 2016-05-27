@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/03/09/%E4%BD%BF%E7%94%A8hexo%E5%86%99%E5%8D%9A%E5%AE%A2/</loc>
+    
+    <lastmod>2016-05-27T16:05:16.686Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/03/19/Android%E8%87%AA%E5%AE%9A%E4%B9%89%E7%94%BB%E6%9D%BF/</loc>
     
     <lastmod>2016-03-23T14:04:16.570Z</lastmod>
@@ -40,13 +47,6 @@
     <loc>http://yoursite.com/tags/index.html</loc>
     
     <lastmod>2016-03-10T06:54:20.776Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/03/09/%E4%BD%BF%E7%94%A8hexo%E5%86%99%E5%8D%9A%E5%AE%A2/</loc>
-    
-    <lastmod>2016-03-10T05:40:41.395Z</lastmod>
     
   </url>
   

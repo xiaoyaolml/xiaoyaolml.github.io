@@ -282,8 +282,8 @@
 <p>之后就在D:\hexoblog\public\目录下生成了与博客相关的静态页面。</p>
 <h2 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">D:\hexoblog&gt;hexo deploy</span><br></pre></td></tr></table></figure>
 <p>通过以上命令就将.deploy_git目录部署到GitHub了。</p>
-<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><h2 id="主题设置"><a href="#主题设置" class="headerlink" title="主题设置"></a>主题设置</h2><p>选择合适的主题，下载或者克隆到D:\hexoblog\themes\目录下，修改D:\hexoblog_config.yml文件中theme行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: yilia</span><br></pre></td></tr></table></figure></p>
-<p>再在主题配置文件D:\hexoblog\themes\yilia_config.yml中作修改即可。</p>
+<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><h2 id="主题设置"><a href="#主题设置" class="headerlink" title="主题设置"></a>主题设置</h2><p>选择合适的主题，下载或者克隆到D:\hexoblog\themes\目录下，修改D:\hexoblog\_config.yml文件中theme行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: yilia</span><br></pre></td></tr></table></figure></p>
+<p>再在主题配置文件D:\hexoblog\themes\yilia\_config.yml中作修改即可。</p>
 <h2 id="本地预览"><a href="#本地预览" class="headerlink" title="本地预览"></a>本地预览</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
 <h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>就此完成了简单的用hexo在github上搭建博客。</p>
 ]]></content>
