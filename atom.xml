@@ -431,47 +431,11 @@
   </entry>
   
   <entry>
-    <title>使用 hexo 写博客</title>
-    <link href="http://yoursite.com/2016/03/09/%E4%BD%BF%E7%94%A8hexo%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://yoursite.com/2016/03/09/使用hexo写博客/</id>
-    <published>2016-03-09T11:42:15.000Z</published>
-    <updated>2016-05-27T16:05:16.686Z</updated>
-    
-    <content type="html">&lt;p&gt;参照&lt;a href=&quot;http://www.jianshu.com/p/465830080ea9&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;HEXO+Github,搭建属于自己的博客&lt;/a&gt;和&lt;a href=&quot;http://www.jianshu.com/p/858ecf233db9&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;通过Hexo在Github上搭建博客教程&lt;/a&gt;这两篇文章，结合&lt;a href=&quot;https://hexo.io/zh-cn/docs/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;heox的官方说明文档&lt;/a&gt;，折腾折腾，在GitHub上搭建了博客。顺便记录一下这第一篇。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;所用的命令&quot;&gt;&lt;a href=&quot;#所用的命令&quot; class=&quot;headerlink&quot; title=&quot;所用的命令&quot;&gt;&lt;/a&gt;所用的命令&lt;/h1&gt;&lt;h2 id=&quot;创建文章&quot;&gt;&lt;a href=&quot;#创建文章&quot; class=&quot;headerlink&quot; title=&quot;创建文章&quot;&gt;&lt;/a&gt;创建文章&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;D:\hexoblog&amp;gt;hexo new 使用hexo博客&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;之后就在D:\hexoblog\source_posts\目录下生成&lt;strong&gt;使用hexo博客.md&lt;/strong&gt;文件，即为这篇博客正文内容。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;如果不想博文在首页全部显示, 并能出现&lt;em&gt;阅读全文&lt;/em&gt;按钮效果, 需要在你想在首页显示的部分下添加&lt;code&gt;&amp;lt;!--more--&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;生成静态页面&quot;&gt;&lt;a href=&quot;#生成静态页面&quot; class=&quot;headerlink&quot; title=&quot;生成静态页面&quot;&gt;&lt;/a&gt;生成静态页面&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;D:\hexoblog&amp;gt;hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;之后就在D:\hexoblog\public\目录下生成了与博客相关的静态页面。&lt;/p&gt;
-&lt;h2 id=&quot;发布&quot;&gt;&lt;a href=&quot;#发布&quot; class=&quot;headerlink&quot; title=&quot;发布&quot;&gt;&lt;/a&gt;发布&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;D:\hexoblog&amp;gt;hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;通过以上命令就将.deploy_git目录部署到GitHub了。&lt;/p&gt;
-&lt;h1 id=&quot;其他&quot;&gt;&lt;a href=&quot;#其他&quot; class=&quot;headerlink&quot; title=&quot;其他&quot;&gt;&lt;/a&gt;其他&lt;/h1&gt;&lt;h2 id=&quot;主题设置&quot;&gt;&lt;a href=&quot;#主题设置&quot; class=&quot;headerlink&quot; title=&quot;主题设置&quot;&gt;&lt;/a&gt;主题设置&lt;/h2&gt;&lt;p&gt;选择合适的主题，下载或者克隆到D:\hexoblog\themes\目录下，修改D:\hexoblog\_config.yml文件中theme行&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;theme: yilia&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;再在主题配置文件D:\hexoblog\themes\yilia\_config.yml中作修改即可。&lt;/p&gt;
-&lt;h2 id=&quot;本地预览&quot;&gt;&lt;a href=&quot;#本地预览&quot; class=&quot;headerlink&quot; title=&quot;本地预览&quot;&gt;&lt;/a&gt;本地预览&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo generate&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h1 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h1&gt;&lt;p&gt;就此完成了简单的用hexo在github上搭建博客。&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;参照&lt;a href=&quot;http://www.jianshu.com/p/465830080ea9&quot;&gt;HEXO+Github,搭建属于自己的博客&lt;/a&gt;和&lt;a href=&quot;http://www.jianshu.com/p/858ecf233db9&quot;&gt;通过Hexo在Github上搭建博客教程&lt;/a&gt;这两篇文章，结合&lt;a href=&quot;https://hexo.io/zh-cn/docs/index.html&quot;&gt;heox的官方说明文档&lt;/a&gt;，折腾折腾，在GitHub上搭建了博客。顺便记录一下这第一篇。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
     <title>从Android开发环境搭建开始</title>
-    <link href="http://yoursite.com/2016/01/02/%E4%BB%8EAndroid%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%A7%8B/"/>
-    <id>http://yoursite.com/2016/01/02/从Android开发环境搭建开始/</id>
-    <published>2016-01-02T04:00:00.000Z</published>
-    <updated>2016-05-28T21:01:05.216Z</updated>
+    <link href="http://yoursite.com/2016/01/15/%E4%BB%8EAndroid%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%A7%8B/"/>
+    <id>http://yoursite.com/2016/01/15/从Android开发环境搭建开始/</id>
+    <published>2016-01-15T04:00:00.000Z</published>
+    <updated>2016-05-28T21:05:25.133Z</updated>
     
     <content type="html">&lt;p&gt;咱从开发环境着手进行Android开发的记录。&lt;br&gt;首先需要安装Java开发工具包(JDK)这个必要组件。然后就是要下载和安装Android Studio以及 Android 软件开发工具包(SDK) 这些都是开发Android应用程序所必需的工具。注意，以下所有操作都是在Windows系统下完成。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;JAVA-开发环境&quot;&gt;&lt;a href=&quot;#JAVA-开发环境&quot; class=&quot;headerlink&quot; title=&quot;JAVA 开发环境&quot;&gt;&lt;/a&gt;JAVA 开发环境&lt;/h1&gt;&lt;p&gt;Android Studio 使用java编译环境构建，因此在开始使用Android Studio之前要确保你已经安装Java开发工具包（JDK）。&lt;/p&gt;
@@ -530,6 +494,42 @@
     
     
       <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 hexo 写博客</title>
+    <link href="http://yoursite.com/2016/01/08/%E4%BD%BF%E7%94%A8hexo%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2016/01/08/使用hexo写博客/</id>
+    <published>2016-01-08T11:42:15.000Z</published>
+    <updated>2016-05-28T21:05:15.453Z</updated>
+    
+    <content type="html">&lt;p&gt;参照&lt;a href=&quot;http://www.jianshu.com/p/465830080ea9&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;HEXO+Github,搭建属于自己的博客&lt;/a&gt;和&lt;a href=&quot;http://www.jianshu.com/p/858ecf233db9&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;通过Hexo在Github上搭建博客教程&lt;/a&gt;这两篇文章，结合&lt;a href=&quot;https://hexo.io/zh-cn/docs/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;heox的官方说明文档&lt;/a&gt;，折腾折腾，在GitHub上搭建了博客。顺便记录一下这第一篇。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;所用的命令&quot;&gt;&lt;a href=&quot;#所用的命令&quot; class=&quot;headerlink&quot; title=&quot;所用的命令&quot;&gt;&lt;/a&gt;所用的命令&lt;/h1&gt;&lt;h2 id=&quot;创建文章&quot;&gt;&lt;a href=&quot;#创建文章&quot; class=&quot;headerlink&quot; title=&quot;创建文章&quot;&gt;&lt;/a&gt;创建文章&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;D:\hexoblog&amp;gt;hexo new 使用hexo博客&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;之后就在D:\hexoblog\source_posts\目录下生成&lt;strong&gt;使用hexo博客.md&lt;/strong&gt;文件，即为这篇博客正文内容。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果不想博文在首页全部显示, 并能出现&lt;em&gt;阅读全文&lt;/em&gt;按钮效果, 需要在你想在首页显示的部分下添加&lt;code&gt;&amp;lt;!--more--&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;生成静态页面&quot;&gt;&lt;a href=&quot;#生成静态页面&quot; class=&quot;headerlink&quot; title=&quot;生成静态页面&quot;&gt;&lt;/a&gt;生成静态页面&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;D:\hexoblog&amp;gt;hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;之后就在D:\hexoblog\public\目录下生成了与博客相关的静态页面。&lt;/p&gt;
+&lt;h2 id=&quot;发布&quot;&gt;&lt;a href=&quot;#发布&quot; class=&quot;headerlink&quot; title=&quot;发布&quot;&gt;&lt;/a&gt;发布&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;D:\hexoblog&amp;gt;hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;通过以上命令就将.deploy_git目录部署到GitHub了。&lt;/p&gt;
+&lt;h1 id=&quot;其他&quot;&gt;&lt;a href=&quot;#其他&quot; class=&quot;headerlink&quot; title=&quot;其他&quot;&gt;&lt;/a&gt;其他&lt;/h1&gt;&lt;h2 id=&quot;主题设置&quot;&gt;&lt;a href=&quot;#主题设置&quot; class=&quot;headerlink&quot; title=&quot;主题设置&quot;&gt;&lt;/a&gt;主题设置&lt;/h2&gt;&lt;p&gt;选择合适的主题，下载或者克隆到D:\hexoblog\themes\目录下，修改D:\hexoblog\_config.yml文件中theme行&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;theme: yilia&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;再在主题配置文件D:\hexoblog\themes\yilia\_config.yml中作修改即可。&lt;/p&gt;
+&lt;h2 id=&quot;本地预览&quot;&gt;&lt;a href=&quot;#本地预览&quot; class=&quot;headerlink&quot; title=&quot;本地预览&quot;&gt;&lt;/a&gt;本地预览&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo generate&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h1&gt;&lt;p&gt;就此完成了简单的用hexo在github上搭建博客。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;参照&lt;a href=&quot;http://www.jianshu.com/p/465830080ea9&quot;&gt;HEXO+Github,搭建属于自己的博客&lt;/a&gt;和&lt;a href=&quot;http://www.jianshu.com/p/858ecf233db9&quot;&gt;通过Hexo在Github上搭建博客教程&lt;/a&gt;这两篇文章，结合&lt;a href=&quot;https://hexo.io/zh-cn/docs/index.html&quot;&gt;heox的官方说明文档&lt;/a&gt;，折腾折腾，在GitHub上搭建了博客。顺便记录一下这第一篇。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
