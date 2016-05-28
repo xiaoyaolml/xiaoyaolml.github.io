@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2016/01/01/%E4%BB%8EAndroid%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%A7%8B/</loc>
+    <loc>http://yoursite.com/2016/01/01/hello-world/</loc>
     
-    <lastmod>2016-05-28T20:56:37.590Z</lastmod>
+    <lastmod>2016-05-28T21:02:14.256Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/01/02/%E4%BB%8EAndroid%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%A7%8B/</loc>
+    
+    <lastmod>2016-05-28T21:01:05.216Z</lastmod>
     
   </url>
   
@@ -61,13 +68,6 @@
     <loc>http://yoursite.com/tags/index.html</loc>
     
     <lastmod>2016-03-10T06:54:20.776Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/03/09/hello-world/</loc>
-    
-    <lastmod>2016-03-09T07:23:32.864Z</lastmod>
     
   </url>
   
