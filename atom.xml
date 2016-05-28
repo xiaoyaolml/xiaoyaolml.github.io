@@ -461,7 +461,7 @@
     <link href="http://yoursite.com/2016/01/22/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%B8%80(%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE)/"/>
     <id>http://yoursite.com/2016/01/22/上手Android Studio之一(基本配置)/</id>
     <published>2016-01-22T04:00:00.000Z</published>
-    <updated>2016-05-28T22:13:59.231Z</updated>
+    <updated>2016-05-28T22:18:08.526Z</updated>
     
     <content type="html">&lt;p&gt;主要内容包括：Android Studio 的基本配置、常用插件、Gradle构建系统初步、第三方库导入等。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;基本配置&quot;&gt;&lt;a href=&quot;#基本配置&quot; class=&quot;headerlink&quot; title=&quot;基本配置&quot;&gt;&lt;/a&gt;基本配置&lt;/h1&gt;&lt;h2 id=&quot;配置IDE主题&quot;&gt;&lt;a href=&quot;#配置IDE主题&quot; class=&quot;headerlink&quot; title=&quot;配置IDE主题&quot;&gt;&lt;/a&gt;配置IDE主题&lt;/h2&gt;&lt;p&gt;接上一篇&lt;a href=&quot;http://xiaoyaolml.github.io/2016/01/15/%E4%BB%8EAndroid%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%A7%8B/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;从Android开发环境搭建开始&lt;/a&gt;，其实，咱在安装AS的留了个坑，那就是关于主题的配置，如果是默认安装，主题是灰白色的，而咱选了一个暗黑系的Darcula主题。关于主题设置需要打开Settings窗口，操作如下：点击&lt;code&gt;设置&lt;/code&gt;图标-&amp;gt;Appearance-&amp;gt;选择Theme-&amp;gt;点击&lt;code&gt;Apply&lt;/code&gt;，主题就设置好了。&lt;/p&gt;
