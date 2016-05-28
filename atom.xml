@@ -493,4 +493,71 @@
     
   </entry>
   
+  <entry>
+    <title>从Android开发环境搭建开始</title>
+    <link href="http://yoursite.com/2016/01/01/%E4%BB%8EAndroid%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%A7%8B/"/>
+    <id>http://yoursite.com/2016/01/01/从Android开发环境搭建开始/</id>
+    <published>2016-01-01T04:00:00.000Z</published>
+    <updated>2016-05-28T20:56:37.590Z</updated>
+    
+    <content type="html">&lt;p&gt;咱从开发环境着手进行Android开发的记录。&lt;br&gt;首先需要安装Java开发工具包(JDK)这个必要组件。然后就是要下载和安装Android Studio以及 Android 软件开发工具包(SDK) 这些都是开发Android应用程序所必需的工具。注意，以下所有操作都是在Windows系统下完成。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;JAVA-开发环境&quot;&gt;&lt;a href=&quot;#JAVA-开发环境&quot; class=&quot;headerlink&quot; title=&quot;JAVA 开发环境&quot;&gt;&lt;/a&gt;JAVA 开发环境&lt;/h1&gt;&lt;p&gt;Android Studio 使用java编译环境构建，因此在开始使用Android Studio之前要确保你已经安装Java开发工具包（JDK）。&lt;/p&gt;
+&lt;h2 id=&quot;获取&quot;&gt;&lt;a href=&quot;#获取&quot; class=&quot;headerlink&quot; title=&quot;获取&quot;&gt;&lt;/a&gt;获取&lt;/h2&gt;&lt;p&gt;可以从&lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Oracle网站&lt;/a&gt;上获取Java SE Development Kit 8 (jdk8)，勾选Accept License Agreement后，根据电脑的windows版本选择32位或者64位的JDK下载。（注意本内容的操作时间为2015.09.21，根据实际情况下载最新版本的JDK。）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160121201945154&quot; alt=&quot;JDK下载&quot; title=&quot;JDK下载&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;p&gt;找到安装文件然后双击执行。当安装开始，你将看到安装向导，在Windows系统下，JDK默认安装在C:\ProgramFiles\Java\目录下。要更改安装目录的位置，请单击Change按钮。建议安装JDK的目录的路径名中不包含空格。一直点击“下一步”，期间会弹出安装Java运行环境(JRE)，选择跟JDK安装位置相同的目录。如下图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160121201945154&quot; alt=&quot;点击下一步&quot; title=&quot;点击下一步&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160121201200971&quot; alt=&quot;安装JRE&quot; title=&quot;安装JRE&quot;&gt;&lt;/p&gt;
+&lt;p&gt;安装完成后，可以看到如下图所示的两个文件夹，分别为jdk1.8.0_60和jre1.8.0_60。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160121201200971&quot; alt=&quot;安装完成后的文件夹&quot; title=&quot;安装完成后的文件夹&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;配置&quot;&gt;&lt;a href=&quot;#配置&quot; class=&quot;headerlink&quot; title=&quot;配置&quot;&gt;&lt;/a&gt;配置&lt;/h2&gt;&lt;p&gt;DK安装完成之后，需要配置JAVA_HOME到环境变量以便Android Studio找到JDK。具体操作过程如下：&lt;br&gt;我的电脑单击右键打开属性-&amp;gt;单击高级系统设置选项。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160121201216612&quot; alt=&quot;Windows系统设置&quot; title=&quot;Windows系统设置&quot;&gt;&lt;/p&gt;
+&lt;p&gt;新建环境变量名JAVA_HOME，变量值为自己实际安装的jdk安装路径。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160121201224268&quot; alt=&quot;设置JAVA_HOME环境变量&quot; title=&quot;设置JAVA_HOME环境变量&quot;&gt;&lt;/p&gt;
+&lt;p&gt; 最后，还需要编辑PATH环境变量。如图1.6所示。将光标移动到变量值的最后面然后输入如下路径：&lt;code&gt;;%JAVA_HOME%\bin&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160121201229748&quot; alt=&quot;设置PATH环境变量&quot; title=&quot;设置PATH环境变量&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;测试&quot;&gt;&lt;a href=&quot;#测试&quot; class=&quot;headerlink&quot; title=&quot;测试&quot;&gt;&lt;/a&gt;测试&lt;/h2&gt;&lt;p&gt;cmd命令行窗口下运行java –version命令来查看当前java版本信息。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160121201234472&quot; alt=&quot;确认JDK安装成功&quot; title=&quot;确认JDK安装成功&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;Android-Studio-开发环境&quot;&gt;&lt;a href=&quot;#Android-Studio-开发环境&quot; class=&quot;headerlink&quot; title=&quot;Android Studio 开发环境&quot;&gt;&lt;/a&gt;Android Studio 开发环境&lt;/h1&gt;&lt;p&gt;好了，有了上面的JDK环境之后，可以进行AndroidStudio安装配置了。&lt;/p&gt;
+&lt;h2 id=&quot;获取-1&quot;&gt;&lt;a href=&quot;#获取-1&quot; class=&quot;headerlink&quot; title=&quot;获取&quot;&gt;&lt;/a&gt;获取&lt;/h2&gt;&lt;p&gt;可以从&lt;a href=&quot;http://www.android-studio.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android Studio中文社区官网&lt;/a&gt;上获取最新版的Android Studio，注意安装包分为含SDK版本和不含SDK版本，咱就下载推荐的包含SDK的Android Studio。如下图所示（注意本内容的操作时间为2015.09.21，根据实际情况下载最新版本）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160121201237608&quot; alt=&quot;Android Studio下载&quot; title=&quot;Android Studio下载&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;安装-1&quot;&gt;&lt;a href=&quot;#安装-1&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;p&gt;找到安装文件然后双击执行。当安装开始，你将看到安装向导，一路点击Next按钮直到Android Studio和Android SDK都安装完成。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160121201241378&quot; alt=&quot;Android Studio安装&quot; title=&quot;Android Studio安装&quot;&gt;&lt;/p&gt;
+&lt;p&gt;安装完成后打开，看到如下图所示的窗口。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160121201245327&quot; alt=&quot;Android Studio完成安装&quot; title=&quot;Android Studio完成安装&quot;&gt;&lt;/p&gt;
+&lt;p&gt;每一次安装，都会显示这个界面。用以选择导入Android Studio的配置文件。&lt;br&gt;第一个选项：导入某一个目录下的配置文件夹。&lt;br&gt;第二个选项：不导入配置文件夹。(第一次使用选择这一项)。&lt;br&gt;接下来是检查Android SDK，会联网下载Android SDK，需要较长时间。然后设置UI界面，然后是联网下载组件。注意Android Studio第一次打开的时候，安装向导将查找你系统上的JDK和Android SDK的位置。安装向导为Android Studio下载一切开始开发应用程序的东西。点击Finish按钮关闭安装向导。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160121201254608&quot; alt=&quot;检查SDK&quot; title=&quot;检查SDK&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;测试-1&quot;&gt;&lt;a href=&quot;#测试-1&quot; class=&quot;headerlink&quot; title=&quot;测试&quot;&gt;&lt;/a&gt;测试&lt;/h1&gt;&lt;p&gt;一旦安装向导完成，Android Studio的欢迎对话框将会出现，如下图所示。咱就直接来建第一个项目以此测试Android开发环境适合搭建成功。点击&lt;code&gt;Start a new Android Studio project&lt;/code&gt;选项，新建项目。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160121201301754&quot; alt=&quot;Welcometo Android Studio&quot; title=&quot;Welcometo Android Studio&quot;&gt;&lt;/p&gt;
+&lt;p&gt;按照新建项目向导，在&lt;code&gt;ApplicationName&lt;/code&gt;输入项目工程的名称HelloWorld，在&lt;code&gt;Company Domain&lt;/code&gt;中输入咱虚构的域名leon.com。注意包名Package name是反转的Company Domain加上Application Name。创建HelloWorld项目存储在&lt;code&gt;Project location&lt;/code&gt;所设置的位置。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160121201312592&quot; alt=&quot;新建项目向导&quot; title=&quot;新建项目向导&quot;&gt;&lt;/p&gt;
+&lt;p&gt;点击Next到如下图所示界面，Android操作系统可以在多种平台上运行，包括游戏机，电视机，手表，眼镜，智能手机和平板电脑。默认情况下，手机和平板电脑复选框会被选中，API-19被选为最低的SDK。同意这些设置然后点击Next。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160121201321129&quot; alt=&quot;选择APP运行的形式&quot; title=&quot;选择APP运行的形式&quot;&gt;&lt;/p&gt;
+&lt;p&gt;后续新项目向导将提示你选择一种布局。选择&lt;code&gt;BlankActivity&lt;/code&gt;然后点击Next按钮。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160121201327801&quot; alt=&quot;选择布局&quot; title=&quot;选择布局&quot;&gt;&lt;/p&gt;
+&lt;p&gt;进入Activity设置界面，按照默认设置如，然后点击Finish完成进入工程初始化过程。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160121201332817&quot; alt=&quot;Activity设置&quot; title=&quot;Activity设置&quot;&gt;&lt;/p&gt;
+&lt;p&gt;最终生成的工程如下图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160121201332817&quot; alt=&quot;HelloWorld工程界面&quot; title=&quot;HelloWorld工程界面&quot;&gt;&lt;/p&gt;
+&lt;p&gt;点击&lt;code&gt;Run app&lt;/code&gt;运行按钮即可运行该程序，运行之后选择已连接的Android手机，点击OK后将APP安装到手机上。注意电脑和Android手机之间的连接是使用了一种叫做Android调试桥（ADB）的服务，需要打开手机的USB调试模式。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160121203039511&quot; alt=&quot;选择Android手机&quot; title=&quot;选择Android手机&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/yanbober/article/details/45306483&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android Studio入门到精通&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/column/details/zsl-androidstudio.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android Studio 权威教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ask.android-studio.org/?/explore/category-studio&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android Studio使用教程&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;咱从开发环境着手进行Android开发的记录。&lt;br&gt;首先需要安装Java开发工具包(JDK)这个必要组件。然后就是要下载和安装Android Studio以及 Android 软件开发工具包(SDK) 这些都是开发Android应用程序所必需的工具。注意，以下所有操作都是在Windows系统下完成。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Android基础" scheme="http://yoursite.com/categories/Android%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+  </entry>
+  
 </feed>
