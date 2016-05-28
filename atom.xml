@@ -303,7 +303,7 @@
     <link href="http://yoursite.com/2016/03/12/Sublime%E4%B8%8EMarkdown/"/>
     <id>http://yoursite.com/2016/03/12/Sublime与Markdown/</id>
     <published>2016-03-12T06:47:51.000Z</published>
-    <updated>2016-03-12T08:26:16.648Z</updated>
+    <updated>2016-05-28T22:02:24.199Z</updated>
     
     <content type="html">&lt;h1 id=&quot;起&quot;&gt;&lt;a href=&quot;#起&quot; class=&quot;headerlink&quot; title=&quot;起&quot;&gt;&lt;/a&gt;起&lt;/h1&gt;&lt;p&gt;用Markdown来写博客，得选个合适的编辑器，找了网上的资料，看了&lt;a href=&quot;http://www.zhihu.com/question/19637157&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;用Markdown写作用什么文本编辑器？&lt;/a&gt;和&lt;a href=&quot;http://www.williamlong.info/archives/4319.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;好用的Markdown编辑器一览&lt;/a&gt;两篇内容，发现之前用的Sublime编辑器装装插件也能用，于是就找资料，参照&lt;a href=&quot;http://www.jianshu.com/p/aa30cc25c91b&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sublime插件：Markdown篇&lt;/a&gt;的内容安装配置了一下。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;承&quot;&gt;&lt;a href=&quot;#承&quot; class=&quot;headerlink&quot; title=&quot;承&quot;&gt;&lt;/a&gt;承&lt;/h1&gt;&lt;p&gt;把整个操作涉及到的常用快捷键总结如下：&lt;/p&gt;
@@ -427,6 +427,176 @@
       <category term="Sublime" scheme="http://yoursite.com/tags/Sublime/"/>
     
       <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>上手Android Studio之二(基本使用)</title>
+    <link href="http://yoursite.com/2016/01/29/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%BA%8C(%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)/"/>
+    <id>http://yoursite.com/2016/01/29/上手Android Studio之二(基本使用)/</id>
+    <published>2016-01-29T04:00:00.000Z</published>
+    <updated>2016-05-28T22:01:35.008Z</updated>
+    
+    <content type="html">&lt;p&gt;经过以上一篇折腾，咱似乎跑偏了啊，没关系，接下来咱就来看看用AS做开发的一般使用。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;经过以上一篇折腾，咱似乎跑偏了啊，没关系，接下来咱就来看看用AS做开发的一般使用。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Android基础" scheme="http://yoursite.com/categories/Android%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+      <category term="Android Studio" scheme="http://yoursite.com/tags/Android-Studio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>上手Android Studio之一(基本配置)</title>
+    <link href="http://yoursite.com/2016/01/22/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%B8%80(%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE)/"/>
+    <id>http://yoursite.com/2016/01/22/上手Android Studio之一(基本配置)/</id>
+    <published>2016-01-22T04:00:00.000Z</published>
+    <updated>2016-05-28T21:58:19.397Z</updated>
+    
+    <content type="html">&lt;p&gt;主要内容包括：Android Studio 的基本配置、常用插件、Gradle构建系统初步、第三方库导入等。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;基本配置&quot;&gt;&lt;a href=&quot;#基本配置&quot; class=&quot;headerlink&quot; title=&quot;基本配置&quot;&gt;&lt;/a&gt;基本配置&lt;/h1&gt;&lt;h2 id=&quot;配置IDE主题&quot;&gt;&lt;a href=&quot;#配置IDE主题&quot; class=&quot;headerlink&quot; title=&quot;配置IDE主题&quot;&gt;&lt;/a&gt;配置IDE主题&lt;/h2&gt;&lt;p&gt;接上一篇&lt;a href=&quot;http://xiaoyaolml.github.io/2016/01/15/%E4%BB%8EAndroid%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%A7%8B/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;从Android开发环境搭建开始&lt;/a&gt;，其实，咱在安装AS的留了个坑，那就是关于主题的配置，如果是默认安装，主题是灰白色的，而咱选了一个暗黑系的Darcula主题。关于主题设置需要打开Settings窗口，操作如下：点击&lt;code&gt;设置&lt;/code&gt;图标-&amp;gt;Appearance-&amp;gt;选择Theme-&amp;gt;点击&lt;code&gt;Apply&lt;/code&gt;，主题就设置好了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205113849162&quot; alt=&quot;设置IDE主题&quot; title=&quot;设置IDE主题&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;配置代码主题&quot;&gt;&lt;a href=&quot;#配置代码主题&quot; class=&quot;headerlink&quot; title=&quot;配置代码主题&quot;&gt;&lt;/a&gt;配置代码主题&lt;/h2&gt;&lt;p&gt;默认的几个主题咱没办法修改，需要自定义一个主题才行，仍旧是在Settings窗口中，在Editor-&amp;gt;Colors&amp;amp; Fonts栏，先选择Darcula然后再点击Save As，在弹出窗口Name文本框里自定义Darcula copy的主题，如下图所示。点击OK在点击Apply后自定义主题就设置好了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205113856039&quot; alt=&quot;自定义主题&quot; title=&quot;自定义主题&quot;&gt;&lt;/p&gt;
+&lt;p&gt;然后就可以配置代码主题了。咱做的配置如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;代码字体、大小、间距&lt;br&gt;在Editor→Colors&amp;amp; Font→Font栏：选择Scheme为自定义的Darculacopy，选择Primaryfont 字体为Monospaced，选择Size大小为20，选择Line spacing间距为1.0。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;自动导包&lt;br&gt;在Editot→General→Auto Import栏：勾上“Optimize imports on the fly”和“Add unambiguous imports on the fly”。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;显示行号&lt;br&gt;在Editot→General→Appearance栏，勾上“Show line numbers”。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;代码提示不区分大小写&lt;br&gt;在Editor→General→Code Completion，将”Case sensitive completion”设置为None。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;配置Logcat颜色&quot;&gt;&lt;a href=&quot;#配置Logcat颜色&quot; class=&quot;headerlink&quot; title=&quot;配置Logcat颜色&quot;&gt;&lt;/a&gt;配置Logcat颜色&lt;/h2&gt;&lt;p&gt;默认AS的logcat只有Error和Assert是红色的。做完配置后如下图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205113901584&quot; alt=&quot;Logcat效果预览&quot; title=&quot;Logcat效果预览&quot;&gt;&lt;/p&gt;
+&lt;p&gt;具体操作步骤如下：&lt;br&gt;在Editor→Colors&amp;amp; Fonts→Android Logcat栏，依次选择Assert、Debug、Error等选项操作，然后将Useinherited attributes 去掉勾选，再双击Foreground后面的颜色框去选择颜色，颜色选择参考如下表所示。最后点击Apply即可。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Log级别&lt;/th&gt;
+&lt;th&gt;颜色值&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;VERBOSE&lt;/td&gt;
+&lt;td&gt;BBBBBB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DEBUG&lt;/td&gt;
+&lt;td&gt;0070BB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;INFO&lt;/td&gt;
+&lt;td&gt;48BB31&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;WARN&lt;/td&gt;
+&lt;td&gt;BBBB23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ERROR&lt;/td&gt;
+&lt;td&gt;FF0006&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ASSERT&lt;/td&gt;
+&lt;td&gt;8F0005&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;统一文件编码&quot;&gt;&lt;a href=&quot;#统一文件编码&quot; class=&quot;headerlink&quot; title=&quot;统一文件编码&quot;&gt;&lt;/a&gt;统一文件编码&lt;/h2&gt;&lt;p&gt;统一文件编码为UTF-8。在Editor→File Encodings栏，分别设置IDE Encoding位UTF-8，设置ProjectEncoding为UTF-8，设置properties file的编码为UTF-8，并勾上&lt;code&gt;Transparent native-to-asciiconversion&lt;/code&gt;，如下图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205113906303&quot; alt=&quot;设置编码&quot; title=&quot;设置编码&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;导出-导入配置&quot;&gt;&lt;a href=&quot;#导出-导入配置&quot; class=&quot;headerlink&quot; title=&quot;导出/导入配置&quot;&gt;&lt;/a&gt;导出/导入配置&lt;/h2&gt;&lt;p&gt;做了这么多配置，接下来就是导出配置了，方便以后直接导入配置，以免遇到意外情况咱又得重新配置了啊。点击菜单栏的File→Export Settings，弹出导出设置窗口，选一下导出路径，默认把所以内容都导出到settings.jar。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205113910462&quot; alt=&quot;导出设置&quot; title=&quot;导出设置&quot;&gt;&lt;/p&gt;
+&lt;p&gt;导入设置就更简单了，点击菜单栏的FileàImport Settings，弹出导出设置窗口，选择要导入的settings.jar文件，点击OK即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205113914243&quot; alt=&quot;导入设置&quot; title=&quot;导入设置&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;常用插件&quot;&gt;&lt;a href=&quot;#常用插件&quot; class=&quot;headerlink&quot; title=&quot;常用插件&quot;&gt;&lt;/a&gt;常用插件&lt;/h1&gt;&lt;h2 id=&quot;如何添加插件&quot;&gt;&lt;a href=&quot;#如何添加插件&quot; class=&quot;headerlink&quot; title=&quot;如何添加插件&quot;&gt;&lt;/a&gt;如何添加插件&lt;/h2&gt;&lt;p&gt;关于插件的操作都是在Settings→Plugins栏里，如下图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205113922350&quot; alt=&quot;Plugins设置&quot; title=&quot;Plugins设置&quot;&gt;&lt;/p&gt;
+&lt;p&gt;可以看到有三种安装插件的方式，一个是&lt;code&gt;JetBrains plugin&lt;/code&gt;官方插件，一个是&lt;code&gt;Browse repositories&lt;/code&gt;来自仓库的插件，最后一个是离线安装本地插件。其中前两种插件的安装方式差不多，咱以安装Genymotion为例记录一下操作流程。点击Browse repositories弹出一个新窗口，在搜索栏中输入Genymotion搜索，在搜索结果右侧出现Install plugin的绿色安装，点击即可联网安装该插件，完成之后会要求重启AS，如下图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205113926428&quot; alt=&quot;安装Genymotion插件&quot; title=&quot;安装Genymotion插件&quot;&gt;&lt;/p&gt;
+&lt;p&gt;另一种本地安装的方式，点击Install plugin from disk后选择下载好的插件包即可安装，完成之后同样需要重启AS使得插件生效。&lt;/p&gt;
+&lt;h2 id=&quot;几个常用插件&quot;&gt;&lt;a href=&quot;#几个常用插件&quot; class=&quot;headerlink&quot; title=&quot;几个常用插件&quot;&gt;&lt;/a&gt;几个常用插件&lt;/h2&gt;&lt;p&gt;除了前面举例子安装的Genymotion插件外，咱再列举几个常用的插件。如何使用就不展开了，后面涉及到了再说。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;GsonFormat。&lt;br&gt;生成Gson相应的实体类，项目地址：&lt;a href=&quot;https://github.com/zzz40500/GsonFormat&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/zzz40500/GsonFormat&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;AndroidParcelable Code Generator&lt;br&gt;parcelable  序列化代码补全，项目地址：&lt;a href=&quot;https://github.com/mcharmas/android-parcelable-intellij-plugin&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/mcharmas/android-parcelable-intellij-plugin&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Android MaterialDesign Icon Generator&lt;br&gt;material-design-icon资源生成器，项目地址：&lt;a href=&quot;https://github.com/konifar/android-material-design-icon-generator-plugin&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/konifar/android-material-design-icon-generator-plugin&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;SelectorChapekfor Android&lt;br&gt;根据资源自动生成相应的selector，免得对selector文件复制粘贴了。项目地址：&lt;a href=&quot;https://github.com/inmite/android-selector-chapek&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/inmite/android-selector-chapek&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;ButterKnifeZelezny&lt;br&gt;快速生成butterknife注入代码，项目地址：&lt;a href=&quot;https://github.com/avast/android-butterknife-zelezny&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/avast/android-butterknife-zelezny&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;idea-markdown&lt;br&gt;markdown插件，项目地址：&lt;a href=&quot;https://github.com/nicoulaj/idea-markdown&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/nicoulaj/idea-markdown&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Codota&lt;br&gt;搜索代码的插件，项目地址：&lt;a href=&quot;https://www.codota.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.codota.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;ADB Idea&lt;br&gt;通过该插件可以轻松完成以下操作而不用手动输入ADB命令。项目地址：&lt;a href=&quot;https://github.com/pbreault/adb-idea&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/pbreault/adb-idea&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Android DrawableImporter&lt;br&gt;Android Drawable Importer添加了一个在不同分辨率导入画板或缩放指定图像到定义分辨率的选项。这个插件加速了开发人员的画板工作。项目地址：&lt;a href=&quot;https://github.com/winterDroid/android-drawable-importer-intellij-plugin&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/winterDroid/android-drawable-importer-intellij-plugin&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Android HoloColors Generator&lt;br&gt;此插件会生成所有必要的可在项目中使用的相关的XML画板和样式资源。项目地址：&lt;a href=&quot;https://github.com/jeromevdl/android-holo-colors-idea-plugin&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/jeromevdl/android-holo-colors-idea-plugin&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&quot;Gradle构建系统初体验&quot;&gt;&lt;a href=&quot;#Gradle构建系统初体验&quot; class=&quot;headerlink&quot; title=&quot;Gradle构建系统初体验&quot;&gt;&lt;/a&gt;Gradle构建系统初体验&lt;/h1&gt;&lt;p&gt;Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领域特定语言）语法的自动化构建工具。Gradle通过提供说明性语言元素将说明性构建推到下一层。这些元素也提供build-by-convention支持Java、Groovy、OSGi、Web和Scala项目。而且，这个说明性语言是可扩展的。添加自己的新语言元素或提高现有的，从而提供简洁、易于维护和理解构建。&lt;/p&gt;
+&lt;h2 id=&quot;安装Gradle&quot;&gt;&lt;a href=&quot;#安装Gradle&quot; class=&quot;headerlink&quot; title=&quot;安装Gradle&quot;&gt;&lt;/a&gt;安装Gradle&lt;/h2&gt;&lt;p&gt;在咱&lt;a href=&quot;http://xiaoyaolml.github.io/2016/01/15/%E4%BB%8EAndroid%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%A7%8B/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;上一篇&lt;/a&gt;测试开发环境的时候新建HelloWorld项目后会自动下载Gradle到C:\Users\&amp;lt;用户名&amp;gt;.gradle\wrapper\dists目录，生成一个名为gradle-x.xx-all的文件夹。&lt;/p&gt;
+&lt;h2 id=&quot;文件结构&quot;&gt;&lt;a href=&quot;#文件结构&quot; class=&quot;headerlink&quot; title=&quot;文件结构&quot;&gt;&lt;/a&gt;文件结构&lt;/h2&gt;&lt;p&gt;先来看看项目构建文件HelloWorld/build.gradle，内容如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// Top-level build filewhere you can add configuration options common to all sub-projects/modules.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;buildscript &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    repositories &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        jcenter()                                       &lt;span class=&quot;comment&quot;&gt;// 声明仓库的源&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    dependencies &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        classpath &lt;span class=&quot;string&quot;&gt;&#39;com.android.tools.build:gradle:1.3.0&#39;&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;// 声明gradle的版本&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;comment&quot;&gt;// &lt;span class=&quot;doctag&quot;&gt;NOTE:&lt;/span&gt; Do not place your application dependencies here;they belong&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;comment&quot;&gt;// in the individual modulebuild.gradle files&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;allprojects &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    repositories &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        jcenter()                                   &lt;span class=&quot;comment&quot;&gt;// 所有项目的存储库&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;内容主要包含：一是声明仓库的源，这里可以看到是指明的jcenter()，之前版本则是mavenCentral()，jcenter可以理解成是一个新的中央远程仓库，兼容maven中心仓库，而且性能更优。另一个是声明了android gradle plugin的版本，最后是所有项目的存储库。&lt;/p&gt;
+&lt;p&gt;再来看看模块构建文件HelloWorld/app/build.gradle，内容如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;applyplugin: &lt;span class=&quot;string&quot;&gt;&#39;com.android.application&#39;&lt;/span&gt;       &lt;span class=&quot;comment&quot;&gt;// 声明是Android程序&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;android &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    compileSdkVersion &lt;span class=&quot;number&quot;&gt;23&lt;/span&gt;                     &lt;span class=&quot;comment&quot;&gt;// 编译SDK的版本&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    buildToolsVersion &lt;span class=&quot;string&quot;&gt;&quot;23.0.1&quot;&lt;/span&gt;               &lt;span class=&quot;comment&quot;&gt;// build tools的版本&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    defaultConfig &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        applicationId &lt;span class=&quot;string&quot;&gt;&quot;com.leon.helloworld&quot;&lt;/span&gt;  &lt;span class=&quot;comment&quot;&gt;// 应用的包名&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        minSdkVersion &lt;span class=&quot;number&quot;&gt;18&lt;/span&gt;                     &lt;span class=&quot;comment&quot;&gt;// 最小SDK的版本&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        targetSdkVersion &lt;span class=&quot;number&quot;&gt;23&lt;/span&gt;                  &lt;span class=&quot;comment&quot;&gt;// 目标SDK的版本&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        versionCode &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;                        &lt;span class=&quot;comment&quot;&gt;// 版本号&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        versionName &lt;span class=&quot;string&quot;&gt;&quot;1.0&quot;&lt;/span&gt;                    &lt;span class=&quot;comment&quot;&gt;// 版本名称&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    buildTypes &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        release &amp;#123;                            &lt;span class=&quot;comment&quot;&gt;// 正式版配置&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;function&quot;&gt;minifyEnabled &lt;span class=&quot;keyword&quot;&gt;false&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            proguardFiles &lt;span class=&quot;title&quot;&gt;getDefaultProguardFile&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;string&quot;&gt;&#39;proguard-android.txt&#39;&lt;/span&gt;)&lt;/span&gt;, &#39;proguard-rules.pro&#39;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;dependencies &lt;/span&gt;&amp;#123;                                &lt;span class=&quot;comment&quot;&gt;// 依赖配置&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;function&quot;&gt;compile &lt;span class=&quot;title&quot;&gt;fileTree&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(dir: &lt;span class=&quot;string&quot;&gt;&#39;libs&#39;&lt;/span&gt;, include: [&lt;span class=&quot;string&quot;&gt;&#39;*.jar&#39;&lt;/span&gt;])&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    compile &#39;com.android.support:appcompat-v7:23.0.1&#39;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt; 在正式版配置中，minifyEnable false 是apk是否变小压缩apk的意思；proguardFiles这部分有两段，前一部分代表系统默认的android程序的混淆文件，该文件已经包含了基本的混淆声明，免去了我们很多事，这个文件的目录在 &lt;sdk目录&gt;/tools/proguard/proguard-android.txt，后一部分是我们项目里的自定义的混淆文件，就在 app/proguard-rules.pro，在这个文件里你可以声明一些第三方依赖的一些混淆规则。最终混淆的结果是这两部分文件共同作用的。&lt;br&gt;在依赖配置中，一般有这三种依赖关系：模块依赖，远程二进制依赖和本地二进制依赖。上面内容中的依赖分别是本地依赖和远程依赖。&lt;/sdk目录&gt;&lt;/p&gt;
+&lt;p&gt;再来看看gradle项目设置配置文件HelloWorld/settings.gradle，内容如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;include&lt;span class=&quot;string&quot;&gt;&#39;:app&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;主要声明一些需要加入gradle的模块，本例中只有一个app模块，如果还有其他module都需要按照如上格式加进去。&lt;/p&gt;
+&lt;p&gt;最后来看看SDK/NDK配置文件HelloWorld/local.properties，内容如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;## This file is automatically generated by Android Studio.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Do not modify this file -- YOUR CHANGES WILL BE ERASED!&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# This file must *NOT* be checked into Version Control Systems,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# as it contains information specific to your local configuration.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Location of the SDK. This is only used by Gradle.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# For customization when using a Version Control System, please read the&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# header note.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#Tue Jan 19 21:34:45 CST 2016&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sdk.dir=D\:\\Programs\\android-sdk&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;主要是配置sdk和ndk的路径，本例中只有SDK的路径。&lt;br&gt;关于gradle的基础知识先到这里。&lt;/p&gt;
+&lt;h1 id=&quot;导入第三方库&quot;&gt;&lt;a href=&quot;#导入第三方库&quot; class=&quot;headerlink&quot; title=&quot;导入第三方库&quot;&gt;&lt;/a&gt;导入第三方库&lt;/h1&gt;&lt;p&gt;主要提一下几个咱平时用到的导入方法。&lt;/p&gt;
+&lt;h2 id=&quot;Gradle-直接添加法&quot;&gt;&lt;a href=&quot;#Gradle-直接添加法&quot; class=&quot;headerlink&quot; title=&quot;Gradle 直接添加法&quot;&gt;&lt;/a&gt;Gradle 直接添加法&lt;/h2&gt;&lt;p&gt;以Android-Universal-Image-Loader为例，项目地址是&lt;br&gt;&lt;a href=&quot;https://github.com/nostra13/Android-Universal-Image-Loader，从官方指导上可以看到添加这个库需要在gradle依赖配置中添加一行代码即可，如下图所示。&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/nostra13/Android-Universal-Image-Loader，从官方指导上可以看到添加这个库需要在gradle依赖配置中添加一行代码即可，如下图所示。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205113935740&quot; alt=&quot;QuickSetup&quot; title=&quot;QuickSetup&quot;&gt;&lt;/p&gt;
+&lt;p&gt;同步一下gradle设置即可，如下图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205113942881&quot; alt=&quot;添加远程依赖库&quot; title=&quot;添加远程依赖库&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;jar-包直接导入法&quot;&gt;&lt;a href=&quot;#jar-包直接导入法&quot; class=&quot;headerlink&quot; title=&quot;jar 包直接导入法&quot;&gt;&lt;/a&gt;jar 包直接导入法&lt;/h2&gt;&lt;p&gt;以ViewPagerIndicator为例，项目地址是&lt;br&gt;&lt;a href=&quot;https://github.com/LuckyJayce/ViewPagerIndicator，下载完最新jar包，放到app/libs目录，选中该库，鼠标右键，选择Add&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/LuckyJayce/ViewPagerIndicator，下载完最新jar包，放到app/libs目录，选中该库，鼠标右键，选择Add&lt;/a&gt; As Library，如下图所示，然后在弹出的Create Library窗口点击OK即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205113947447&quot; alt=&quot;添加本地依赖库&quot; title=&quot;添加本地依赖库&quot;&gt;&lt;/p&gt;
+&lt;p&gt;完成之后，可以看到jar包多了个展开三角形，并且在app/build.gradle下生成了一行代码compilefiles(‘libs/ViewpagerIndicator_1.0.2.jar’)，如下图所示，所以还有另一种方法就是直接在app/build.gradle文件中添加这一行代码即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205113951943&quot; alt=&quot;添加成功&quot; title=&quot;添加成功&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;so-库简单粗暴法&quot;&gt;&lt;a href=&quot;#so-库简单粗暴法&quot; class=&quot;headerlink&quot; title=&quot;so 库简单粗暴法&quot;&gt;&lt;/a&gt;so 库简单粗暴法&lt;/h2&gt;&lt;p&gt;直接在app/src/main目录下创建jniLibs目录，再将so文件拷贝到该目录内即可。&lt;/p&gt;
+&lt;h2 id=&quot;部分开源库折腾法&quot;&gt;&lt;a href=&quot;#部分开源库折腾法&quot; class=&quot;headerlink&quot; title=&quot;部分开源库折腾法&quot;&gt;&lt;/a&gt;部分开源库折腾法&lt;/h2&gt;&lt;p&gt;以下拉刷新库Android-PullToRefresh为例，项目地址是&lt;br&gt;&lt;a href=&quot;https://github.com/chrisbanes/Android-PullToRefresh，先把项目下载到本地。&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/chrisbanes/Android-PullToRefresh，先把项目下载到本地。&lt;/a&gt;&lt;br&gt;在咱自建的项目的根目录创建一个libraries目录，将Android-PullToRefresh-master中的library重名为pulltorefresh，放入新建的libraries目录下，在pulltorefresh中再创建build.gradle文件。如下图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205113956678&quot; alt=&quot;第三方类库结构&quot; title=&quot;第三方类库结构&quot;&gt;&lt;/p&gt;
+&lt;p&gt;其中build.gradle文件的内容与项目的gradle配置一致，具体参考project项目构建文件和app模块构建文件。本例的设置如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;apply plugin: &lt;span class=&quot;string&quot;&gt;&#39;android-library&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;android &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    compileSdkVersion &lt;span class=&quot;number&quot;&gt;23&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    buildToolsVersion &lt;span class=&quot;string&quot;&gt;&quot;23.0.1&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    defaultConfig &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        minSdkVersion &lt;span class=&quot;number&quot;&gt;18&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        targetSdkVersion &lt;span class=&quot;number&quot;&gt;23&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    sourceSets &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        main &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            java.srcDirs = [&lt;span class=&quot;string&quot;&gt;&#39;src&#39;&lt;/span&gt;]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            resources.srcDirs = [&lt;span class=&quot;string&quot;&gt;&#39;src&#39;&lt;/span&gt;]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            aidl.srcDirs = [&lt;span class=&quot;string&quot;&gt;&#39;src&#39;&lt;/span&gt;]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            renderscript.srcDirs = [&lt;span class=&quot;string&quot;&gt;&#39;src&#39;&lt;/span&gt;]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            res.srcDirs = [&lt;span class=&quot;string&quot;&gt;&#39;res&#39;&lt;/span&gt;]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            assets.srcDirs = [&lt;span class=&quot;string&quot;&gt;&#39;assets&#39;&lt;/span&gt;]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            manifest.srcFile &lt;span class=&quot;string&quot;&gt;&#39;AndroidManifest.xml&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;接下来是在gradle项目设置配置文件(HelloWorld/settings.gradle)中引入这个类库模块。本例的设置如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;include&lt;span class=&quot;string&quot;&gt;&#39;:app&#39;&lt;/span&gt;, &lt;span class=&quot;string&quot;&gt;&#39;:libraries:pulltorefresh&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;最后在app模块构建文件中添加依赖项。本例的设置如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;dependencies &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    ...&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;function&quot;&gt;compile &lt;span class=&quot;title&quot;&gt;project&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;string&quot;&gt;&#39;:libraries:pulltorefresh&#39;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;做完以上配置，同步一下Gradle即可。要说明的是，根据实际情况，该库在导入时遇到一个问题，即PullToRefreshWebView.java代码中FloatMath.floor函数报错，解决办法是直接将此函数修改成Math.floor替换即可。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;主要内容包括：Android Studio 的基本配置、常用插件、Gradle构建系统初步、第三方库导入等。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Android基础" scheme="http://yoursite.com/categories/Android%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+      <category term="Android Studio" scheme="http://yoursite.com/tags/Android-Studio/"/>
     
   </entry>
   
