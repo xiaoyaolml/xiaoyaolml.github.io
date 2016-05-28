@@ -41,7 +41,7 @@
 <link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Sublime,Markdown," />
+  <meta name="keywords" content="Android,OpenCV," />
 
 
 
@@ -57,18 +57,16 @@
 
 
 
-<meta name="description" content="起用Markdown来写博客，得选个合适的编辑器，找了网上的资料，看了用Markdown写作用什么文本编辑器？和好用的Markdown编辑器一览两篇内容，发现之前用的Sublime编辑器装装插件也能用，于是就找资料，参照Sublime插件：Markdown篇的内容安装配置了一下。">
+<meta name="description" content="OpenCV 3.1 在 samples目录下有几个示例Demo，其中第一个例子example-tutorial-1-camerapreview，用来获取摄像头输入帧，这篇博客记录了一下这个Demo在Android Studio下开发过程，以此开启OpenCV for Android之旅。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Sublime 与 Markdown">
-<meta property="og:url" content="http://yoursite.com/2016/03/12/Sublime与Markdown/index.html">
+<meta property="og:title" content="OpenCV4Android学习录Demo1">
+<meta property="og:url" content="http://yoursite.com/2016/05/29/OpenCV4Android学习录Demo1/index.html">
 <meta property="og:site_name" content="Leo's Blog">
-<meta property="og:description" content="起用Markdown来写博客，得选个合适的编辑器，找了网上的资料，看了用Markdown写作用什么文本编辑器？和好用的Markdown编辑器一览两篇内容，发现之前用的Sublime编辑器装装插件也能用，于是就找资料，参照Sublime插件：Markdown篇的内容安装配置了一下。">
-<meta property="og:image" content="https://avatars1.githubusercontent.com/u/8487928?v=3&s=460">
-<meta property="og:updated_time" content="2016-03-12T08:26:16.648Z">
+<meta property="og:description" content="OpenCV 3.1 在 samples目录下有几个示例Demo，其中第一个例子example-tutorial-1-camerapreview，用来获取摄像头输入帧，这篇博客记录了一下这个Demo在Android Studio下开发过程，以此开启OpenCV for Android之旅。">
+<meta property="og:updated_time" content="2016-05-28T18:30:07.020Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Sublime 与 Markdown">
-<meta name="twitter:description" content="起用Markdown来写博客，得选个合适的编辑器，找了网上的资料，看了用Markdown写作用什么文本编辑器？和好用的Markdown编辑器一览两篇内容，发现之前用的Sublime编辑器装装插件也能用，于是就找资料，参照Sublime插件：Markdown篇的内容安装配置了一下。">
-<meta name="twitter:image" content="https://avatars1.githubusercontent.com/u/8487928?v=3&s=460">
+<meta name="twitter:title" content="OpenCV4Android学习录Demo1">
+<meta name="twitter:description" content="OpenCV 3.1 在 samples目录下有几个示例Demo，其中第一个例子example-tutorial-1-camerapreview，用来获取摄像头输入帧，这篇博客记录了一下这个Demo在Android Studio下开发过程，以此开启OpenCV for Android之旅。">
 
 
 
@@ -86,7 +84,7 @@
   };
 </script>
 
-  <title> Sublime 与 Markdown | Leo's Blog </title>
+  <title> OpenCV4Android学习录Demo1 | Leo's Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -264,7 +262,7 @@
             
             
               
-                Sublime 与 Markdown
+                OpenCV4Android学习录Demo1
               
             
           </h1>
@@ -276,8 +274,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-03-12T14:47:51+08:00" content="2016-03-12">
-              2016-03-12
+            <time itemprop="dateCreated" datetime="2016-05-29T01:15:58+08:00" content="2016-05-29">
+              2016-05-29
             </time>
           </span>
 
@@ -290,8 +288,8 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/编辑器/" itemprop="url" rel="index">
-                    <span itemprop="name">编辑器</span>
+                  <a href="/categories/OpenCV4Android/" itemprop="url" rel="index">
+                    <span itemprop="name">OpenCV4Android</span>
                   </a>
                 </span>
 
@@ -306,8 +304,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/03/12/Sublime与Markdown/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/03/12/Sublime与Markdown/" itemprop="commentsCount"></span>
+                <a href="/2016/05/29/OpenCV4Android学习录Demo1/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/29/OpenCV4Android学习录Demo1/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -329,114 +327,38 @@
       
 
       
-        <h1 id="起"><a href="#起" class="headerlink" title="起"></a>起</h1><p>用Markdown来写博客，得选个合适的编辑器，找了网上的资料，看了<a href="http://www.zhihu.com/question/19637157" target="_blank" rel="external">用Markdown写作用什么文本编辑器？</a>和<a href="http://www.williamlong.info/archives/4319.html" target="_blank" rel="external">好用的Markdown编辑器一览</a>两篇内容，发现之前用的Sublime编辑器装装插件也能用，于是就找资料，参照<a href="http://www.jianshu.com/p/aa30cc25c91b" target="_blank" rel="external">Sublime插件：Markdown篇</a>的内容安装配置了一下。<br><a id="more"></a></p>
-<h1 id="承"><a href="#承" class="headerlink" title="承"></a>承</h1><p>把整个操作涉及到的常用快捷键总结如下：</p>
-<table>
-<thead>
-<tr>
-<th>快捷键</th>
-<th>功能</th>
-<th>备注</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Ctrl+Shift+P</td>
-<td>打开Package Control来安装插件</td>
-<td></td>
-</tr>
-<tr>
-<td>Ctrl+B</td>
-<td>md文件生成html文件</td>
-<td>MarkdownPreview插件</td>
-</tr>
-<tr>
-<td>Ctrl+Alt+O</td>
-<td>浏览器中实时预览</td>
-<td>OmniMarkupPreviwer插件</td>
-</tr>
-<tr>
-<td>Shitf+Tab</td>
-<td>快速生成表格  <a href="http://upload-images.jianshu.io/upload_images/26219-256230846b591b50.gif" target="_blank" rel="external">预览效果</a></td>
-<td>TabEditor插件</td>
-</tr>
-</tbody>
-</table>
-<p>另外补充几个用得比较多的快捷键：</p>
-<table>
-<thead>
-<tr>
-<th>快捷键</th>
-<th>功能</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Ctrl+D</td>
-<td>选择单词</td>
-</tr>
-<tr>
-<td>Ctrl+L</td>
-<td>选择一行</td>
-</tr>
-<tr>
-<td>Ctrl+X</td>
-<td>删除当前行</td>
-</tr>
-<tr>
-<td>Ctrl+Shift+上下键</td>
-<td>上下移动一行</td>
-</tr>
-<tr>
-<td>Ctrl+F</td>
-<td>查找内容</td>
-</tr>
-<tr>
-<td>Ctrl+/</td>
-<td>注释行</td>
-</tr>
-<tr>
-<td>Shift+F11</td>
-<td>全屏</td>
-</tr>
-<tr>
-<td>Ctrl+K+B</td>
-<td>侧边栏开关</td>
-</tr>
-</tbody>
-</table>
-<p>关于Sublime Text更多的内容可以去<a href="http://www.jianshu.com/p/d1b9a64e2e37" target="_blank" rel="external">Sublime Text：学习资源篇</a>看看。</p>
-<h1 id="转"><a href="#转" class="headerlink" title="转"></a>转</h1><p>上手了编辑器之后，还得对markdown语法有一点了解，<a href="http://xianbai.me/learn-md/" target="_blank" rel="external">Learning-Markdown (Markdown 入门参考)</a>和<a href="http://wowubuntu.com/markdown/index.html" target="_blank" rel="external">Markdown 语法说明 (简体中文版)</a>这两份文档可以看看，还有这个<a href="http://daringfireball.net/projects/markdown/dingus" target="_blank" rel="external">markdown 在线练习</a>网站可以练练手，不过我是直接在sublime中边写边练习。</p>
-<p>常用的几个语法内容如下：</p>
-<h2 id="1-标题样式"><a href="#1-标题样式" class="headerlink" title="1.标题样式"></a>1.标题样式</h2><ul>
-<li>大标题：<code># 大标题</code> 最大一级标题</li>
-<li>二级标题：<code>## 二级标题</code></li>
-<li>小标题：<code>### 小标题</code> 最小六级标题</li>
-</ul>
-<h2 id="2-文本样式"><a href="#2-文本样式" class="headerlink" title="2.文本样式"></a>2.文本样式</h2><h3 id="2-1-列表"><a href="#2-1-列表" class="headerlink" title="2.1 列表"></a>2.1 列表</h3><ol>
-<li>无序列表：<code>* + -</code></li>
-<li>有序列表：<code>1. 2.</code></li>
+        <p>OpenCV 3.1 在 samples目录下有几个示例Demo，其中第一个例子example-tutorial-1-camerapreview，用来获取摄像头输入帧，这篇博客记录了一下这个Demo在Android Studio下开发过程，以此开启OpenCV for Android之旅。</p>
+<a id="more"></a>
+<h1 id="开发环境"><a href="#开发环境" class="headerlink" title="开发环境"></a>开发环境</h1><p>Windows 10 x64<br>JDK 1.8.0<br>Android 6.0（API 23，最低API 18）<br>OpenCV 3.1.0 for Android SDK<br>Android Studio 2.1.1（Gradle版本2.10）  </p>
+<h1 id="导入OpenCV库"><a href="#导入OpenCV库" class="headerlink" title="导入OpenCV库"></a>导入OpenCV库</h1><h2 id="Import-Module"><a href="#Import-Module" class="headerlink" title="Import Module"></a>Import Module</h2><p>点击<code>File-&gt;New-&gt;Import Module…</code>，在弹出的窗口中找到OpenCV Android SDK下的sdk\java文件夹，点击Next，保持默认选项不动，再点击Finish，完成OpenCV库的导入。</p>
+<div align="center"><br>     &lt;img src=”<a href="http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/%E5%AF%BC%E5%85%A5OpenCV%E5%BA%93.png" target="_blank" rel="external">http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/%E5%AF%BC%E5%85%A5OpenCV%E5%BA%93.png</a>“<br>     width = “75%” height = “75%”” alt=”Import Module” title=”Import Module”/&gt;<br></div>
+
+<h2 id="修改build-gradle"><a href="#修改build-gradle" class="headerlink" title="修改build.gradle"></a>修改build.gradle</h2><p>由于OpenCV库本身默认配置，我们需要修改OpenCVLibrary310\build.gradle文件，然后重新同步Gradle配置。修改OpenCVLibrary310\build.gradle文件与项目app的配置一致。修改前如下所示：</p>
+<div align="center"><br>     &lt;img src=”<a href="http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/%E4%BF%AE%E6%94%B9%E5%90%8E%E7%9A%84Gradle%E9%85%8D%E7%BD%AE%E5%86%85%E5%AE%B9.png" target="_blank" rel="external">http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/%E4%BF%AE%E6%94%B9%E5%90%8E%E7%9A%84Gradle%E9%85%8D%E7%BD%AE%E5%86%85%E5%AE%B9.png</a>“<br>     width = “100%” height = “100%”” alt=”build.gradle” title=”build.gradle”/&gt;<br></div>
+
+<p>修改后如下所示：</p>
+<div align="center"><br>     &lt;img src=”<a href="http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/%E4%BF%AE%E6%94%B9%E5%90%8E%E7%9A%84Gradle%E9%85%8D%E7%BD%AE%E5%86%85%E5%AE%B9.png" target="_blank" rel="external">http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/%E4%BF%AE%E6%94%B9%E5%90%8E%E7%9A%84Gradle%E9%85%8D%E7%BD%AE%E5%86%85%E5%AE%B9.png</a>“<br>     width = “100%” height = “100%”” alt=”build.gradle” title=”build.gradle”/&gt;<br></div>
+
+<p>具体对penCVLibrary310\build.gradle的修改如下：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">apply plugin: <span class="string">'com.android.library'</span></span><br><span class="line"></span><br><span class="line">android &#123;</span><br><span class="line">    compileSdkVersion <span class="number">23</span></span><br><span class="line">    buildToolsVersion <span class="string">"23.0.3"</span></span><br><span class="line"></span><br><span class="line">    defaultConfig &#123;</span><br><span class="line">        minSdkVersion <span class="number">16</span></span><br><span class="line">        targetSdkVersion <span class="number">23</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    buildTypes &#123;</span><br><span class="line">        release &#123;</span><br><span class="line">            <span class="function">minifyEnabled <span class="keyword">false</span></span><br><span class="line">            proguardFiles <span class="title">getDefaultProguardFile</span><span class="params">(<span class="string">'proguard-android.txt'</span>)</span>, 'proguard-rules.txt'</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure>
+<h2 id="配置模块依赖"><a href="#配置模块依赖" class="headerlink" title="配置模块依赖"></a>配置模块依赖</h2><p>点击<code>File-&gt;Project Structure…</code>，在弹出的Project Structure窗口中选择左边的app，在右边选择Dependencies，然后点击绿色添加按钮，选择Module dependency，在弹出的窗口中选择OpenCVLibrary310，一直点击OK，保存并关闭两个窗口。</p>
+<div align="center"><br>     &lt;img src=”<a href="http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/%E9%85%8D%E7%BD%AE%E6%A8%A1%E5%9D%97%E4%BE%9D%E8%B5%96.png" target="_blank" rel="external">http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/%E9%85%8D%E7%BD%AE%E6%A8%A1%E5%9D%97%E4%BE%9D%E8%B5%96.png</a>“<br>     width = “75%” height = “75%”” alt=”配置模块依赖” title=”配置模块依赖”/&gt;<br></div>
+
+<h2 id="添加jni库"><a href="#添加jni库" class="headerlink" title="添加jni库"></a>添加jni库</h2><p>复制OpenCV-android-sdk/sdk/native目录下的libs目录到工程的main目录下，重命名为jniLibs。</p>
+<div align="center"><br>     &lt;img src=”<a href="http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/%E6%B7%BB%E5%8A%A0JNI%E5%BA%93.png" target="_blank" rel="external">http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/%E6%B7%BB%E5%8A%A0JNI%E5%BA%93.png</a>“<br>     width = “75%” height = “75%”” alt=”添加jni库” title=”添加jni库”/&gt;<br></div>
+
+<h1 id="代码编写"><a href="#代码编写" class="headerlink" title="代码编写"></a>代码编写</h1><p>这个例子是基于Android Studio构建OpenCV工程，实现了OpenCV捕捉相机输入帧。工程代码已上传至github：<br><a href="https://github.com/xiaoyaolml/OpenCV4AndroidTutorial1.git" target="_blank" rel="external">OpenCV4AndroidTutorial1</a>，下面简单介绍一下代码。</p>
+<h2 id="java代码"><a href="#java代码" class="headerlink" title="java代码"></a>java代码</h2><p>一是实现CameraBridgeViewBase.CvCameraViewListener2接口，用于获取摄像头操作；<br>二是加载OpenCV库，在onResume阶段加载。<br>具体可查看<a href="https://github.com/xiaoyaolml/OpenCV4AndroidTutorial1/blob/master/app/src/main/java/com/leon/opencv4android/tutorial1/MainActivity.java" target="_blank" rel="external">MainActivity.java</a></p>
+<h2 id="xml布局"><a href="#xml布局" class="headerlink" title="xml布局"></a>xml布局</h2><p>加入OpenCV自带的JavaCameraView组件：</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">org.opencv.android.JavaCameraView</span></span><br><span class="line">    <span class="attr">android:layout_width</span>=<span class="string">"match_parent"</span></span><br><span class="line">    <span class="attr">android:layout_height</span>=<span class="string">"match_parent"</span></span><br><span class="line">    <span class="attr">android:id</span>=<span class="string">"@+id/surfaceCamera"</span></span><br><span class="line">    <span class="attr">app:show_fps</span>=<span class="string">"true"</span></span><br><span class="line">    <span class="attr">app:camera_id</span>=<span class="string">"any"</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="manifest清单"><a href="#manifest清单" class="headerlink" title="manifest清单"></a>manifest清单</h2><p>添加使用相机权限和文件读写权限，还有应用特性支持：</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">uses-permission</span> <span class="attr">android:name</span>=<span class="string">"android.permission.CAMERA"</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">uses-permission</span> <span class="attr">android:name</span>=<span class="string">"android.permission.WRITE_EXTERNAL_STORAGE"</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">uses-feature</span> <span class="attr">android:name</span>=<span class="string">"android.hardware.camera"</span> <span class="attr">android:required</span>=<span class="string">"false"</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">uses-feature</span> <span class="attr">android:name</span>=<span class="string">"android.hardware.camera.autofocus"</span> <span class="attr">android:required</span>=<span class="string">"false"</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">uses-feature</span> <span class="attr">android:name</span>=<span class="string">"android.hardware.camera.front"</span> <span class="attr">android:required</span>=<span class="string">"false"</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">uses-feature</span> <span class="attr">android:name</span>=<span class="string">"android.hardware.camera.front.autofocus"</span> <span class="attr">android:required</span>=<span class="string">"false"</span>/&gt;</span></span><br></pre></td></tr></table></figure>
+<h1 id="运行结果"><a href="#运行结果" class="headerlink" title="运行结果"></a>运行结果</h1><div align="center"><br>     &lt;img src=”<a href="http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.png" target="_blank" rel="external">http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.png</a>“<br>     width = “75%” height = “75%”” alt=”添加jni库” title=”添加jni库”/&gt;<br></div>
+
+<h1 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h1><ol>
+<li>这个小Demo演示了用Android Studio进行OpenCV开发的操作过程。</li>
+<li>我们自建的项目有两种加载OpenCV库的方式：<br><code>OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_3_1_0, this, mLoaderCallback);</code>使用OpenCV Manager进行初始化，需要安装对应的OpenCV Manager，这种方式下，配置工程时可以直接跳过添加jni库环节；<br><code>mLoaderCallback.onManagerConnected(LoaderCallbackInterface.SUCCESS);</code> 使用jni库进行初始化。本例用的就是这种方式，无需安装Manger，只是在配置工程的时候添加jni库。</li>
 </ol>
-<h3 id="2-2-内容"><a href="#2-2-内容" class="headerlink" title="2.2 内容"></a>2.2 内容</h3><ul>
-<li><strong>粗体</strong>：<code>**粗体**</code></li>
-<li><em>斜体</em>： <code>*斜体*</code></li>
-</ul>
-<blockquote>
-<p>引用：<code>&gt;引用</code></p>
-<blockquote>
-<p>嵌套引用：<code>&gt;&gt;嵌套引用</code></p>
-</blockquote>
-<p><strong>引用中可以使用其他语法</strong></p>
-</blockquote>
-<p>分割线：<code>---</code></p>
-<hr>
-<h2 id="3-代码样式"><a href="#3-代码样式" class="headerlink" title="3.代码样式"></a>3.代码样式</h2><p>内嵌代码：<code>print(&#39;Hello Markdown.&#39;)</code><br>代码块：</p>
-<pre><code>print(&apos;开头Tab键，表示一行代码&apos;)
-</code></pre><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Hello</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span></span>&#123;</span><br><span class="line">		System.out.println(<span class="string">"Hello!"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="4-超链接"><a href="#4-超链接" class="headerlink" title="4.超链接"></a>4.超链接</h2><p>文字链接：<br><a href="https://xiaoyaolml.github.io/" target="_blank" rel="external">我的博客</a></p>
-<p>图片链接：</p>
-<p><img src="https://avatars1.githubusercontent.com/u/8487928?v=3&amp;s=460" alt="我的头像" title="我的头像"></p>
-<h1 id="合"><a href="#合" class="headerlink" title="合"></a>合</h1><p>开始体验Markdown+Sublime书写之旅吧。</p>
 
       
     </div>
@@ -451,9 +373,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Sublime/" rel="tag">#Sublime</a>
+            <a href="/tags/Android/" rel="tag">#Android</a>
           
-            <a href="/tags/Markdown/" rel="tag">#Markdown</a>
+            <a href="/tags/OpenCV/" rel="tag">#OpenCV</a>
           
         </div>
       
@@ -462,17 +384,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/03/09/使用hexo写博客/" rel="next" title="使用 hexo 写博客">
-                <i class="fa fa-chevron-left"></i> 使用 hexo 写博客
+              <a href="/2016/03/19/Android自定义画板/" rel="next" title="Android自定义画板">
+                <i class="fa fa-chevron-left"></i> Android自定义画板
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/03/13/Android画图一二/" rel="prev" title="Android画图一二">
-                Android画图一二 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -521,8 +439,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/03/12/Sublime与Markdown/"
-           data-title="Sublime 与 Markdown" data-url="http://yoursite.com/2016/03/12/Sublime与Markdown/">
+      <div class="ds-thread" data-thread-key="2016/05/29/OpenCV4Android学习录Demo1/"
+           data-title="OpenCV4Android学习录Demo1" data-url="http://yoursite.com/2016/05/29/OpenCV4Android学习录Demo1/">
       </div>
     
   </div>
@@ -649,7 +567,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#起"><span class="nav-number">1.</span> <span class="nav-text">起</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#承"><span class="nav-number">2.</span> <span class="nav-text">承</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#转"><span class="nav-number">3.</span> <span class="nav-text">转</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-标题样式"><span class="nav-number">3.1.</span> <span class="nav-text">1.标题样式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-文本样式"><span class="nav-number">3.2.</span> <span class="nav-text">2.文本样式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-列表"><span class="nav-number">3.2.1.</span> <span class="nav-text">2.1 列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-内容"><span class="nav-number">3.2.2.</span> <span class="nav-text">2.2 内容</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-代码样式"><span class="nav-number">3.3.</span> <span class="nav-text">3.代码样式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-超链接"><span class="nav-number">3.4.</span> <span class="nav-text">4.超链接</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#合"><span class="nav-number">4.</span> <span class="nav-text">合</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#开发环境"><span class="nav-number">1.</span> <span class="nav-text">开发环境</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#导入OpenCV库"><span class="nav-number">2.</span> <span class="nav-text">导入OpenCV库</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Import-Module"><span class="nav-number">2.1.</span> <span class="nav-text">Import Module</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改build-gradle"><span class="nav-number">2.2.</span> <span class="nav-text">修改build.gradle</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置模块依赖"><span class="nav-number">2.3.</span> <span class="nav-text">配置模块依赖</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#添加jni库"><span class="nav-number">2.4.</span> <span class="nav-text">添加jni库</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#代码编写"><span class="nav-number">3.</span> <span class="nav-text">代码编写</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#java代码"><span class="nav-number">3.1.</span> <span class="nav-text">java代码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#xml布局"><span class="nav-number">3.2.</span> <span class="nav-text">xml布局</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#manifest清单"><span class="nav-number">3.3.</span> <span class="nav-text">manifest清单</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#运行结果"><span class="nav-number">4.</span> <span class="nav-text">运行结果</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#小结"><span class="nav-number">5.</span> <span class="nav-text">小结</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
