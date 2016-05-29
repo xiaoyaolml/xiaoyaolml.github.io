@@ -4,6 +4,13 @@
   
     
     <entry>
+      <title><![CDATA[使用AndroidStudio进行NDK开发]]></title>
+      <url>http://yoursite.com/2016/05/30/%E4%BD%BF%E7%94%A8Android%20Studio%E8%BF%9B%E8%A1%8CNDK%E5%BC%80%E5%8F%91/</url>
+      <content type="html"><![CDATA[<a id="more"></a>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[OpenCV4Android学习录Demo1]]></title>
       <url>http://yoursite.com/2016/05/29/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/</url>
       <content type="html"><![CDATA[<p>OpenCV 3.1 在 samples目录下有几个示例Demo，其中第一个例子example-tutorial-1-camerapreview，用来获取摄像头输入帧，这篇博客记录了一下这个Demo在Android Studio下开发过程，以此开启OpenCV for Android之旅。</p>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-28T19:21:22.179Z</updated>
+  <updated>2016-05-29T16:48:29.922Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用AndroidStudio进行NDK开发</title>
+    <link href="http://yoursite.com/2016/05/30/%E4%BD%BF%E7%94%A8Android%20Studio%E8%BF%9B%E8%A1%8CNDK%E5%BC%80%E5%8F%91/"/>
+    <id>http://yoursite.com/2016/05/30/使用Android Studio进行NDK开发/</id>
+    <published>2016-05-29T16:46:54.000Z</published>
+    <updated>2016-05-29T16:48:29.922Z</updated>
+    
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+
+    
+    </summary>
+    
+      <category term="Android基础" scheme="http://yoursite.com/categories/Android%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+      <category term="Android Studio" scheme="http://yoursite.com/tags/Android-Studio/"/>
+    
+  </entry>
   
   <entry>
     <title>OpenCV4Android学习录Demo1</title>
