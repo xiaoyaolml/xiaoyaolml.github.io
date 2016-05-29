@@ -435,15 +435,108 @@
     <link href="http://yoursite.com/2016/01/29/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%BA%8C(%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)/"/>
     <id>http://yoursite.com/2016/01/29/上手Android Studio之二(基本使用)/</id>
     <published>2016-01-29T04:00:00.000Z</published>
-    <updated>2016-05-28T22:07:48.634Z</updated>
+    <updated>2016-05-29T16:25:26.679Z</updated>
     
-    <content type="html">&lt;p&gt;经过以上一篇&lt;a href=&quot;http://xiaoyaolml.github.io/2016/01/22/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%B8%80%28%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%29/#more&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;上手Android Studio之一(基本配置)&lt;/a&gt;折腾，接下来咱就来看看用Android Studio做开发的基本使用。&lt;/p&gt;
+    <content type="html">&lt;p&gt;经过以上一篇&lt;a href=&quot;http://xiaoyaolml.github.io/2016/01/22/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%B8%80%28%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%29/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;上手Android Studio之一(基本配置)&lt;/a&gt;折腾，接下来咱就来看看用Android Studio做开发的基本使用。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;工程结构&quot;&gt;&lt;a href=&quot;#工程结构&quot; class=&quot;headerlink&quot; title=&quot;工程结构&quot;&gt;&lt;/a&gt;工程结构&lt;/h1&gt;&lt;p&gt;咱先来看看项目工具窗口（The Project Tool Window），Project主要有三种模式：Project，Packages和Android。Android Studio在默认情况下将模式设置为Android。Project工具窗口呈现你项目中的所有包，目录和文件的概览。如果在项目工具窗口中右击，将会显示一个上下文菜单。此处有三个重要的菜单项：复制路径，文件路径和在资源管理器中显示。点击Copy Path复制操作系统的绝对路径到剪贴板。点击File Path以倒序方式显示目录堆栈，点击任何一个目录都将在操作系统中打开他们。点击 Show in Explorer将会在你的操作系统中打开一个新窗口来显示文件。如下图所示，经过之前的折腾，咱的工程Project主要包括AS生成的工程配置文件，app模块文件，build生成文件，gradle构建工具文件和第三方类库的libraries模块，还有外部依赖库文件。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114004416&quot; alt=&quot;Project目录结构&quot; title=&quot;Project目录结构&quot;&gt;&lt;/p&gt;
+&lt;p&gt;点来看看app模块的目录结构，如下图所示，主要包括构建目录，依赖包，测试文件夹，主文件夹和一些gradle配置的文件，其中主文件中包含java代码文件和资源文件夹。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114009213&quot; alt=&quot;Module目录结构&quot; title=&quot;Module目录结构&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;使用调试&quot;&gt;&lt;a href=&quot;#使用调试&quot; class=&quot;headerlink&quot; title=&quot;使用调试&quot;&gt;&lt;/a&gt;使用调试&lt;/h1&gt;&lt;p&gt;以一个简单的例子记录一下调试的过程，如下图所示，首先设置3个断点（点击红点位置添加或取消断点），然后点击Debug模式运行，程序正常运行至断点出就进入调试状态了，可以看到调试面板，调试面板中主要包含：  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;程序的方法调用栈区，显示了程序执行到断点处所调用过的所有方法。  &lt;/li&gt;
+&lt;li&gt;一些调试按钮，step over：一步步往下执行，如果当前行有方法调用，这个方法将被执行完毕返回，然后到下一行；step into：看到自定义方法往里走（不会进入官方类库的方法）；force step into：能进入任何方法；step out：跳出方法继续走；run to cursor：很快执行到下一个断点的位置。  &lt;/li&gt;
+&lt;li&gt;变量观察区，在Variables面版中观察变量，如果太多了，那么可以在Watches面板点击添加要观察的变量，还可以设置变量的值&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114014162&quot; alt=&quot;调试前&quot; title=&quot;调试前&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114018728&quot; alt=&quot;调试中&quot; title=&quot;调试中&quot;&gt;&lt;/p&gt;
+&lt;p&gt;当然还可以查看断点相关信息，跨断点调试等。&lt;/p&gt;
+&lt;h1 id=&quot;使用Apk签名&quot;&gt;&lt;a href=&quot;#使用Apk签名&quot; class=&quot;headerlink&quot; title=&quot;使用Apk签名&quot;&gt;&lt;/a&gt;使用Apk签名&lt;/h1&gt;&lt;p&gt;选择Build→GenerateSigned APK，在弹出窗口选择Create new进入新建Key Store文件，把信息填完之后点击OK跳回到Generate Signed APK 窗口，然后输入密码、别名等信息后点击Next，最后点击Finish，完成之后会在app目录下生产签名后的app-release.apk文件。整个过程如下图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114026244&quot; alt=&quot;Build选项&quot; title=&quot;Build选项&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114032491&quot; alt=&quot;New Key Store&quot; title=&quot;New Key Store&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114041303&quot; alt=&quot;Generate Signed APK&quot; title=&quot;Generate Signed APK&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114051288&quot; alt=&quot;完成&quot; title=&quot;完成&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;使用GitHub&quot;&gt;&lt;a href=&quot;#使用GitHub&quot; class=&quot;headerlink&quot; title=&quot;使用GitHub&quot;&gt;&lt;/a&gt;使用GitHub&lt;/h1&gt;&lt;p&gt;首先要确保本地安装了Git工具，接下来就是在AS中进行配置Git了，如下图所示，主要是配置一下git 的路径，然后点击Test按钮，成功的话出现Git executed successfully的窗口。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114059428&quot; alt=&quot;Git配置&quot; title=&quot;Git配置&quot;&gt;&lt;/p&gt;
+&lt;p&gt;接下来配置GitHub账户，主要是填写一下账户密码，然后点击Test按钮，成功的话出现Success的窗口。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114106620&quot; alt=&quot;GitHub配置&quot; title=&quot;GitHub配置&quot;&gt;&lt;/p&gt;
+&lt;p&gt;完成以上配置之后，咱就可以将项目上传到GitHub上了，操作步骤如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;点击VCS→Enable Version Control Integration，在弹出窗口选择Git，点击OK，如下图所示；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114114444&quot; alt=&quot;Enable Version Control Integration&quot; title=&quot;Enable Version Control Integration&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114121652&quot; alt=&quot;选择Git&quot; title=&quot;选择Git&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;点击VCS→Import into Version Control→ShareProject on Github，在弹出窗口对导入到Github的项目进行描述，点击Share后再弹出窗口填写Commit Message，点击OK即可，过一小会弹出成功的提示，过程如下图所示：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114128538&quot; alt=&quot;Share Project on Github&quot; title=&quot;Share Project on Github&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114134964&quot; alt=&quot;New Repository&quot; title=&quot;New Repository&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114141475&quot; alt=&quot;Add Files For Inital Commit&quot; title=&quot;Add Files For Inital Commit&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114147605&quot; alt=&quot;成功提示&quot; title=&quot;成功提示&quot;&gt;&lt;/p&gt;
+&lt;p&gt;到此，咱就把项目上传到GitHub上了，点击HelloWorld超链接可以跳到GitHub项目主页，如下图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114153918&quot; alt=&quot;GitHub项目主页&quot; title=&quot;GitHub项目主页&quot;&gt;&lt;/p&gt;
+&lt;p&gt;接下来，咱来做几个测试，先新增一个TestNewClass类，此时会弹出提示，如下图所示：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114200043&quot; alt=&quot;Add Fileto Git&quot; title=&quot;Add Fileto Git&quot;&gt;&lt;/p&gt;
+&lt;p&gt;先选Yes然后就生成了这个类，接着再新增一个TestNoAddClass类，仍会跳出该提示，这次咱选No，然后咱发现之前的MainActivity的代码空行太多了就删掉几行，最后改动后的结果如下图所示：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114205851&quot; alt=&quot;改动后的结果&quot; title=&quot;改动后的结果&quot;&gt;&lt;/p&gt;
+&lt;p&gt;咱看到这三个文件的颜色变了，在版本控制面板也可以清晰的看到改变的操作，如下图所示：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114211668&quot; alt=&quot;版本控制面板&quot; title=&quot;版本控制面板&quot;&gt;&lt;/p&gt;
+&lt;p&gt;文件颜色对应的状态关系如下：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;颜色&lt;/th&gt;
+&lt;th&gt;状态&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;红色&lt;/td&gt;
+&lt;td&gt;没有add的新文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;绿色&lt;/td&gt;
+&lt;td&gt;add过但没有commit的文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;蓝色&lt;/td&gt;
+&lt;td&gt;修改过的文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Add红色的文件，选择文件点击右键，Git→Add，操作如下图所示，此时文件变绿色了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114217585&quot; alt=&quot;Git Add&quot; title=&quot;Git Add&quot;&gt;&lt;/p&gt;
+&lt;p&gt;上传代码，如下图所示，填写Commit Message后，选择Commit and Push。提交之后可能会弹出警告，继续Commit即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114224200&quot; alt=&quot;Git Commit&quot; title=&quot;Git Commit&quot;&gt;&lt;/p&gt;
+&lt;p&gt;接下来就是Push了，如下图所示：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114233038&quot; alt=&quot;Git Push&quot; title=&quot;Git Push&quot;&gt;&lt;/p&gt;
+&lt;p&gt;完成操作之后就可以在GitHub上看到所做的修改了，如下图所示：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114237825&quot; alt=&quot;GitHub页&quot; title=&quot;GitHub页&quot;&gt;&lt;/p&gt;
+&lt;p&gt;到此，本地代码提交到github的Add、Commit和Push都使用过了，现在来试试从Github下拉到本地的Pull，正好GitHub项目主页上也提示了要添加一个README文件，咱就接着折腾吧。&lt;br&gt;先在GithHub上创建README.md如下图所示：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114243366&quot; alt=&quot;填写内容&quot; title=&quot;填写内容&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160206121203523&quot; alt=&quot;提交修改&quot; title=&quot;提交修改&quot;&gt;&lt;/p&gt;
+&lt;p&gt;提交完后，可以看到如下图所示，新增的内容已经加到项目里了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114304523&quot; alt=&quot;GitHub页&quot; title=&quot;GitHub页&quot;&gt;&lt;/p&gt;
+&lt;p&gt;接下来就是在本地更新项目，操作如下图所示：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114309138&quot; alt=&quot;Git Pull&quot; title=&quot;Git Pull&quot;&gt;&lt;/p&gt;
+&lt;p&gt;完了之后就会把README.md下拉到本地了，可以在版本控制面板上查看提示，如下图所示：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114313460&quot; alt=&quot;版本控制面板&quot; title=&quot;版本控制面板&quot;&gt;&lt;/p&gt;
+&lt;p&gt;到此，咱就把这个流程都过了一遍了。&lt;/p&gt;
+&lt;h1 id=&quot;使用Genymotion&quot;&gt;&lt;a href=&quot;#使用Genymotion&quot; class=&quot;headerlink&quot; title=&quot;使用Genymotion&quot;&gt;&lt;/a&gt;使用Genymotion&lt;/h1&gt;&lt;p&gt;一般都是直接使用真机开发的，不过有的时候可能需要用模拟器来进行演示，咱选用的是号称&lt;code&gt;the fastest emulator in the world&lt;/code&gt;的Genymotion模拟器。在&lt;a href=&quot;http://xiaoyaolml.github.io/2016/01/22/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%B8%80%28%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%29/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;上一篇的内容&lt;/a&gt;中，咱添加了Genymotion插件，这个插件得配合Genymotion模拟器软件来使用。首先，需要在本地安装这个Genymotion模拟器。然后是在AS中做一下配置，如下图所示，设置选择路径为Genymotion模拟器安装的根目录即可。现在就可以使用Android模拟器运行Android App了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114317716&quot; alt=&quot;Genymotion配置&quot; title=&quot;Genymotion配置&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/yanbober/article/details/45306483&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android Studio入门到精通&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/column/details/zsl-androidstudio.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android Studio 权威教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ask.android-studio.org/?/explore/category-studio&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android Studio使用教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ask.android-studio.org/?/explore/category-gradle&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Gradle 使用教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.2cto.com/kf/201412/364133.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android Studio Share Project On Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;经过以上一篇&lt;a href=&quot;http://xiaoyaolml.github.io/2016/01/22/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%B8%80%28%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%29/#more&quot;&gt;上手Android Studio之一(基本配置)&lt;/a&gt;折腾，接下来咱就来看看用Android Studio做开发的基本使用。&lt;/p&gt;
+      &lt;p&gt;经过以上一篇&lt;a href=&quot;http://xiaoyaolml.github.io/2016/01/22/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%B8%80%28%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%29/&quot;&gt;上手Android Studio之一(基本配置)&lt;/a&gt;折腾，接下来咱就来看看用Android Studio做开发的基本使用。&lt;/p&gt;
     
     </summary>
     
