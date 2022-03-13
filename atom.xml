@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Leo&#39;s Blog</title>
-  <subtitle>一程苦旅，因为年轻</subtitle>
+  <subtitle>道阻且长，行则将至</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2016-05-29T17:28:24.497Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://xiaoyaolml.github.io/"/>
+  <updated>2016-05-29T17:28:26.000Z</updated>
+  <id>http://xiaoyaolml.github.io/</id>
   
   <author>
     <name>Leo</name>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>使用Android Studio进行NDK开发</title>
-    <link href="http://yoursite.com/2016/05/30/%E4%BD%BF%E7%94%A8Android%20Studio%E8%BF%9B%E8%A1%8CNDK%E5%BC%80%E5%8F%91/"/>
-    <id>http://yoursite.com/2016/05/30/使用Android Studio进行NDK开发/</id>
+    <link href="http://xiaoyaolml.github.io/2016/05/30/%E4%BD%BF%E7%94%A8Android%20Studio%E8%BF%9B%E8%A1%8CNDK%E5%BC%80%E5%8F%91/"/>
+    <id>http://xiaoyaolml.github.io/2016/05/30/使用Android Studio进行NDK开发/</id>
     <published>2016-05-29T16:46:54.000Z</published>
-    <updated>2016-05-29T17:28:24.497Z</updated>
+    <updated>2016-05-29T17:28:26.000Z</updated>
     
     <content type="html">&lt;p&gt;记录一下使用Android Studio进行NDK开发的过程。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -73,21 +73,21 @@
     
     </summary>
     
-      <category term="Android基础" scheme="http://yoursite.com/categories/Android%E5%9F%BA%E7%A1%80/"/>
+      <category term="Android基础" scheme="http://xiaoyaolml.github.io/categories/Android%E5%9F%BA%E7%A1%80/"/>
     
     
-      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+      <category term="Android" scheme="http://xiaoyaolml.github.io/tags/Android/"/>
     
-      <category term="Android Studio" scheme="http://yoursite.com/tags/Android-Studio/"/>
+      <category term="Android Studio" scheme="http://xiaoyaolml.github.io/tags/Android-Studio/"/>
     
   </entry>
   
   <entry>
     <title>OpenCV4Android学习录Demo1</title>
-    <link href="http://yoursite.com/2016/05/29/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/"/>
-    <id>http://yoursite.com/2016/05/29/OpenCV4Android学习录Demo1/</id>
+    <link href="http://xiaoyaolml.github.io/2016/05/29/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/"/>
+    <id>http://xiaoyaolml.github.io/2016/05/29/OpenCV4Android学习录Demo1/</id>
     <published>2016-05-28T17:15:58.000Z</published>
-    <updated>2016-05-28T19:21:22.179Z</updated>
+    <updated>2016-05-28T19:21:24.000Z</updated>
     
     <content type="html">&lt;p&gt;OpenCV 3.1 在 samples目录下有几个示例Demo，其中第一个例子example-tutorial-1-camerapreview，用来获取摄像头输入帧，这篇博客记录了一下这个Demo在Android Studio下开发过程，以此开启OpenCV for Android之旅。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -135,21 +135,21 @@
     
     </summary>
     
-      <category term="OpenCV4Android" scheme="http://yoursite.com/categories/OpenCV4Android/"/>
+      <category term="OpenCV4Android" scheme="http://xiaoyaolml.github.io/categories/OpenCV4Android/"/>
     
     
-      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+      <category term="Android" scheme="http://xiaoyaolml.github.io/tags/Android/"/>
     
-      <category term="OpenCV" scheme="http://yoursite.com/tags/OpenCV/"/>
+      <category term="OpenCV" scheme="http://xiaoyaolml.github.io/tags/OpenCV/"/>
     
   </entry>
   
   <entry>
     <title>Android自定义画板</title>
-    <link href="http://yoursite.com/2016/03/19/Android%E8%87%AA%E5%AE%9A%E4%B9%89%E7%94%BB%E6%9D%BF/"/>
-    <id>http://yoursite.com/2016/03/19/Android自定义画板/</id>
+    <link href="http://xiaoyaolml.github.io/2016/03/19/Android%E8%87%AA%E5%AE%9A%E4%B9%89%E7%94%BB%E6%9D%BF/"/>
+    <id>http://xiaoyaolml.github.io/2016/03/19/Android自定义画板/</id>
     <published>2016-03-19T08:34:57.000Z</published>
-    <updated>2016-03-23T14:04:16.570Z</updated>
+    <updated>2016-03-23T14:04:18.000Z</updated>
     
     <content type="html">&lt;p&gt;参考&lt;a href=&quot;http://blog.csdn.net/lmj623565791/article/details/24252901&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android 自定义View (一)&lt;/a&gt;这篇博客，总结出自定义View的步骤：  &lt;/p&gt;
 &lt;blockquote&gt;
@@ -255,19 +255,19 @@
     
     </summary>
     
-      <category term="Android基础" scheme="http://yoursite.com/categories/Android%E5%9F%BA%E7%A1%80/"/>
+      <category term="Android基础" scheme="http://xiaoyaolml.github.io/categories/Android%E5%9F%BA%E7%A1%80/"/>
     
     
-      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+      <category term="Android" scheme="http://xiaoyaolml.github.io/tags/Android/"/>
     
   </entry>
   
   <entry>
     <title>Android画图一二</title>
-    <link href="http://yoursite.com/2016/03/13/Android%E7%94%BB%E5%9B%BE%E4%B8%80%E4%BA%8C/"/>
-    <id>http://yoursite.com/2016/03/13/Android画图一二/</id>
+    <link href="http://xiaoyaolml.github.io/2016/03/13/Android%E7%94%BB%E5%9B%BE%E4%B8%80%E4%BA%8C/"/>
+    <id>http://xiaoyaolml.github.io/2016/03/13/Android画图一二/</id>
     <published>2016-03-13T08:34:57.000Z</published>
-    <updated>2016-03-23T14:00:06.073Z</updated>
+    <updated>2016-03-23T14:00:08.000Z</updated>
     
     <content type="html">&lt;h1 id=&quot;入门&quot;&gt;&lt;a href=&quot;#入门&quot; class=&quot;headerlink&quot; title=&quot;入门&quot;&gt;&lt;/a&gt;入门&lt;/h1&gt;&lt;p&gt;参考&lt;a href=&quot;http://blog.csdn.net/u012637501/article/details/43484333&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android绘图深度解析&lt;/a&gt;这篇博客，通过例子来了解Android画图过程：继承View组件→重写onDraw(canvas)方法，相关类和接口有：&lt;/p&gt;
 &lt;table&gt;
@@ -358,19 +358,19 @@
     
     </summary>
     
-      <category term="Android基础" scheme="http://yoursite.com/categories/Android%E5%9F%BA%E7%A1%80/"/>
+      <category term="Android基础" scheme="http://xiaoyaolml.github.io/categories/Android%E5%9F%BA%E7%A1%80/"/>
     
     
-      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+      <category term="Android" scheme="http://xiaoyaolml.github.io/tags/Android/"/>
     
   </entry>
   
   <entry>
     <title>Sublime 与 Markdown</title>
-    <link href="http://yoursite.com/2016/03/12/Sublime%E4%B8%8EMarkdown/"/>
-    <id>http://yoursite.com/2016/03/12/Sublime与Markdown/</id>
+    <link href="http://xiaoyaolml.github.io/2016/03/12/Sublime%E4%B8%8EMarkdown/"/>
+    <id>http://xiaoyaolml.github.io/2016/03/12/Sublime与Markdown/</id>
     <published>2016-03-12T06:47:51.000Z</published>
-    <updated>2016-05-28T22:02:24.199Z</updated>
+    <updated>2016-05-28T22:02:26.000Z</updated>
     
     <content type="html">&lt;h1 id=&quot;起&quot;&gt;&lt;a href=&quot;#起&quot; class=&quot;headerlink&quot; title=&quot;起&quot;&gt;&lt;/a&gt;起&lt;/h1&gt;&lt;p&gt;用Markdown来写博客，得选个合适的编辑器，找了网上的资料，看了&lt;a href=&quot;http://www.zhihu.com/question/19637157&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;用Markdown写作用什么文本编辑器？&lt;/a&gt;和&lt;a href=&quot;http://www.williamlong.info/archives/4319.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;好用的Markdown编辑器一览&lt;/a&gt;两篇内容，发现之前用的Sublime编辑器装装插件也能用，于是就找资料，参照&lt;a href=&quot;http://www.jianshu.com/p/aa30cc25c91b&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sublime插件：Markdown篇&lt;/a&gt;的内容安装配置了一下。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;承&quot;&gt;&lt;a href=&quot;#承&quot; class=&quot;headerlink&quot; title=&quot;承&quot;&gt;&lt;/a&gt;承&lt;/h1&gt;&lt;p&gt;把整个操作涉及到的常用快捷键总结如下：&lt;/p&gt;
@@ -476,7 +476,7 @@
 &lt;h2 id=&quot;3-代码样式&quot;&gt;&lt;a href=&quot;#3-代码样式&quot; class=&quot;headerlink&quot; title=&quot;3.代码样式&quot;&gt;&lt;/a&gt;3.代码样式&lt;/h2&gt;&lt;p&gt;内嵌代码：&lt;code&gt;print(&amp;#39;Hello Markdown.&amp;#39;)&lt;/code&gt;&lt;br&gt;代码块：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;print(&amp;apos;开头Tab键，表示一行代码&amp;apos;)
 &lt;/code&gt;&lt;/pre&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;Hello&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(String args[])&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		System.out.println(&lt;span class=&quot;string&quot;&gt;&quot;Hello!&quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h2 id=&quot;4-超链接&quot;&gt;&lt;a href=&quot;#4-超链接&quot; class=&quot;headerlink&quot; title=&quot;4.超链接&quot;&gt;&lt;/a&gt;4.超链接&lt;/h2&gt;&lt;p&gt;文字链接：&lt;br&gt;&lt;a href=&quot;https://xiaoyaolml.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;我的博客&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;4-超链接&quot;&gt;&lt;a href=&quot;#4-超链接&quot; class=&quot;headerlink&quot; title=&quot;4.超链接&quot;&gt;&lt;/a&gt;4.超链接&lt;/h2&gt;&lt;p&gt;文字链接：&lt;br&gt;&lt;a href=&quot;https://xiaoyaolml.github.io/&quot;&gt;我的博客&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;图片链接：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://avatars1.githubusercontent.com/u/8487928?v=3&amp;amp;s=460&quot; alt=&quot;我的头像&quot; title=&quot;我的头像&quot;&gt;&lt;/p&gt;
 &lt;h1 id=&quot;合&quot;&gt;&lt;a href=&quot;#合&quot; class=&quot;headerlink&quot; title=&quot;合&quot;&gt;&lt;/a&gt;合&lt;/h1&gt;&lt;p&gt;开始体验Markdown+Sublime书写之旅吧。&lt;/p&gt;
@@ -488,23 +488,23 @@
     
     </summary>
     
-      <category term="编辑器" scheme="http://yoursite.com/categories/%E7%BC%96%E8%BE%91%E5%99%A8/"/>
+      <category term="编辑器" scheme="http://xiaoyaolml.github.io/categories/%E7%BC%96%E8%BE%91%E5%99%A8/"/>
     
     
-      <category term="Sublime" scheme="http://yoursite.com/tags/Sublime/"/>
+      <category term="Sublime" scheme="http://xiaoyaolml.github.io/tags/Sublime/"/>
     
-      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
+      <category term="Markdown" scheme="http://xiaoyaolml.github.io/tags/Markdown/"/>
     
   </entry>
   
   <entry>
     <title>上手Android Studio之二(基本使用)</title>
-    <link href="http://yoursite.com/2016/01/29/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%BA%8C(%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)/"/>
-    <id>http://yoursite.com/2016/01/29/上手Android Studio之二(基本使用)/</id>
+    <link href="http://xiaoyaolml.github.io/2016/01/29/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%BA%8C(%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)/"/>
+    <id>http://xiaoyaolml.github.io/2016/01/29/上手Android Studio之二(基本使用)/</id>
     <published>2016-01-29T04:00:00.000Z</published>
-    <updated>2016-05-29T16:25:26.679Z</updated>
+    <updated>2016-05-29T16:25:28.000Z</updated>
     
-    <content type="html">&lt;p&gt;经过以上一篇&lt;a href=&quot;http://xiaoyaolml.github.io/2016/01/22/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%B8%80%28%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%29/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;上手Android Studio之一(基本配置)&lt;/a&gt;折腾，接下来咱就来看看用Android Studio做开发的基本使用。&lt;/p&gt;
+    <content type="html">&lt;p&gt;经过以上一篇&lt;a href=&quot;http://xiaoyaolml.github.io/2016/01/22/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%B8%80%28%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%29/&quot;&gt;上手Android Studio之一(基本配置)&lt;/a&gt;折腾，接下来咱就来看看用Android Studio做开发的基本使用。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h1 id=&quot;工程结构&quot;&gt;&lt;a href=&quot;#工程结构&quot; class=&quot;headerlink&quot; title=&quot;工程结构&quot;&gt;&lt;/a&gt;工程结构&lt;/h1&gt;&lt;p&gt;咱先来看看项目工具窗口（The Project Tool Window），Project主要有三种模式：Project，Packages和Android。Android Studio在默认情况下将模式设置为Android。Project工具窗口呈现你项目中的所有包，目录和文件的概览。如果在项目工具窗口中右击，将会显示一个上下文菜单。此处有三个重要的菜单项：复制路径，文件路径和在资源管理器中显示。点击Copy Path复制操作系统的绝对路径到剪贴板。点击File Path以倒序方式显示目录堆栈，点击任何一个目录都将在操作系统中打开他们。点击 Show in Explorer将会在你的操作系统中打开一个新窗口来显示文件。如下图所示，经过之前的折腾，咱的工程Project主要包括AS生成的工程配置文件，app模块文件，build生成文件，gradle构建工具文件和第三方类库的libraries模块，还有外部依赖库文件。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114004416&quot; alt=&quot;Project目录结构&quot; title=&quot;Project目录结构&quot;&gt;&lt;/p&gt;
@@ -590,7 +590,7 @@
 &lt;p&gt;完了之后就会把README.md下拉到本地了，可以在版本控制面板上查看提示，如下图所示：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114313460&quot; alt=&quot;版本控制面板&quot; title=&quot;版本控制面板&quot;&gt;&lt;/p&gt;
 &lt;p&gt;到此，咱就把这个流程都过了一遍了。&lt;/p&gt;
-&lt;h1 id=&quot;使用Genymotion&quot;&gt;&lt;a href=&quot;#使用Genymotion&quot; class=&quot;headerlink&quot; title=&quot;使用Genymotion&quot;&gt;&lt;/a&gt;使用Genymotion&lt;/h1&gt;&lt;p&gt;一般都是直接使用真机开发的，不过有的时候可能需要用模拟器来进行演示，咱选用的是号称&lt;code&gt;the fastest emulator in the world&lt;/code&gt;的Genymotion模拟器。在&lt;a href=&quot;http://xiaoyaolml.github.io/2016/01/22/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%B8%80%28%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%29/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;上一篇的内容&lt;/a&gt;中，咱添加了Genymotion插件，这个插件得配合Genymotion模拟器软件来使用。首先，需要在本地安装这个Genymotion模拟器。然后是在AS中做一下配置，如下图所示，设置选择路径为Genymotion模拟器安装的根目录即可。现在就可以使用Android模拟器运行Android App了。&lt;/p&gt;
+&lt;h1 id=&quot;使用Genymotion&quot;&gt;&lt;a href=&quot;#使用Genymotion&quot; class=&quot;headerlink&quot; title=&quot;使用Genymotion&quot;&gt;&lt;/a&gt;使用Genymotion&lt;/h1&gt;&lt;p&gt;一般都是直接使用真机开发的，不过有的时候可能需要用模拟器来进行演示，咱选用的是号称&lt;code&gt;the fastest emulator in the world&lt;/code&gt;的Genymotion模拟器。在&lt;a href=&quot;http://xiaoyaolml.github.io/2016/01/22/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%B8%80%28%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%29/&quot;&gt;上一篇的内容&lt;/a&gt;中，咱添加了Genymotion插件，这个插件得配合Genymotion模拟器软件来使用。首先，需要在本地安装这个Genymotion模拟器。然后是在AS中做一下配置，如下图所示，设置选择路径为Genymotion模拟器安装的根目录即可。现在就可以使用Android模拟器运行Android App了。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205114317716&quot; alt=&quot;Genymotion配置&quot; title=&quot;Genymotion配置&quot;&gt;&lt;/p&gt;
 &lt;h1 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h1&gt;&lt;ol&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/yanbober/article/details/45306483&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android Studio入门到精通&lt;/a&gt;&lt;/li&gt;
@@ -607,24 +607,24 @@
     
     </summary>
     
-      <category term="Android基础" scheme="http://yoursite.com/categories/Android%E5%9F%BA%E7%A1%80/"/>
+      <category term="Android基础" scheme="http://xiaoyaolml.github.io/categories/Android%E5%9F%BA%E7%A1%80/"/>
     
     
-      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+      <category term="Android" scheme="http://xiaoyaolml.github.io/tags/Android/"/>
     
-      <category term="Android Studio" scheme="http://yoursite.com/tags/Android-Studio/"/>
+      <category term="Android Studio" scheme="http://xiaoyaolml.github.io/tags/Android-Studio/"/>
     
   </entry>
   
   <entry>
     <title>上手Android Studio之一(基本配置)</title>
-    <link href="http://yoursite.com/2016/01/22/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%B8%80(%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE)/"/>
-    <id>http://yoursite.com/2016/01/22/上手Android Studio之一(基本配置)/</id>
+    <link href="http://xiaoyaolml.github.io/2016/01/22/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%B8%80(%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE)/"/>
+    <id>http://xiaoyaolml.github.io/2016/01/22/上手Android Studio之一(基本配置)/</id>
     <published>2016-01-22T04:00:00.000Z</published>
-    <updated>2016-05-28T22:21:45.219Z</updated>
+    <updated>2016-05-28T22:21:46.000Z</updated>
     
     <content type="html">&lt;p&gt;主要内容包括：Android Studio 的基本配置、常用插件、Gradle构建系统初步、第三方库导入等。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;基本配置&quot;&gt;&lt;a href=&quot;#基本配置&quot; class=&quot;headerlink&quot; title=&quot;基本配置&quot;&gt;&lt;/a&gt;基本配置&lt;/h1&gt;&lt;h2 id=&quot;配置IDE主题&quot;&gt;&lt;a href=&quot;#配置IDE主题&quot; class=&quot;headerlink&quot; title=&quot;配置IDE主题&quot;&gt;&lt;/a&gt;配置IDE主题&lt;/h2&gt;&lt;p&gt;接上一篇&lt;a href=&quot;http://xiaoyaolml.github.io/2016/01/15/%E4%BB%8EAndroid%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%A7%8B/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;从Android开发环境搭建开始&lt;/a&gt;，其实，咱在安装AS的留了个坑，那就是关于主题的配置，如果是默认安装，主题是灰白色的，而咱选了一个暗黑系的Darcula主题。关于主题设置需要打开Settings窗口，操作如下：点击&lt;code&gt;设置&lt;/code&gt;图标-&amp;gt;Appearance-&amp;gt;选择Theme-&amp;gt;点击&lt;code&gt;Apply&lt;/code&gt;，主题就设置好了。&lt;/p&gt;
+&lt;h1 id=&quot;基本配置&quot;&gt;&lt;a href=&quot;#基本配置&quot; class=&quot;headerlink&quot; title=&quot;基本配置&quot;&gt;&lt;/a&gt;基本配置&lt;/h1&gt;&lt;h2 id=&quot;配置IDE主题&quot;&gt;&lt;a href=&quot;#配置IDE主题&quot; class=&quot;headerlink&quot; title=&quot;配置IDE主题&quot;&gt;&lt;/a&gt;配置IDE主题&lt;/h2&gt;&lt;p&gt;接上一篇&lt;a href=&quot;http://xiaoyaolml.github.io/2016/01/15/%E4%BB%8EAndroid%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%A7%8B/&quot;&gt;从Android开发环境搭建开始&lt;/a&gt;，其实，咱在安装AS的留了个坑，那就是关于主题的配置，如果是默认安装，主题是灰白色的，而咱选了一个暗黑系的Darcula主题。关于主题设置需要打开Settings窗口，操作如下：点击&lt;code&gt;设置&lt;/code&gt;图标-&amp;gt;Appearance-&amp;gt;选择Theme-&amp;gt;点击&lt;code&gt;Apply&lt;/code&gt;，主题就设置好了。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205113849162&quot; alt=&quot;设置IDE主题&quot; title=&quot;设置IDE主题&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;配置代码主题&quot;&gt;&lt;a href=&quot;#配置代码主题&quot; class=&quot;headerlink&quot; title=&quot;配置代码主题&quot;&gt;&lt;/a&gt;配置代码主题&lt;/h2&gt;&lt;p&gt;默认的几个主题咱没办法修改，需要自定义一个主题才行，仍旧是在Settings窗口中，在Editor-&amp;gt;Colors&amp;amp; Fonts栏，先选择Darcula然后再点击Save As，在弹出窗口Name文本框里自定义Darcula copy的主题，如下图所示。点击OK在点击Apply后自定义主题就设置好了。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160205113856039&quot; alt=&quot;自定义主题&quot; title=&quot;自定义主题&quot;&gt;&lt;/p&gt;
@@ -711,7 +711,7 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&quot;Gradle构建系统初体验&quot;&gt;&lt;a href=&quot;#Gradle构建系统初体验&quot; class=&quot;headerlink&quot; title=&quot;Gradle构建系统初体验&quot;&gt;&lt;/a&gt;Gradle构建系统初体验&lt;/h1&gt;&lt;p&gt;Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领域特定语言）语法的自动化构建工具。Gradle通过提供说明性语言元素将说明性构建推到下一层。这些元素也提供build-by-convention支持Java、Groovy、OSGi、Web和Scala项目。而且，这个说明性语言是可扩展的。添加自己的新语言元素或提高现有的，从而提供简洁、易于维护和理解构建。&lt;/p&gt;
-&lt;h2 id=&quot;安装Gradle&quot;&gt;&lt;a href=&quot;#安装Gradle&quot; class=&quot;headerlink&quot; title=&quot;安装Gradle&quot;&gt;&lt;/a&gt;安装Gradle&lt;/h2&gt;&lt;p&gt;在咱&lt;a href=&quot;http://xiaoyaolml.github.io/2016/01/15/%E4%BB%8EAndroid%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%A7%8B/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;上一篇&lt;/a&gt;测试开发环境的时候新建HelloWorld项目后会自动下载Gradle到C:\Users\&amp;lt;用户名&amp;gt;.gradle\wrapper\dists目录，生成一个名为gradle-x.xx-all的文件夹。&lt;/p&gt;
+&lt;h2 id=&quot;安装Gradle&quot;&gt;&lt;a href=&quot;#安装Gradle&quot; class=&quot;headerlink&quot; title=&quot;安装Gradle&quot;&gt;&lt;/a&gt;安装Gradle&lt;/h2&gt;&lt;p&gt;在咱&lt;a href=&quot;http://xiaoyaolml.github.io/2016/01/15/%E4%BB%8EAndroid%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%A7%8B/&quot;&gt;上一篇&lt;/a&gt;测试开发环境的时候新建HelloWorld项目后会自动下载Gradle到C:\Users\&amp;lt;用户名&amp;gt;.gradle\wrapper\dists目录，生成一个名为gradle-x.xx-all的文件夹。&lt;/p&gt;
 &lt;h2 id=&quot;文件结构&quot;&gt;&lt;a href=&quot;#文件结构&quot; class=&quot;headerlink&quot; title=&quot;文件结构&quot;&gt;&lt;/a&gt;文件结构&lt;/h2&gt;&lt;p&gt;先来看看项目构建文件HelloWorld/build.gradle，内容如下：&lt;/p&gt;
 &lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// Top-level build filewhere you can add configuration options common to all sub-projects/modules.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;buildscript &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    repositories &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        jcenter()                                       &lt;span class=&quot;comment&quot;&gt;// 声明仓库的源&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    dependencies &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        classpath &lt;span class=&quot;string&quot;&gt;&#39;com.android.tools.build:gradle:1.3.0&#39;&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;// 声明gradle的版本&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;comment&quot;&gt;// &lt;span class=&quot;doctag&quot;&gt;NOTE:&lt;/span&gt; Do not place your application dependencies here;they belong&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;comment&quot;&gt;// in the individual modulebuild.gradle files&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;allprojects &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    repositories &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        jcenter()                                   &lt;span class=&quot;comment&quot;&gt;// 所有项目的存储库&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;内容主要包含：一是声明仓库的源，这里可以看到是指明的jcenter()，之前版本则是mavenCentral()，jcenter可以理解成是一个新的中央远程仓库，兼容maven中心仓库，而且性能更优。另一个是声明了android gradle plugin的版本，最后是所有项目的存储库。&lt;/p&gt;
@@ -751,21 +751,21 @@
     
     </summary>
     
-      <category term="Android基础" scheme="http://yoursite.com/categories/Android%E5%9F%BA%E7%A1%80/"/>
+      <category term="Android基础" scheme="http://xiaoyaolml.github.io/categories/Android%E5%9F%BA%E7%A1%80/"/>
     
     
-      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+      <category term="Android" scheme="http://xiaoyaolml.github.io/tags/Android/"/>
     
-      <category term="Android Studio" scheme="http://yoursite.com/tags/Android-Studio/"/>
+      <category term="Android Studio" scheme="http://xiaoyaolml.github.io/tags/Android-Studio/"/>
     
   </entry>
   
   <entry>
     <title>从Android开发环境搭建开始</title>
-    <link href="http://yoursite.com/2016/01/15/%E4%BB%8EAndroid%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%A7%8B/"/>
-    <id>http://yoursite.com/2016/01/15/从Android开发环境搭建开始/</id>
+    <link href="http://xiaoyaolml.github.io/2016/01/15/%E4%BB%8EAndroid%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%A7%8B/"/>
+    <id>http://xiaoyaolml.github.io/2016/01/15/从Android开发环境搭建开始/</id>
     <published>2016-01-15T04:00:00.000Z</published>
-    <updated>2016-05-28T21:05:25.133Z</updated>
+    <updated>2016-05-28T21:05:26.000Z</updated>
     
     <content type="html">&lt;p&gt;咱从开发环境着手进行Android开发的记录。&lt;br&gt;首先需要安装Java开发工具包(JDK)这个必要组件。然后就是要下载和安装Android Studio以及 Android 软件开发工具包(SDK) 这些都是开发Android应用程序所必需的工具。注意，以下所有操作都是在Windows系统下完成。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;JAVA-开发环境&quot;&gt;&lt;a href=&quot;#JAVA-开发环境&quot; class=&quot;headerlink&quot; title=&quot;JAVA 开发环境&quot;&gt;&lt;/a&gt;JAVA 开发环境&lt;/h1&gt;&lt;p&gt;Android Studio 使用java编译环境构建，因此在开始使用Android Studio之前要确保你已经安装Java开发工具包（JDK）。&lt;/p&gt;
@@ -820,19 +820,19 @@
     
     </summary>
     
-      <category term="Android基础" scheme="http://yoursite.com/categories/Android%E5%9F%BA%E7%A1%80/"/>
+      <category term="Android基础" scheme="http://xiaoyaolml.github.io/categories/Android%E5%9F%BA%E7%A1%80/"/>
     
     
-      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+      <category term="Android" scheme="http://xiaoyaolml.github.io/tags/Android/"/>
     
   </entry>
   
   <entry>
     <title>使用 hexo 写博客</title>
-    <link href="http://yoursite.com/2016/01/08/%E4%BD%BF%E7%94%A8hexo%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://yoursite.com/2016/01/08/使用hexo写博客/</id>
+    <link href="http://xiaoyaolml.github.io/2016/01/08/%E4%BD%BF%E7%94%A8hexo%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://xiaoyaolml.github.io/2016/01/08/使用hexo写博客/</id>
     <published>2016-01-08T11:42:15.000Z</published>
-    <updated>2016-05-28T21:05:15.453Z</updated>
+    <updated>2016-05-28T21:05:16.000Z</updated>
     
     <content type="html">&lt;p&gt;参照&lt;a href=&quot;http://www.jianshu.com/p/465830080ea9&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;HEXO+Github,搭建属于自己的博客&lt;/a&gt;和&lt;a href=&quot;http://www.jianshu.com/p/858ecf233db9&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;通过Hexo在Github上搭建博客教程&lt;/a&gt;这两篇文章，结合&lt;a href=&quot;https://hexo.io/zh-cn/docs/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;heox的官方说明文档&lt;/a&gt;，折腾折腾，在GitHub上搭建了博客。顺便记录一下这第一篇。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;所用的命令&quot;&gt;&lt;a href=&quot;#所用的命令&quot; class=&quot;headerlink&quot; title=&quot;所用的命令&quot;&gt;&lt;/a&gt;所用的命令&lt;/h1&gt;&lt;h2 id=&quot;创建文章&quot;&gt;&lt;a href=&quot;#创建文章&quot; class=&quot;headerlink&quot; title=&quot;创建文章&quot;&gt;&lt;/a&gt;创建文章&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;D:\hexoblog&amp;gt;hexo new 使用hexo博客&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -856,19 +856,19 @@
     
     </summary>
     
-      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://xiaoyaolml.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+      <category term="日记" scheme="http://xiaoyaolml.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2016/01/01/hello-world/"/>
-    <id>http://yoursite.com/2016/01/01/hello-world/</id>
+    <link href="http://xiaoyaolml.github.io/2016/01/01/hello-world/"/>
+    <id>http://xiaoyaolml.github.io/2016/01/01/hello-world/</id>
     <published>2016-01-01T04:00:00.000Z</published>
-    <updated>2016-05-28T21:02:14.256Z</updated>
+    <updated>2016-05-28T21:02:16.000Z</updated>
     
     <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
