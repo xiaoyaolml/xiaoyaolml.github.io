@@ -643,20 +643,34 @@
     <entry>
       <title><![CDATA[使用 hexo 写博客]]></title>
       <url>http://xiaoyaolml.github.io/2016/01/08/%E4%BD%BF%E7%94%A8hexo%E5%86%99%E5%8D%9A%E5%AE%A2/</url>
-      <content type="html"><![CDATA[<p>参照<a href="http://www.jianshu.com/p/465830080ea9" target="_blank" rel="external">HEXO+Github,搭建属于自己的博客</a>和<a href="http://www.jianshu.com/p/858ecf233db9" target="_blank" rel="external">通过Hexo在Github上搭建博客教程</a>这两篇文章，结合<a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="external">heox的官方说明文档</a>，折腾折腾，在GitHub上搭建了博客。顺便记录一下这第一篇。<br><a id="more"></a></p>
-<h1 id="所用的命令"><a href="#所用的命令" class="headerlink" title="所用的命令"></a>所用的命令</h1><h2 id="创建文章"><a href="#创建文章" class="headerlink" title="创建文章"></a>创建文章</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">D:\hexoblog&gt;hexo new 使用hexo博客</span><br></pre></td></tr></table></figure>
-<p>之后就在D:\hexoblog\source_posts\目录下生成<strong>使用hexo博客.md</strong>文件，即为这篇博客正文内容。</p>
+      <content type="html"><![CDATA[<p>参照网上的教程，结合<a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="external">hexo的官方说明文档</a>，折腾折腾，在GitHub上搭建了博客，顺便记录一下这第一篇。<br><a id="more"></a></p>
+<h1 id="Update-2022-03-13"><a href="#Update-2022-03-13" class="headerlink" title="Update 2022-03-13"></a>Update 2022-03-13</h1><p>换了电脑，想要重新通过hexo写博客到Github Pages上，发现并不能通过git clone的方式直接把内容下载到新电脑上，还是需要把旧电脑上的hexo目录拷贝到新电脑上才能继续使用。</p>
+<hr>
+<h1 id="发布博客3步走"><a href="#发布博客3步走" class="headerlink" title="发布博客3步走"></a>发布博客3步走</h1><h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new 使用hexo博客</span><br></pre></td></tr></table></figure>
+<p>之后就在 <code>source\_posts\</code> 目录下生成了<strong>使用hexo博客.md</strong>文件，即为这篇博客正文内容。</p>
 <blockquote>
 <p>如果不想博文在首页全部显示, 并能出现<em>阅读全文</em>按钮效果, 需要在你想在首页显示的部分下添加<code>&lt;!--more--&gt;</code></p>
 </blockquote>
-<h2 id="生成静态页面"><a href="#生成静态页面" class="headerlink" title="生成静态页面"></a>生成静态页面</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">D:\hexoblog&gt;hexo generate</span><br></pre></td></tr></table></figure>
-<p>之后就在D:\hexoblog\public\目录下生成了与博客相关的静态页面。</p>
-<h2 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">D:\hexoblog&gt;hexo deploy</span><br></pre></td></tr></table></figure>
-<p>通过以上命令就将.deploy_git目录部署到GitHub了。</p>
-<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><h2 id="主题设置"><a href="#主题设置" class="headerlink" title="主题设置"></a>主题设置</h2><p>选择合适的主题，下载或者克隆到D:\hexoblog\themes\目录下，修改D:\hexoblog\_config.yml文件中theme行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: yilia</span><br></pre></td></tr></table></figure></p>
-<p>再在主题配置文件D:\hexoblog\themes\yilia\_config.yml中作修改即可。</p>
-<h2 id="本地预览"><a href="#本地预览" class="headerlink" title="本地预览"></a>本地预览</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<h2 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
+<p>之后就在 <code>public\</code> 目录下生成了与博客相关的静态页面。</p>
+<p>该命令可以简写为<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></p>
+<p>还可以加个 <code>-d</code> 参数 或者 <code>--deploy</code> 表示文件生成后立即部署网站。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g <span class="_">-d</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+<p>通过以上命令就将 <code>.deploy_git</code> 目录部署到GitHub了。</p>
+<p>该命令可以简写为：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
+<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><h2 id="本地预览"><a href="#本地预览" class="headerlink" title="本地预览"></a>本地预览</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<p>默认的访问网址是 <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a></p>
+<p>命令可以简写为：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure></p>
+<h2 id="清理"><a href="#清理" class="headerlink" title="清理"></a>清理</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+<p>清除缓存文件 (db.json) 和已生成的静态文件 (public)。</p>
+<p>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。</p>
+<h2 id="主题设置"><a href="#主题设置" class="headerlink" title="主题设置"></a>主题设置</h2><p>选择合适的主题，下载或者克隆到 <code>themes\</code> 目录下，修改 hexo 配置文件 <code>_config.yml</code> 文件中theme行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure></p>
+<p>再在主题配置文件 <code>themes\next\_config.yml</code> 中作修改即可。</p>
 <h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>就此完成了简单的用hexo在github上搭建博客。</p>
+<p>发布新写的博客可以先预览再发布，主要就是以下的命令<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo new &lt;title&gt;</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
+<h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><ol>
+<li><a href="http://www.jianshu.com/p/858ecf233db9" target="_blank" rel="external">通过Hexo在Github上搭建博客教程</a></li>
+</ol>
 ]]></content>
     </entry>
     

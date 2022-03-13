@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Leo&#39;s Blog</title>
-  <subtitle>道阻且长，行则将至</subtitle>
+  <subtitle>道阻且长, 行则将至</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xiaoyaolml.github.io/"/>
@@ -832,34 +832,50 @@
     <link href="http://xiaoyaolml.github.io/2016/01/08/%E4%BD%BF%E7%94%A8hexo%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
     <id>http://xiaoyaolml.github.io/2016/01/08/使用hexo写博客/</id>
     <published>2016-01-08T11:42:15.000Z</published>
-    <updated>2016-05-28T21:05:16.000Z</updated>
+    <updated>2022-03-13T16:29:41.496Z</updated>
     
-    <content type="html">&lt;p&gt;参照&lt;a href=&quot;http://www.jianshu.com/p/465830080ea9&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;HEXO+Github,搭建属于自己的博客&lt;/a&gt;和&lt;a href=&quot;http://www.jianshu.com/p/858ecf233db9&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;通过Hexo在Github上搭建博客教程&lt;/a&gt;这两篇文章，结合&lt;a href=&quot;https://hexo.io/zh-cn/docs/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;heox的官方说明文档&lt;/a&gt;，折腾折腾，在GitHub上搭建了博客。顺便记录一下这第一篇。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;所用的命令&quot;&gt;&lt;a href=&quot;#所用的命令&quot; class=&quot;headerlink&quot; title=&quot;所用的命令&quot;&gt;&lt;/a&gt;所用的命令&lt;/h1&gt;&lt;h2 id=&quot;创建文章&quot;&gt;&lt;a href=&quot;#创建文章&quot; class=&quot;headerlink&quot; title=&quot;创建文章&quot;&gt;&lt;/a&gt;创建文章&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;D:\hexoblog&amp;gt;hexo new 使用hexo博客&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;之后就在D:\hexoblog\source_posts\目录下生成&lt;strong&gt;使用hexo博客.md&lt;/strong&gt;文件，即为这篇博客正文内容。&lt;/p&gt;
+    <content type="html">&lt;p&gt;参照网上的教程，结合&lt;a href=&quot;https://hexo.io/zh-cn/docs/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo的官方说明文档&lt;/a&gt;，折腾折腾，在GitHub上搭建了博客，顺便记录一下这第一篇。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;Update-2022-03-13&quot;&gt;&lt;a href=&quot;#Update-2022-03-13&quot; class=&quot;headerlink&quot; title=&quot;Update 2022-03-13&quot;&gt;&lt;/a&gt;Update 2022-03-13&lt;/h1&gt;&lt;p&gt;换了电脑，想要重新通过hexo写博客到Github Pages上，发现并不能通过git clone的方式直接把内容下载到新电脑上，还是需要把旧电脑上的hexo目录拷贝到新电脑上才能继续使用。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;发布博客3步走&quot;&gt;&lt;a href=&quot;#发布博客3步走&quot; class=&quot;headerlink&quot; title=&quot;发布博客3步走&quot;&gt;&lt;/a&gt;发布博客3步走&lt;/h1&gt;&lt;h2 id=&quot;新建文章&quot;&gt;&lt;a href=&quot;#新建文章&quot; class=&quot;headerlink&quot; title=&quot;新建文章&quot;&gt;&lt;/a&gt;新建文章&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo new 使用hexo博客&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;之后就在 &lt;code&gt;source\_posts\&lt;/code&gt; 目录下生成了&lt;strong&gt;使用hexo博客.md&lt;/strong&gt;文件，即为这篇博客正文内容。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;如果不想博文在首页全部显示, 并能出现&lt;em&gt;阅读全文&lt;/em&gt;按钮效果, 需要在你想在首页显示的部分下添加&lt;code&gt;&amp;lt;!--more--&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;生成静态页面&quot;&gt;&lt;a href=&quot;#生成静态页面&quot; class=&quot;headerlink&quot; title=&quot;生成静态页面&quot;&gt;&lt;/a&gt;生成静态页面&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;D:\hexoblog&amp;gt;hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;之后就在D:\hexoblog\public\目录下生成了与博客相关的静态页面。&lt;/p&gt;
-&lt;h2 id=&quot;发布&quot;&gt;&lt;a href=&quot;#发布&quot; class=&quot;headerlink&quot; title=&quot;发布&quot;&gt;&lt;/a&gt;发布&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;D:\hexoblog&amp;gt;hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;通过以上命令就将.deploy_git目录部署到GitHub了。&lt;/p&gt;
-&lt;h1 id=&quot;其他&quot;&gt;&lt;a href=&quot;#其他&quot; class=&quot;headerlink&quot; title=&quot;其他&quot;&gt;&lt;/a&gt;其他&lt;/h1&gt;&lt;h2 id=&quot;主题设置&quot;&gt;&lt;a href=&quot;#主题设置&quot; class=&quot;headerlink&quot; title=&quot;主题设置&quot;&gt;&lt;/a&gt;主题设置&lt;/h2&gt;&lt;p&gt;选择合适的主题，下载或者克隆到D:\hexoblog\themes\目录下，修改D:\hexoblog\_config.yml文件中theme行&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;theme: yilia&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;再在主题配置文件D:\hexoblog\themes\yilia\_config.yml中作修改即可。&lt;/p&gt;
-&lt;h2 id=&quot;本地预览&quot;&gt;&lt;a href=&quot;#本地预览&quot; class=&quot;headerlink&quot; title=&quot;本地预览&quot;&gt;&lt;/a&gt;本地预览&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo generate&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;生成静态文件&quot;&gt;&lt;a href=&quot;#生成静态文件&quot; class=&quot;headerlink&quot; title=&quot;生成静态文件&quot;&gt;&lt;/a&gt;生成静态文件&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;之后就在 &lt;code&gt;public\&lt;/code&gt; 目录下生成了与博客相关的静态页面。&lt;/p&gt;
+&lt;p&gt;该命令可以简写为&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo g&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;还可以加个 &lt;code&gt;-d&lt;/code&gt; 参数 或者 &lt;code&gt;--deploy&lt;/code&gt; 表示文件生成后立即部署网站。&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo g &lt;span class=&quot;_&quot;&gt;-d&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&quot;发布&quot;&gt;&lt;a href=&quot;#发布&quot; class=&quot;headerlink&quot; title=&quot;发布&quot;&gt;&lt;/a&gt;发布&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;通过以上命令就将 &lt;code&gt;.deploy_git&lt;/code&gt; 目录部署到GitHub了。&lt;/p&gt;
+&lt;p&gt;该命令可以简写为：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo d&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h1 id=&quot;其他&quot;&gt;&lt;a href=&quot;#其他&quot; class=&quot;headerlink&quot; title=&quot;其他&quot;&gt;&lt;/a&gt;其他&lt;/h1&gt;&lt;h2 id=&quot;本地预览&quot;&gt;&lt;a href=&quot;#本地预览&quot; class=&quot;headerlink&quot; title=&quot;本地预览&quot;&gt;&lt;/a&gt;本地预览&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo generate&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;默认的访问网址是 &lt;a href=&quot;http://localhost:4000/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://localhost:4000/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;命令可以简写为：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo g&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo s&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&quot;清理&quot;&gt;&lt;a href=&quot;#清理&quot; class=&quot;headerlink&quot; title=&quot;清理&quot;&gt;&lt;/a&gt;清理&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo clean&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;清除缓存文件 (db.json) 和已生成的静态文件 (public)。&lt;/p&gt;
+&lt;p&gt;在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。&lt;/p&gt;
+&lt;h2 id=&quot;主题设置&quot;&gt;&lt;a href=&quot;#主题设置&quot; class=&quot;headerlink&quot; title=&quot;主题设置&quot;&gt;&lt;/a&gt;主题设置&lt;/h2&gt;&lt;p&gt;选择合适的主题，下载或者克隆到 &lt;code&gt;themes\&lt;/code&gt; 目录下，修改 hexo 配置文件 &lt;code&gt;_config.yml&lt;/code&gt; 文件中theme行&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;theme: next&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;再在主题配置文件 &lt;code&gt;themes\next\_config.yml&lt;/code&gt; 中作修改即可。&lt;/p&gt;
 &lt;h1 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h1&gt;&lt;p&gt;就此完成了简单的用hexo在github上搭建博客。&lt;/p&gt;
+&lt;p&gt;发布新写的博客可以先预览再发布，主要就是以下的命令&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo new &amp;lt;title&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo g&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo s&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo d&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h1 id=&quot;References&quot;&gt;&lt;a href=&quot;#References&quot; class=&quot;headerlink&quot; title=&quot;References&quot;&gt;&lt;/a&gt;References&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/858ecf233db9&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;通过Hexo在Github上搭建博客教程&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;参照&lt;a href=&quot;http://www.jianshu.com/p/465830080ea9&quot;&gt;HEXO+Github,搭建属于自己的博客&lt;/a&gt;和&lt;a href=&quot;http://www.jianshu.com/p/858ecf233db9&quot;&gt;通过Hexo在Github上搭建博客教程&lt;/a&gt;这两篇文章，结合&lt;a href=&quot;https://hexo.io/zh-cn/docs/index.html&quot;&gt;heox的官方说明文档&lt;/a&gt;，折腾折腾，在GitHub上搭建了博客。顺便记录一下这第一篇。&lt;br&gt;
+      &lt;p&gt;参照网上的教程，结合&lt;a href=&quot;https://hexo.io/zh-cn/docs/index.html&quot;&gt;hexo的官方说明文档&lt;/a&gt;，折腾折腾，在GitHub上搭建了博客，顺便记录一下这第一篇。&lt;br&gt;
     
     </summary>
     
       <category term="随笔" scheme="http://xiaoyaolml.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="日记" scheme="http://xiaoyaolml.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
+      <category term="hexo" scheme="http://xiaoyaolml.github.io/tags/hexo/"/>
+    
+      <category term="写作" scheme="http://xiaoyaolml.github.io/tags/%E5%86%99%E4%BD%9C/"/>
     
   </entry>
   
