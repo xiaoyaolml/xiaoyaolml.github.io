@@ -144,6 +144,13 @@
   </url>
   
   <url>
+    <loc>http://xiaoyaolml.github.io/tags/OpenCV/</loc>
+    <lastmod>2022-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://xiaoyaolml.github.io/tags/Sublime/</loc>
     <lastmod>2022-03-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -166,13 +173,6 @@
   
   <url>
     <loc>http://xiaoyaolml.github.io/tags/next%E4%B8%BB%E9%A2%98/</loc>
-    <lastmod>2022-03-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://xiaoyaolml.github.io/tags/OpenCV/</loc>
     <lastmod>2022-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -202,6 +202,13 @@
   </url>
   
   <url>
+    <loc>http://xiaoyaolml.github.io/categories/OpenCV4Android/</loc>
+    <lastmod>2022-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://xiaoyaolml.github.io/categories/%E7%BC%96%E8%BE%91%E5%99%A8/</loc>
     <lastmod>2022-03-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -210,13 +217,6 @@
   
   <url>
     <loc>http://xiaoyaolml.github.io/categories/hexo/</loc>
-    <lastmod>2022-03-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://xiaoyaolml.github.io/categories/OpenCV4Android/</loc>
     <lastmod>2022-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
