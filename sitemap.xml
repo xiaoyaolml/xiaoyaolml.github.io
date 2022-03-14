@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://xiaoyaolml.github.io/2022/03/14/hexo%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4/</loc>
+    <loc>http://xiaoyaolml.github.io/2022/03/14/test/</loc>
     
     <lastmod>2022-03-14</lastmod>
     
@@ -23,6 +23,15 @@
     <loc>http://xiaoyaolml.github.io/about/index.html</loc>
     
     <lastmod>2022-03-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://xiaoyaolml.github.io/2018/03/14/hexo%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4/</loc>
+    
+    <lastmod>2018-03-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -210,6 +219,13 @@
   
   <url>
     <loc>http://xiaoyaolml.github.io/categories/OpenCV4Android/</loc>
+    <lastmod>2022-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xiaoyaolml.github.io/categories/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2022-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

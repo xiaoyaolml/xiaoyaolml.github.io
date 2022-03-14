@@ -4,9 +4,36 @@
   
     
     <entry>
+      <title>test</title>
+      <link href="/2022/03/14/test/"/>
+      <url>/2022/03/14/test/</url>
+      
+        <content type="html"><![CDATA[<p>test</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 写作 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo添加文章更新时间</title>
-      <link href="/2022/03/14/hexo%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4/"/>
-      <url>/2022/03/14/hexo%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4/</url>
+      <link href="/2018/03/14/hexo%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4/"/>
+      <url>/2018/03/14/hexo%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4/</url>
       
         <content type="html"><![CDATA[<p>使用next主题的文章，默认只显示<code>发表于yyyy-MM-dd</code>, 要添加更新时间则需要做额外的配置。本文记录一下修改配置的内容。</p><span id="more"></span><h1 id="修改主题布局"><a href="#修改主题布局" class="headerlink" title="修改主题布局"></a>修改主题布局</h1><p>修改 <code>themes/next/layout/_macro/post.swig</code>文件，在 <code>&lt;span class=&quot;post-time&quot;&gt;...&lt;/span&gt;</code> 标签后添加以下代码:</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#123;%<span class="keyword">if</span> post.<span class="property">updated</span> and post.<span class="property">updated</span> &gt; post.<span class="property">date</span>%&#125;</span><br><span class="line">  &lt;span <span class="keyword">class</span>=<span class="string">&quot;post-updated&quot;</span>&gt;</span><br><span class="line">    &amp;nbsp; | &amp;nbsp; &#123;&#123; <span class="title function_">__</span>(<span class="string">&#x27;post.updated&#x27;</span>) &#125;&#125;</span><br><span class="line">    &lt;time itemprop=<span class="string">&quot;dateUpdated&quot;</span> datetime=<span class="string">&quot;&#123;&#123; moment(post.updated).format() &#125;&#125;&quot;</span> content=<span class="string">&quot;&#123;&#123; date(post.updated, config.date_format) &#125;&#125;&quot;</span>&gt;</span><br><span class="line">      &#123;&#123; <span class="title function_">date</span>(post.<span class="property">updated</span>, config.<span class="property">date_format</span>) &#125;&#125;</span><br><span class="line">    &lt;/time&gt;</span><br><span class="line">  &lt;/span&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure><h1 id="修改主题语言"><a href="#修改主题语言" class="headerlink" title="修改主题语言"></a>修改主题语言</h1><p>修改 <code>themes/next/languages/zh_Hans.yml</code> 文件，在<code>post</code>下添加一行<code>update: 更新于</code>，如下</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">post:</span></span><br><span class="line">  <span class="attr">updated:</span> <span class="string">更新于</span></span><br></pre></td></tr></table></figure><h1 id="修改主题配置"><a href="#修改主题配置" class="headerlink" title="修改主题配置"></a>修改主题配置</h1><p>修改 <code>themes/next/_config.yml</code> 文件，添加一行，如下</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">display_updated:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><p>写文件的时候在开头设置更新时间<code>updated: 时间</code>, 本篇文件的开头设置如下</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">hexo添加文章更新时间</span></span><br><span class="line"><span class="attr">tags:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">hexo</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">next主题</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">hexo</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2022-03-14 17:40:50</span></span><br><span class="line"><span class="attr">updated:</span> <span class="number">2022-03-14 18:00:00</span></span><br></pre></td></tr></table></figure><p>如果不显示设置updated, 那么这个值就是md文件的最后修改时间。</p><h1 id="hexo的首页文章展示按更新时间排序"><a href="#hexo的首页文章展示按更新时间排序" class="headerlink" title="hexo的首页文章展示按更新时间排序"></a>hexo的首页文章展示按更新时间排序</h1><p>修改hexo的配置文件 <code>_config.yml</code>，把 <code>order_by: -date</code> 改成 <code>order_by: -updated</code>, 如下</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">index_generator:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">&#x27;&#x27;</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="number">10</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-updated</span></span><br></pre></td></tr></table></figure><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ol><li><a href="https://blog.csdn.net/ganzhilin520/article/details/79053399">hexo添加文章更新时间</a></li></ol>]]></content>
       
