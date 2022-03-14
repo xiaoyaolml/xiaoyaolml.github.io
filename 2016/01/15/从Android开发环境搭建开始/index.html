@@ -60,9 +60,10 @@
 <meta name="description" content="咱从开发环境着手进行Android开发的记录。首先需要安装Java开发工具包(JDK)这个必要组件。然后就是要下载和安装Android Studio以及 Android 软件开发工具包(SDK) 这些都是开发Android应用程序所必需的工具。注意，以下所有操作都是在Windows系统下完成。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="从Android开发环境搭建开始">
-<meta property="og:url" content="http://xiaoyaolml.github.io/2016/01/15/从Android开发环境搭建开始/index.html">
-<meta property="og:site_name" content="Leo's Blog">
+<meta property="og:url" content="http://xiaoyaolml.github.io/2016/01/15/%E4%BB%8EAndroid%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%A7%8B/index.html">
+<meta property="og:site_name" content="Leo&#39;s Blog">
 <meta property="og:description" content="咱从开发环境着手进行Android开发的记录。首先需要安装Java开发工具包(JDK)这个必要组件。然后就是要下载和安装Android Studio以及 Android 软件开发工具包(SDK) 这些都是开发Android应用程序所必需的工具。注意，以下所有操作都是在Windows系统下完成。">
+<meta property="og:locale">
 <meta property="og:image" content="http://img.blog.csdn.net/20160121201945154">
 <meta property="og:image" content="http://img.blog.csdn.net/20160121201945154">
 <meta property="og:image" content="http://img.blog.csdn.net/20160121201200971">
@@ -82,10 +83,11 @@
 <meta property="og:image" content="http://img.blog.csdn.net/20160121201332817">
 <meta property="og:image" content="http://img.blog.csdn.net/20160121201336614">
 <meta property="og:image" content="http://img.blog.csdn.net/20160121203039511">
-<meta property="og:updated_time" content="2016-05-28T21:05:26.000Z">
+<meta property="article:published_time" content="2016-01-15T04:00:00.000Z">
+<meta property="article:modified_time" content="2016-05-28T21:05:26.000Z">
+<meta property="article:author" content="Leo">
+<meta property="article:tag" content="Android">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="从Android开发环境搭建开始">
-<meta name="twitter:description" content="咱从开发环境着手进行Android开发的记录。首先需要安装Java开发工具包(JDK)这个必要组件。然后就是要下载和安装Android Studio以及 Android 软件开发工具包(SDK) 这些都是开发Android应用程序所必需的工具。注意，以下所有操作都是在Windows系统下完成。">
 <meta name="twitter:image" content="http://img.blog.csdn.net/20160121201945154">
 
 
@@ -94,7 +96,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     scheme: 'Pisces',
-    sidebar: {"position":"left","display":"post"},
+    sidebar: {"position":"left","display":"post","display_updated":true},
     fancybox: true,
     motion: true,
     duoshuo: {
@@ -105,23 +107,13 @@
 </script>
 
   <title> 从Android开发环境搭建开始 | Leo's Blog </title>
-</head>
+<meta name="generator" content="Hexo 6.1.0"></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
 
 
-
-  <script type="text/javascript">
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?783b183b63db00d32ef83dd4bdf1ce9d";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
 
 
 
@@ -228,7 +220,7 @@
       
         <li class="menu-item menu-item-search">
           
-            <a href="#" class="st-search-show-outputs">
+            <a href="#" class="popup-trigger">
           
             
               <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
@@ -243,19 +235,18 @@
   
     <div class="site-search">
       
-  <form class="site-search-form">
-  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+  <form class="site-search-form" >
+  <span class="fa fa-search"></span>
+  <input type="text" id="search-input">
+  <div id="search-result"><ul class="search-result-list"><li><a target="_blank" rel="noopener" href="//www.baidu.com/s?wd=XXX%20site%3Ahttp://xiaoyaolml.github.io" class="search-result">百度搜索 <i class="search-keyword">XXX</i></a></li><li><a target="_blank" rel="noopener" href="//www.google.com/search?q=XXX%20site%3Ahttp://xiaoyaolml.github.io" class="search-result">谷歌搜索 <i class="search-keyword">XXX</i></a></li><li><a href="#" class="popup-trigger search-result">本地搜索</a></li></ul>
+  </div>
 </form>
-
-<script type="text/javascript">
-  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-
-  _st('install', 'bb7t73zHKjWQvecjLs14','2.0.0');
-</script>
-
+ <div class="popup">
+  <span class="fa fa-search"></span>
+  <input type="text" id="local-search-input">
+  <div id="local-search-result"></div>
+  <span class="popup-btn-close">close</span>
+ </div>
 
 
     </div>
@@ -308,6 +299,14 @@
               2016-01-15
             </time>
           </span>
+		  
+			  <span class="post-updated">
+				&nbsp; | &nbsp; 更新于
+				<time itemprop="dateUpdated" datetime="2016-05-29T05:05:26+08:00" content="2016-05-29">
+				  2016-05-29
+				</time>
+			  </span>
+		  
 
           
             <span class="post-category" >
@@ -318,7 +317,7 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Android基础/" itemprop="url" rel="index">
+                  <a href="/categories/Android%E5%9F%BA%E7%A1%80/" itemprop="url" rel="index">
                     <span itemprop="name">Android基础</span>
                   </a>
                 </span>
@@ -331,13 +330,6 @@
           
 
           
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/01/15/从Android开发环境搭建开始/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/15/从Android开发环境搭建开始/" itemprop="commentsCount"></span>
-                </a>
-              </span>
             
           
 
@@ -425,7 +417,7 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/01/08/使用hexo写博客/" rel="next" title="使用 hexo 写博客">
+              <a href="/2016/01/08/%E4%BD%BF%E7%94%A8hexo%E5%86%99%E5%8D%9A%E5%AE%A2/" rel="next" title="使用 hexo 写博客">
                 <i class="fa fa-chevron-left"></i> 使用 hexo 写博客
               </a>
             
@@ -433,7 +425,7 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2016/01/22/上手Android Studio之一(基本配置)/" rel="prev" title="上手Android Studio之一(基本配置)">
+              <a href="/2016/01/22/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%B8%80(%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE)/" rel="prev" title="上手Android Studio之一(基本配置)">
                 上手Android Studio之一(基本配置) <i class="fa fa-chevron-right"></i>
               </a>
             
@@ -450,29 +442,6 @@
 
     <div class="post-spread">
       
-        <!-- JiaThis Button BEGIN -->
-<div class="jiathis_style">
-  <a class="jiathis_button_tsina"></a>
-  <a class="jiathis_button_tqq"></a>
-  <a class="jiathis_button_weixin"></a>
-  <a class="jiathis_button_cqq"></a>
-  <a class="jiathis_button_douban"></a>
-  <a class="jiathis_button_renren"></a>
-  <a class="jiathis_button_qzone"></a>
-  <a class="jiathis_button_kaixin001"></a>
-  <a class="jiathis_button_copy"></a>
-  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
-  <a class="jiathis_counter_style"></a>
-</div>
-<script type="text/javascript" >
-  var jiathis_config={
-    hideMore:false
-  }
-</script>
-<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
-<!-- JiaThis Button END -->
-
-      
     </div>
   </div>
 
@@ -483,10 +452,6 @@
 
           
   <div class="comments" id="comments">
-    
-      <div class="ds-thread" data-thread-key="2016/01/15/从Android开发环境搭建开始/"
-           data-title="从Android开发环境搭建开始" data-url="http://xiaoyaolml.github.io/2016/01/15/从Android开发环境搭建开始/">
-      </div>
     
   </div>
 
@@ -523,14 +488,14 @@
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="https://avatars1.githubusercontent.com/u/8487928?v=3&s=460"
-               alt="Leo" />
-          <p class="site-author-name" itemprop="name">Leo</p>
-          <p class="site-description motion-element" itemprop="description">读书笔记, 成长感想</p>
+               alt="" />
+          <p class="site-author-name" itemprop="name"></p>
+          <p class="site-description motion-element" itemprop="description"></p>
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">10</span>
+              <span class="site-state-item-count">11</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -547,7 +512,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-count">8</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -591,13 +556,6 @@
 
         <div class="links-of-author motion-element">
           
-            <p class="site-author-name">友情链接</p>
-            
-              <span class="links-of-author-item">
-                <a href="https://hexo.io/zh-cn/docs/index.html" target="_blank">hexo说明文档</a>
-              </span>
-            
-          
         </div>
 
       </section>
@@ -612,7 +570,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#JAVA-开发环境"><span class="nav-number">1.</span> <span class="nav-text">JAVA 开发环境</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#获取"><span class="nav-number">1.1.</span> <span class="nav-text">获取</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装"><span class="nav-number">1.2.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置"><span class="nav-number">1.3.</span> <span class="nav-text">配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#测试"><span class="nav-number">1.4.</span> <span class="nav-text">测试</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Android-Studio-开发环境"><span class="nav-number">2.</span> <span class="nav-text">Android Studio 开发环境</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#获取-1"><span class="nav-number">2.1.</span> <span class="nav-text">获取</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装-1"><span class="nav-number">2.2.</span> <span class="nav-text">安装</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#测试-1"><span class="nav-number">3.</span> <span class="nav-text">测试</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#参考资料"><span class="nav-number">4.</span> <span class="nav-text">参考资料</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#JAVA-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83"><span class="nav-number">1.</span> <span class="nav-text">JAVA 开发环境</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%8E%B7%E5%8F%96"><span class="nav-number">1.1.</span> <span class="nav-text">获取</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85"><span class="nav-number">1.2.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE"><span class="nav-number">1.3.</span> <span class="nav-text">配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B5%8B%E8%AF%95"><span class="nav-number">1.4.</span> <span class="nav-text">测试</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Android-Studio-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83"><span class="nav-number">2.</span> <span class="nav-text">Android Studio 开发环境</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%8E%B7%E5%8F%96-1"><span class="nav-number">2.1.</span> <span class="nav-text">获取</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85-1"><span class="nav-number">2.2.</span> <span class="nav-text">安装</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%B5%8B%E8%AF%95-1"><span class="nav-number">3.</span> <span class="nav-text">测试</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="nav-number">4.</span> <span class="nav-text">参考资料</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
@@ -642,12 +600,12 @@
 </div>
 
 <div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+  由 <a class="theme-link" target="_blank" rel="noopener" href="http://hexo.io">Hexo</a> 强力驱动
 </div>
 
 <div class="theme-info">
   主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+  <a class="theme-link" target="_blank" rel="noopener" href="https://github.com/iissnan/hexo-theme-next">
     NexT.Pisces
   </a>
 </div>
@@ -881,28 +839,9 @@
 
   
 
-  
-    
-  
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"limiaoliang"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.id = 'duoshuo-script';
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
-  
-    
-  
 
 
+  
 
 
 

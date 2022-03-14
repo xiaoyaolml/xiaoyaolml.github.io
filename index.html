@@ -59,13 +59,14 @@
 
 <meta name="description" content="读书笔记, 成长感想">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Leo's Blog">
+<meta property="og:title" content="Leo&#39;s Blog">
 <meta property="og:url" content="http://xiaoyaolml.github.io/index.html">
-<meta property="og:site_name" content="Leo's Blog">
+<meta property="og:site_name" content="Leo&#39;s Blog">
 <meta property="og:description" content="读书笔记, 成长感想">
+<meta property="og:locale">
+<meta property="article:author" content="Leo">
+<meta property="article:tag" content="读书,笔记,写作,成长">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Leo's Blog">
-<meta name="twitter:description" content="读书笔记, 成长感想">
 
 
 
@@ -73,7 +74,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     scheme: 'Pisces',
-    sidebar: {"position":"left","display":"post"},
+    sidebar: {"position":"left","display":"post","display_updated":true},
     fancybox: true,
     motion: true,
     duoshuo: {
@@ -84,23 +85,13 @@
 </script>
 
   <title> Leo's Blog </title>
-</head>
+<meta name="generator" content="Hexo 6.1.0"></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
 
 
-
-  <script type="text/javascript">
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?783b183b63db00d32ef83dd4bdf1ce9d";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
 
 
 
@@ -209,7 +200,7 @@
       
         <li class="menu-item menu-item-search">
           
-            <a href="#" class="st-search-show-outputs">
+            <a href="#" class="popup-trigger">
           
             
               <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
@@ -224,19 +215,18 @@
   
     <div class="site-search">
       
-  <form class="site-search-form">
-  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+  <form class="site-search-form" >
+  <span class="fa fa-search"></span>
+  <input type="text" id="search-input">
+  <div id="search-result"><ul class="search-result-list"><li><a target="_blank" rel="noopener" href="//www.baidu.com/s?wd=XXX%20site%3Ahttp://xiaoyaolml.github.io" class="search-result">百度搜索 <i class="search-keyword">XXX</i></a></li><li><a target="_blank" rel="noopener" href="//www.google.com/search?q=XXX%20site%3Ahttp://xiaoyaolml.github.io" class="search-result">谷歌搜索 <i class="search-keyword">XXX</i></a></li><li><a href="#" class="popup-trigger search-result">本地搜索</a></li></ul>
+  </div>
 </form>
-
-<script type="text/javascript">
-  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-
-  _st('install', 'bb7t73zHKjWQvecjLs14','2.0.0');
-</script>
-
+ <div class="popup">
+  <span class="fa fa-search"></span>
+  <input type="text" id="local-search-input">
+  <div id="local-search-result"></div>
+  <span class="popup-btn-close">close</span>
+ </div>
 
 
     </div>
@@ -274,7 +264,243 @@
             
               
                 
-                <a class="post-title-link" href="/2016/05/30/使用Android Studio进行NDK开发/" itemprop="url">
+                <a class="post-title-link" href="/2022/03/14/hexo%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4/" itemprop="url">
+                  hexo添加文章更新时间
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2022-03-14T17:40:50+08:00" content="2022-03-14">
+              2022-03-14
+            </time>
+          </span>
+		  
+			  <span class="post-updated">
+				&nbsp; | &nbsp; 更新于
+				<time itemprop="dateUpdated" datetime="2022-03-14T18:00:00+08:00" content="2022-03-14">
+				  2022-03-14
+				</time>
+			  </span>
+		  
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/hexo/" itemprop="url" rel="index">
+                    <span itemprop="name">hexo</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>使用next主题的文章，默认只显示<code>发表于yyyy-MM-dd</code>, 要添加更新时间则需要做额外的配置。本文记录一下修改配置的内容。</p>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2022/03/14/hexo%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/01/08/%E4%BD%BF%E7%94%A8hexo%E5%86%99%E5%8D%9A%E5%AE%A2/" itemprop="url">
+                  使用 hexo 写博客
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-01-08T19:42:15+08:00" content="2016-01-08">
+              2016-01-08
+            </time>
+          </span>
+		  
+			  <span class="post-updated">
+				&nbsp; | &nbsp; 更新于
+				<time itemprop="dateUpdated" datetime="2022-03-14T00:00:00+08:00" content="2022-03-14">
+				  2022-03-14
+				</time>
+			  </span>
+		  
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/hexo/" itemprop="url" rel="index">
+                    <span itemprop="name">hexo</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>参照网上的教程，结合<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/index.html">hexo的官方说明文档</a>，折腾折腾，在GitHub上搭建了博客，顺便记录一下这第一篇。</p>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/01/08/%E4%BD%BF%E7%94%A8hexo%E5%86%99%E5%8D%9A%E5%AE%A2/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/05/30/%E4%BD%BF%E7%94%A8Android%20Studio%E8%BF%9B%E8%A1%8CNDK%E5%BC%80%E5%8F%91/" itemprop="url">
                   使用Android Studio进行NDK开发
                 </a>
               
@@ -292,6 +518,14 @@
               2016-05-30
             </time>
           </span>
+		  
+			  <span class="post-updated">
+				&nbsp; | &nbsp; 更新于
+				<time itemprop="dateUpdated" datetime="2016-05-30T01:28:26+08:00" content="2016-05-30">
+				  2016-05-30
+				</time>
+			  </span>
+		  
 
           
             <span class="post-category" >
@@ -302,7 +536,7 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Android基础/" itemprop="url" rel="index">
+                  <a href="/categories/Android%E5%9F%BA%E7%A1%80/" itemprop="url" rel="index">
                     <span itemprop="name">Android基础</span>
                   </a>
                 </span>
@@ -315,13 +549,6 @@
           
 
           
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/05/30/使用Android Studio进行NDK开发/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/30/使用Android Studio进行NDK开发/" itemprop="commentsCount"></span>
-                </a>
-              </span>
             
           
 
@@ -344,7 +571,7 @@
         
           <p>记录一下使用Android Studio进行NDK开发的过程。</p>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2016/05/30/使用Android Studio进行NDK开发/#more" rel="contents">
+            <a class="btn" href="/2016/05/30/%E4%BD%BF%E7%94%A8Android%20Studio%E8%BF%9B%E8%A1%8CNDK%E5%BC%80%E5%8F%91/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -391,512 +618,7 @@
             
               
                 
-                <a class="post-title-link" href="/2016/05/29/OpenCV4Android学习录Demo1/" itemprop="url">
-                  OpenCV4Android学习录Demo1
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-29T01:15:58+08:00" content="2016-05-29">
-              2016-05-29
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/OpenCV4Android/" itemprop="url" rel="index">
-                    <span itemprop="name">OpenCV4Android</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/05/29/OpenCV4Android学习录Demo1/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/29/OpenCV4Android学习录Demo1/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>OpenCV 3.1 在 samples目录下有几个示例Demo，其中第一个例子example-tutorial-1-camerapreview，用来获取摄像头输入帧，这篇博客记录了一下这个Demo在Android Studio下开发过程，以此开启OpenCV for Android之旅。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/05/29/OpenCV4Android学习录Demo1/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/03/19/Android自定义画板/" itemprop="url">
-                  Android自定义画板
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-03-19T16:34:57+08:00" content="2016-03-19">
-              2016-03-19
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Android基础/" itemprop="url" rel="index">
-                    <span itemprop="name">Android基础</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/03/19/Android自定义画板/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/03/19/Android自定义画板/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>参考<a href="http://blog.csdn.net/lmj623565791/article/details/24252901">Android 自定义View (一)</a>这篇博客，总结出自定义View的步骤：  </p>
-<blockquote>
-<p>1、自定义View的属性<br>2、在View的构造方法中获得自定义属性<br>[3、重写onMesure]<br>4、重写onDraw  </p>
-</blockquote>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/03/19/Android自定义画板/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/03/13/Android画图一二/" itemprop="url">
-                  Android画图一二
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-03-13T16:34:57+08:00" content="2016-03-13">
-              2016-03-13
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Android基础/" itemprop="url" rel="index">
-                    <span itemprop="name">Android基础</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/03/13/Android画图一二/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/03/13/Android画图一二/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h1 id="入门"><a href="#入门" class="headerlink" title="入门"></a>入门</h1><p>参考<a href="http://blog.csdn.net/u012637501/article/details/43484333">Android绘图深度解析</a>这篇博客，通过例子来了解Android画图过程：继承View组件→重写onDraw(canvas)方法，相关类和接口有：</p>
-<table>
-<thead>
-<tr>
-<th>名称</th>
-<th>功能</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Drawable</td>
-<td>绘图结果表现出来的接口</td>
-</tr>
-<tr>
-<td>Bitmap</td>
-<td>可以来自资源或文件，也可以在程序中创建，实际上的功能相当于图片的存储空间</td>
-</tr>
-<tr>
-<td>Canvas</td>
-<td>代表了”依附”于指定View的画布，通过Canvas类的成员方法能够实现绘制各种图形</td>
-</tr>
-<tr>
-<td>Paint</td>
-<td>代表了Canvas上的画笔，主要用于设置绘制风格，画笔颜色，粗细，填充风格等。</td>
-</tr>
-<tr>
-<td>Path</td>
-<td>代表任意多条直线连接而成的任意图形，<code>canvas.drawPath(path,paint)</code>来绘制出任意形状的图形，另外通过PathEffect定义绘制路径图形效果</td>
-</tr>
-<tr>
-<td>Shader</td>
-<td>定义渐变填充，包含LinearGradient、RadialGradient和 SweepGradient</td>
-</tr>
-</tbody>
-</table>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/03/13/Android画图一二/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/03/12/Sublime与Markdown/" itemprop="url">
-                  Sublime 与 Markdown
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-03-12T14:47:51+08:00" content="2016-03-12">
-              2016-03-12
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/编辑器/" itemprop="url" rel="index">
-                    <span itemprop="name">编辑器</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/03/12/Sublime与Markdown/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/03/12/Sublime与Markdown/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h1 id="起"><a href="#起" class="headerlink" title="起"></a>起</h1><p>用Markdown来写博客，得选个合适的编辑器，找了网上的资料，看了<a href="http://www.zhihu.com/question/19637157">用Markdown写作用什么文本编辑器？</a>和<a href="http://www.williamlong.info/archives/4319.html">好用的Markdown编辑器一览</a>两篇内容，发现之前用的Sublime编辑器装装插件也能用，于是就找资料，参照<a href="http://www.jianshu.com/p/aa30cc25c91b">Sublime插件：Markdown篇</a>的内容安装配置了一下。<br>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/03/12/Sublime与Markdown/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/01/29/上手Android Studio之二(基本使用)/" itemprop="url">
+                <a class="post-title-link" href="/2016/01/29/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%BA%8C(%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)/" itemprop="url">
                   上手Android Studio之二(基本使用)
                 </a>
               
@@ -914,6 +636,14 @@
               2016-01-29
             </time>
           </span>
+		  
+			  <span class="post-updated">
+				&nbsp; | &nbsp; 更新于
+				<time itemprop="dateUpdated" datetime="2016-05-30T00:25:28+08:00" content="2016-05-30">
+				  2016-05-30
+				</time>
+			  </span>
+		  
 
           
             <span class="post-category" >
@@ -924,7 +654,7 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Android基础/" itemprop="url" rel="index">
+                  <a href="/categories/Android%E5%9F%BA%E7%A1%80/" itemprop="url" rel="index">
                     <span itemprop="name">Android基础</span>
                   </a>
                 </span>
@@ -937,13 +667,6 @@
           
 
           
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/01/29/上手Android Studio之二(基本使用)/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/29/上手Android Studio之二(基本使用)/" itemprop="commentsCount"></span>
-                </a>
-              </span>
             
           
 
@@ -966,7 +689,7 @@
         
           <p>经过以上一篇<a href="http://xiaoyaolml.github.io/2016/01/22/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%B8%80%28%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%29/">上手Android Studio之一(基本配置)</a>折腾，接下来咱就来看看用Android Studio做开发的基本使用。</p>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2016/01/29/上手Android Studio之二(基本使用)/#more" rel="contents">
+            <a class="btn" href="/2016/01/29/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%BA%8C(%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1013,7 +736,7 @@
             
               
                 
-                <a class="post-title-link" href="/2016/01/22/上手Android Studio之一(基本配置)/" itemprop="url">
+                <a class="post-title-link" href="/2016/01/22/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%B8%80(%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE)/" itemprop="url">
                   上手Android Studio之一(基本配置)
                 </a>
               
@@ -1031,6 +754,14 @@
               2016-01-22
             </time>
           </span>
+		  
+			  <span class="post-updated">
+				&nbsp; | &nbsp; 更新于
+				<time itemprop="dateUpdated" datetime="2016-05-29T06:21:46+08:00" content="2016-05-29">
+				  2016-05-29
+				</time>
+			  </span>
+		  
 
           
             <span class="post-category" >
@@ -1041,7 +772,7 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Android基础/" itemprop="url" rel="index">
+                  <a href="/categories/Android%E5%9F%BA%E7%A1%80/" itemprop="url" rel="index">
                     <span itemprop="name">Android基础</span>
                   </a>
                 </span>
@@ -1054,13 +785,6 @@
           
 
           
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/01/22/上手Android Studio之一(基本配置)/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/22/上手Android Studio之一(基本配置)/" itemprop="commentsCount"></span>
-                </a>
-              </span>
             
           
 
@@ -1083,7 +807,7 @@
         
           <p>主要内容包括：Android Studio 的基本配置、常用插件、Gradle构建系统初步、第三方库导入等。<br>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2016/01/22/上手Android Studio之一(基本配置)/#more" rel="contents">
+            <a class="btn" href="/2016/01/22/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%B8%80(%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE)/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1130,7 +854,125 @@
             
               
                 
-                <a class="post-title-link" href="/2016/01/15/从Android开发环境搭建开始/" itemprop="url">
+                <a class="post-title-link" href="/2016/03/12/Sublime%E4%B8%8EMarkdown/" itemprop="url">
+                  Sublime 与 Markdown
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-03-12T14:47:51+08:00" content="2016-03-12">
+              2016-03-12
+            </time>
+          </span>
+		  
+			  <span class="post-updated">
+				&nbsp; | &nbsp; 更新于
+				<time itemprop="dateUpdated" datetime="2016-05-29T06:02:26+08:00" content="2016-05-29">
+				  2016-05-29
+				</time>
+			  </span>
+		  
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/%E7%BC%96%E8%BE%91%E5%99%A8/" itemprop="url" rel="index">
+                    <span itemprop="name">编辑器</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h1 id="起"><a href="#起" class="headerlink" title="起"></a>起</h1><p>用Markdown来写博客，得选个合适的编辑器，找了网上的资料，看了<a target="_blank" rel="noopener" href="http://www.zhihu.com/question/19637157">用Markdown写作用什么文本编辑器？</a>和<a target="_blank" rel="noopener" href="http://www.williamlong.info/archives/4319.html">好用的Markdown编辑器一览</a>两篇内容，发现之前用的Sublime编辑器装装插件也能用，于是就找资料，参照<a target="_blank" rel="noopener" href="http://www.jianshu.com/p/aa30cc25c91b">Sublime插件：Markdown篇</a>的内容安装配置了一下。<br>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/03/12/Sublime%E4%B8%8EMarkdown/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/01/15/%E4%BB%8EAndroid%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%A7%8B/" itemprop="url">
                   从Android开发环境搭建开始
                 </a>
               
@@ -1148,6 +990,14 @@
               2016-01-15
             </time>
           </span>
+		  
+			  <span class="post-updated">
+				&nbsp; | &nbsp; 更新于
+				<time itemprop="dateUpdated" datetime="2016-05-29T05:05:26+08:00" content="2016-05-29">
+				  2016-05-29
+				</time>
+			  </span>
+		  
 
           
             <span class="post-category" >
@@ -1158,7 +1008,7 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Android基础/" itemprop="url" rel="index">
+                  <a href="/categories/Android%E5%9F%BA%E7%A1%80/" itemprop="url" rel="index">
                     <span itemprop="name">Android基础</span>
                   </a>
                 </span>
@@ -1171,13 +1021,6 @@
           
 
           
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/01/15/从Android开发环境搭建开始/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/15/从Android开发环境搭建开始/" itemprop="commentsCount"></span>
-                </a>
-              </span>
             
           
 
@@ -1200,124 +1043,7 @@
         
           <p>咱从开发环境着手进行Android开发的记录。<br>首先需要安装Java开发工具包(JDK)这个必要组件。然后就是要下载和安装Android Studio以及 Android 软件开发工具包(SDK) 这些都是开发Android应用程序所必需的工具。注意，以下所有操作都是在Windows系统下完成。<br>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2016/01/15/从Android开发环境搭建开始/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/01/08/使用hexo写博客/" itemprop="url">
-                  使用 hexo 写博客
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-01-08T19:42:15+08:00" content="2016-01-08">
-              2016-01-08
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/随笔/" itemprop="url" rel="index">
-                    <span itemprop="name">随笔</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/01/08/使用hexo写博客/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/08/使用hexo写博客/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>参照网上的教程，结合<a href="https://hexo.io/zh-cn/docs/index.html">hexo的官方说明文档</a>，折腾折腾，在GitHub上搭建了博客，顺便记录一下这第一篇。<br>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/01/08/使用hexo写博客/#more" rel="contents">
+            <a class="btn" href="/2016/01/15/%E4%BB%8EAndroid%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%A7%8B/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1382,17 +1108,18 @@
               2016-01-01
             </time>
           </span>
+		  
+			  <span class="post-updated">
+				&nbsp; | &nbsp; 更新于
+				<time itemprop="dateUpdated" datetime="2016-05-29T05:02:16+08:00" content="2016-05-29">
+				  2016-05-29
+				</time>
+			  </span>
+		  
 
           
 
           
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/01/01/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/01/hello-world/" itemprop="commentsCount"></span>
-                </a>
-              </span>
             
           
 
@@ -1447,9 +1174,252 @@
 
 
     
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/05/29/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/" itemprop="url">
+                  OpenCV4Android学习录Demo1
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-05-29T01:15:58+08:00" content="2016-05-29">
+              2016-05-29
+            </time>
+          </span>
+		  
+			  <span class="post-updated">
+				&nbsp; | &nbsp; 更新于
+				<time itemprop="dateUpdated" datetime="2016-05-29T03:21:24+08:00" content="2016-05-29">
+				  2016-05-29
+				</time>
+			  </span>
+		  
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/OpenCV4Android/" itemprop="url" rel="index">
+                    <span itemprop="name">OpenCV4Android</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>OpenCV 3.1 在 samples目录下有几个示例Demo，其中第一个例子example-tutorial-1-camerapreview，用来获取摄像头输入帧，这篇博客记录了一下这个Demo在Android Studio下开发过程，以此开启OpenCV for Android之旅。</p>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/05/29/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/03/19/Android%E8%87%AA%E5%AE%9A%E4%B9%89%E7%94%BB%E6%9D%BF/" itemprop="url">
+                  Android自定义画板
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-03-19T16:34:57+08:00" content="2016-03-19">
+              2016-03-19
+            </time>
+          </span>
+		  
+			  <span class="post-updated">
+				&nbsp; | &nbsp; 更新于
+				<time itemprop="dateUpdated" datetime="2016-03-23T22:04:18+08:00" content="2016-03-23">
+				  2016-03-23
+				</time>
+			  </span>
+		  
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Android%E5%9F%BA%E7%A1%80/" itemprop="url" rel="index">
+                    <span itemprop="name">Android基础</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>参考<a target="_blank" rel="noopener" href="http://blog.csdn.net/lmj623565791/article/details/24252901">Android 自定义View (一)</a>这篇博客，总结出自定义View的步骤：  </p>
+<blockquote>
+<p>1、自定义View的属性<br>2、在View的构造方法中获得自定义属性<br>[3、重写onMesure]<br>4、重写onDraw  </p>
+</blockquote>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/03/19/Android%E8%87%AA%E5%AE%9A%E4%B9%89%E7%94%BB%E6%9D%BF/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
   </section>
 
   
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">&lt;i class&#x3D;&quot;fa fa-angle-right&quot;&gt;&lt;&#x2F;i&gt;</a>
+  </nav>
+
 
 
           </div>
@@ -1481,14 +1451,14 @@
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="https://avatars1.githubusercontent.com/u/8487928?v=3&s=460"
-               alt="Leo" />
-          <p class="site-author-name" itemprop="name">Leo</p>
-          <p class="site-description motion-element" itemprop="description">读书笔记, 成长感想</p>
+               alt="" />
+          <p class="site-author-name" itemprop="name"></p>
+          <p class="site-description motion-element" itemprop="description"></p>
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">10</span>
+              <span class="site-state-item-count">11</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -1505,7 +1475,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-count">8</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -1549,13 +1519,6 @@
 
         <div class="links-of-author motion-element">
           
-            <p class="site-author-name">友情链接</p>
-            
-              <span class="links-of-author-item">
-                <a href="https://hexo.io/zh-cn/docs/index.html" target="_blank">hexo说明文档</a>
-              </span>
-            
-          
         </div>
 
       </section>
@@ -1583,12 +1546,12 @@
 </div>
 
 <div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+  由 <a class="theme-link" target="_blank" rel="noopener" href="http://hexo.io">Hexo</a> 强力驱动
 </div>
 
 <div class="theme-info">
   主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+  <a class="theme-link" target="_blank" rel="noopener" href="https://github.com/iissnan/hexo-theme-next">
     NexT.Pisces
   </a>
 </div>
@@ -1661,28 +1624,9 @@
 
   
 
-  
-    
-  
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"limiaoliang"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.id = 'duoshuo-script';
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
-  
-    
-  
 
 
+  
 
 
 

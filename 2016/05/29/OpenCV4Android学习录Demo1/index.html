@@ -60,19 +60,25 @@
 <meta name="description" content="OpenCV 3.1 在 samples目录下有几个示例Demo，其中第一个例子example-tutorial-1-camerapreview，用来获取摄像头输入帧，这篇博客记录了一下这个Demo在Android Studio下开发过程，以此开启OpenCV for Android之旅。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="OpenCV4Android学习录Demo1">
-<meta property="og:url" content="http://xiaoyaolml.github.io/2016/05/29/OpenCV4Android学习录Demo1/index.html">
-<meta property="og:site_name" content="Leo's Blog">
+<meta property="og:url" content="http://xiaoyaolml.github.io/2016/05/29/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/index.html">
+<meta property="og:site_name" content="Leo&#39;s Blog">
 <meta property="og:description" content="OpenCV 3.1 在 samples目录下有几个示例Demo，其中第一个例子example-tutorial-1-camerapreview，用来获取摄像头输入帧，这篇博客记录了一下这个Demo在Android Studio下开发过程，以此开启OpenCV for Android之旅。">
+<meta property="og:locale">
 <meta property="og:image" content="http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1%2F%E5%AF%BC%E5%85%A5OpenCV%E5%BA%93.png">
 <meta property="og:image" content="http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1%2F%E4%BF%AE%E6%94%B9%E5%89%8D%E7%9A%84Gradle%E9%85%8D%E7%BD%AE%E5%86%85%E5%AE%B9.png">
 <meta property="og:image" content="http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/%E4%BF%AE%E6%94%B9%E5%90%8E%E7%9A%84Gradle%E9%85%8D%E7%BD%AE%E5%86%85%E5%AE%B9.png">
 <meta property="og:image" content="http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/%E9%85%8D%E7%BD%AE%E6%A8%A1%E5%9D%97%E4%BE%9D%E8%B5%96.png">
+<meta property="og:image" content="http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/%E9%85%8D%E7%BD%AE%E6%A8%A1%E5%9D%97%E4%BE%9D%E8%B5%96.png">
+<meta property="og:image" content="http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/%E6%B7%BB%E5%8A%A0JNI%E5%BA%93.png">
 <meta property="og:image" content="http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/%E6%B7%BB%E5%8A%A0JNI%E5%BA%93.png">
 <meta property="og:image" content="http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.png">
-<meta property="og:updated_time" content="2016-05-28T19:21:24.000Z">
+<meta property="og:image" content="http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.png">
+<meta property="article:published_time" content="2016-05-28T17:15:58.000Z">
+<meta property="article:modified_time" content="2016-05-28T19:21:24.000Z">
+<meta property="article:author" content="Leo">
+<meta property="article:tag" content="Android">
+<meta property="article:tag" content="OpenCV">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="OpenCV4Android学习录Demo1">
-<meta name="twitter:description" content="OpenCV 3.1 在 samples目录下有几个示例Demo，其中第一个例子example-tutorial-1-camerapreview，用来获取摄像头输入帧，这篇博客记录了一下这个Demo在Android Studio下开发过程，以此开启OpenCV for Android之旅。">
 <meta name="twitter:image" content="http://7xrsz8.com1.z0.glb.clouddn.com/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1%2F%E5%AF%BC%E5%85%A5OpenCV%E5%BA%93.png">
 
 
@@ -81,7 +87,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     scheme: 'Pisces',
-    sidebar: {"position":"left","display":"post"},
+    sidebar: {"position":"left","display":"post","display_updated":true},
     fancybox: true,
     motion: true,
     duoshuo: {
@@ -92,23 +98,13 @@
 </script>
 
   <title> OpenCV4Android学习录Demo1 | Leo's Blog </title>
-</head>
+<meta name="generator" content="Hexo 6.1.0"></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
 
 
-
-  <script type="text/javascript">
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?783b183b63db00d32ef83dd4bdf1ce9d";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
 
 
 
@@ -215,7 +211,7 @@
       
         <li class="menu-item menu-item-search">
           
-            <a href="#" class="st-search-show-outputs">
+            <a href="#" class="popup-trigger">
           
             
               <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
@@ -230,19 +226,18 @@
   
     <div class="site-search">
       
-  <form class="site-search-form">
-  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+  <form class="site-search-form" >
+  <span class="fa fa-search"></span>
+  <input type="text" id="search-input">
+  <div id="search-result"><ul class="search-result-list"><li><a target="_blank" rel="noopener" href="//www.baidu.com/s?wd=XXX%20site%3Ahttp://xiaoyaolml.github.io" class="search-result">百度搜索 <i class="search-keyword">XXX</i></a></li><li><a target="_blank" rel="noopener" href="//www.google.com/search?q=XXX%20site%3Ahttp://xiaoyaolml.github.io" class="search-result">谷歌搜索 <i class="search-keyword">XXX</i></a></li><li><a href="#" class="popup-trigger search-result">本地搜索</a></li></ul>
+  </div>
 </form>
-
-<script type="text/javascript">
-  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-
-  _st('install', 'bb7t73zHKjWQvecjLs14','2.0.0');
-</script>
-
+ <div class="popup">
+  <span class="fa fa-search"></span>
+  <input type="text" id="local-search-input">
+  <div id="local-search-result"></div>
+  <span class="popup-btn-close">close</span>
+ </div>
 
 
     </div>
@@ -295,6 +290,14 @@
               2016-05-29
             </time>
           </span>
+		  
+			  <span class="post-updated">
+				&nbsp; | &nbsp; 更新于
+				<time itemprop="dateUpdated" datetime="2016-05-29T03:21:24+08:00" content="2016-05-29">
+				  2016-05-29
+				</time>
+			  </span>
+		  
 
           
             <span class="post-category" >
@@ -318,13 +321,6 @@
           
 
           
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/05/29/OpenCV4Android学习录Demo1/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/29/OpenCV4Android学习录Demo1/" itemprop="commentsCount"></span>
-                </a>
-              </span>
             
           
 
@@ -407,7 +403,7 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/03/19/Android自定义画板/" rel="next" title="Android自定义画板">
+              <a href="/2016/03/19/Android%E8%87%AA%E5%AE%9A%E4%B9%89%E7%94%BB%E6%9D%BF/" rel="next" title="Android自定义画板">
                 <i class="fa fa-chevron-left"></i> Android自定义画板
               </a>
             
@@ -415,7 +411,7 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2016/05/30/使用Android Studio进行NDK开发/" rel="prev" title="使用Android Studio进行NDK开发">
+              <a href="/2016/05/30/%E4%BD%BF%E7%94%A8Android%20Studio%E8%BF%9B%E8%A1%8CNDK%E5%BC%80%E5%8F%91/" rel="prev" title="使用Android Studio进行NDK开发">
                 使用Android Studio进行NDK开发 <i class="fa fa-chevron-right"></i>
               </a>
             
@@ -432,29 +428,6 @@
 
     <div class="post-spread">
       
-        <!-- JiaThis Button BEGIN -->
-<div class="jiathis_style">
-  <a class="jiathis_button_tsina"></a>
-  <a class="jiathis_button_tqq"></a>
-  <a class="jiathis_button_weixin"></a>
-  <a class="jiathis_button_cqq"></a>
-  <a class="jiathis_button_douban"></a>
-  <a class="jiathis_button_renren"></a>
-  <a class="jiathis_button_qzone"></a>
-  <a class="jiathis_button_kaixin001"></a>
-  <a class="jiathis_button_copy"></a>
-  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
-  <a class="jiathis_counter_style"></a>
-</div>
-<script type="text/javascript" >
-  var jiathis_config={
-    hideMore:false
-  }
-</script>
-<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
-<!-- JiaThis Button END -->
-
-      
     </div>
   </div>
 
@@ -465,10 +438,6 @@
 
           
   <div class="comments" id="comments">
-    
-      <div class="ds-thread" data-thread-key="2016/05/29/OpenCV4Android学习录Demo1/"
-           data-title="OpenCV4Android学习录Demo1" data-url="http://xiaoyaolml.github.io/2016/05/29/OpenCV4Android学习录Demo1/">
-      </div>
     
   </div>
 
@@ -505,14 +474,14 @@
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="https://avatars1.githubusercontent.com/u/8487928?v=3&s=460"
-               alt="Leo" />
-          <p class="site-author-name" itemprop="name">Leo</p>
-          <p class="site-description motion-element" itemprop="description">读书笔记, 成长感想</p>
+               alt="" />
+          <p class="site-author-name" itemprop="name"></p>
+          <p class="site-description motion-element" itemprop="description"></p>
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">10</span>
+              <span class="site-state-item-count">11</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -529,7 +498,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-count">8</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -573,13 +542,6 @@
 
         <div class="links-of-author motion-element">
           
-            <p class="site-author-name">友情链接</p>
-            
-              <span class="links-of-author-item">
-                <a href="https://hexo.io/zh-cn/docs/index.html" target="_blank">hexo说明文档</a>
-              </span>
-            
-          
         </div>
 
       </section>
@@ -594,7 +556,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#开发环境"><span class="nav-number">1.</span> <span class="nav-text">开发环境</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#导入OpenCV库"><span class="nav-number">2.</span> <span class="nav-text">导入OpenCV库</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Import-Module"><span class="nav-number">2.1.</span> <span class="nav-text">Import Module</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改build-gradle"><span class="nav-number">2.2.</span> <span class="nav-text">修改build.gradle</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置模块依赖"><span class="nav-number">2.3.</span> <span class="nav-text">配置模块依赖</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#添加jni库"><span class="nav-number">2.4.</span> <span class="nav-text">添加jni库</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#代码编写"><span class="nav-number">3.</span> <span class="nav-text">代码编写</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#java代码"><span class="nav-number">3.1.</span> <span class="nav-text">java代码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#xml布局"><span class="nav-number">3.2.</span> <span class="nav-text">xml布局</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#manifest清单"><span class="nav-number">3.3.</span> <span class="nav-text">manifest清单</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#运行结果"><span class="nav-number">4.</span> <span class="nav-text">运行结果</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#小结"><span class="nav-number">5.</span> <span class="nav-text">小结</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83"><span class="nav-number">1.</span> <span class="nav-text">开发环境</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AF%BC%E5%85%A5OpenCV%E5%BA%93"><span class="nav-number">2.</span> <span class="nav-text">导入OpenCV库</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Import-Module"><span class="nav-number">2.1.</span> <span class="nav-text">Import Module</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9build-gradle"><span class="nav-number">2.2.</span> <span class="nav-text">修改build.gradle</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE%E6%A8%A1%E5%9D%97%E4%BE%9D%E8%B5%96"><span class="nav-number">2.3.</span> <span class="nav-text">配置模块依赖</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0jni%E5%BA%93"><span class="nav-number">2.4.</span> <span class="nav-text">添加jni库</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E7%BC%96%E5%86%99"><span class="nav-number">3.</span> <span class="nav-text">代码编写</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#java%E4%BB%A3%E7%A0%81"><span class="nav-number">3.1.</span> <span class="nav-text">java代码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#xml%E5%B8%83%E5%B1%80"><span class="nav-number">3.2.</span> <span class="nav-text">xml布局</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#manifest%E6%B8%85%E5%8D%95"><span class="nav-number">3.3.</span> <span class="nav-text">manifest清单</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C"><span class="nav-number">4.</span> <span class="nav-text">运行结果</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B0%8F%E7%BB%93"><span class="nav-number">5.</span> <span class="nav-text">小结</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
@@ -624,12 +586,12 @@
 </div>
 
 <div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+  由 <a class="theme-link" target="_blank" rel="noopener" href="http://hexo.io">Hexo</a> 强力驱动
 </div>
 
 <div class="theme-info">
   主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+  <a class="theme-link" target="_blank" rel="noopener" href="https://github.com/iissnan/hexo-theme-next">
     NexT.Pisces
   </a>
 </div>
@@ -863,28 +825,9 @@
 
   
 
-  
-    
-  
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"limiaoliang"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.id = 'duoshuo-script';
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
-  
-    
-  
 
 
+  
 
 
 

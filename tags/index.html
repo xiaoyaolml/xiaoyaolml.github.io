@@ -61,12 +61,14 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="tags">
 <meta property="og:url" content="http://xiaoyaolml.github.io/tags/index.html">
-<meta property="og:site_name" content="Leo's Blog">
+<meta property="og:site_name" content="Leo&#39;s Blog">
 <meta property="og:description" content="读书笔记, 成长感想">
-<meta property="og:updated_time" content="2016-03-10T06:54:22.000Z">
+<meta property="og:locale">
+<meta property="article:published_time" content="2016-03-10T06:53:06.000Z">
+<meta property="article:modified_time" content="2016-03-10T06:54:22.000Z">
+<meta property="article:author" content="Leo">
+<meta property="article:tag" content="读书,笔记,写作,成长">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
-<meta name="twitter:description" content="读书笔记, 成长感想">
 
 
 
@@ -74,7 +76,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     scheme: 'Pisces',
-    sidebar: {"position":"left","display":"post"},
+    sidebar: {"position":"left","display":"post","display_updated":true},
     fancybox: true,
     motion: true,
     duoshuo: {
@@ -91,23 +93,13 @@
     标签 | Leo's Blog
   
 </title>
-</head>
+<meta name="generator" content="Hexo 6.1.0"></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
 
 
-
-  <script type="text/javascript">
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?783b183b63db00d32ef83dd4bdf1ce9d";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
 
 
 
@@ -214,7 +206,7 @@
       
         <li class="menu-item menu-item-search">
           
-            <a href="#" class="st-search-show-outputs">
+            <a href="#" class="popup-trigger">
           
             
               <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
@@ -229,19 +221,18 @@
   
     <div class="site-search">
       
-  <form class="site-search-form">
-  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+  <form class="site-search-form" >
+  <span class="fa fa-search"></span>
+  <input type="text" id="search-input">
+  <div id="search-result"><ul class="search-result-list"><li><a target="_blank" rel="noopener" href="//www.baidu.com/s?wd=XXX%20site%3Ahttp://xiaoyaolml.github.io" class="search-result">百度搜索 <i class="search-keyword">XXX</i></a></li><li><a target="_blank" rel="noopener" href="//www.google.com/search?q=XXX%20site%3Ahttp://xiaoyaolml.github.io" class="search-result">谷歌搜索 <i class="search-keyword">XXX</i></a></li><li><a href="#" class="popup-trigger search-result">本地搜索</a></li></ul>
+  </div>
 </form>
-
-<script type="text/javascript">
-  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-
-  _st('install', 'bb7t73zHKjWQvecjLs14','2.0.0');
-</script>
-
+ <div class="popup">
+  <span class="fa fa-search"></span>
+  <input type="text" id="local-search-input">
+  <div id="local-search-result"></div>
+  <span class="popup-btn-close">close</span>
+ </div>
 
 
     </div>
@@ -262,10 +253,10 @@
     
       <div class="tag-cloud">
         <div class="tag-cloud-title">
-            目前共计 9 个标签
+            目前共计 8 个标签
         </div>
         <div class="tag-cloud-tags">
-          <a href="/tags/Android/" style="font-size: 30px; color: #111">Android</a> <a href="/tags/Android-Studio/" style="font-size: 21px; color: #6f6f6f">Android Studio</a> <a href="/tags/Markdown/" style="font-size: 12px; color: #ccc">Markdown</a> <a href="/tags/OpenCV/" style="font-size: 12px; color: #ccc">OpenCV</a> <a href="/tags/Sublime/" style="font-size: 12px; color: #ccc">Sublime</a> <a href="/tags/hexo/" style="font-size: 12px; color: #ccc">hexo</a> <a href="/tags/写作/" style="font-size: 12px; color: #ccc">写作</a>
+          <a href="/tags/Android/" style="font-size: 30px; color: #111">Android</a> <a href="/tags/Android-Studio/" style="font-size: 24px; color: #4f4f4f">Android Studio</a> <a href="/tags/Markdown/" style="font-size: 12px; color: #ccc">Markdown</a> <a href="/tags/OpenCV/" style="font-size: 12px; color: #ccc">OpenCV</a> <a href="/tags/Sublime/" style="font-size: 12px; color: #ccc">Sublime</a> <a href="/tags/hexo/" style="font-size: 18px; color: #8e8e8e">hexo</a> <a href="/tags/next%E4%B8%BB%E9%A2%98/" style="font-size: 12px; color: #ccc">next主题</a> <a href="/tags/%E5%86%99%E4%BD%9C/" style="font-size: 12px; color: #ccc">写作</a>
         </div>
       </div>
     
@@ -301,14 +292,14 @@
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="https://avatars1.githubusercontent.com/u/8487928?v=3&s=460"
-               alt="Leo" />
-          <p class="site-author-name" itemprop="name">Leo</p>
-          <p class="site-description motion-element" itemprop="description">读书笔记, 成长感想</p>
+               alt="" />
+          <p class="site-author-name" itemprop="name"></p>
+          <p class="site-description motion-element" itemprop="description"></p>
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">10</span>
+              <span class="site-state-item-count">11</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -325,7 +316,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-count">8</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -369,13 +360,6 @@
 
         <div class="links-of-author motion-element">
           
-            <p class="site-author-name">友情链接</p>
-            
-              <span class="links-of-author-item">
-                <a href="https://hexo.io/zh-cn/docs/index.html" target="_blank">hexo说明文档</a>
-              </span>
-            
-          
         </div>
 
       </section>
@@ -403,12 +387,12 @@
 </div>
 
 <div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+  由 <a class="theme-link" target="_blank" rel="noopener" href="http://hexo.io">Hexo</a> 强力驱动
 </div>
 
 <div class="theme-info">
   主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+  <a class="theme-link" target="_blank" rel="noopener" href="https://github.com/iissnan/hexo-theme-next">
     NexT.Pisces
   </a>
 </div>
@@ -481,28 +465,9 @@
 
   
 
-  
-    
-  
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"limiaoliang"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.id = 'duoshuo-script';
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
-  
-    
-  
 
 
+  
 
 
 
