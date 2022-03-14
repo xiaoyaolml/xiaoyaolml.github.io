@@ -23,7 +23,7 @@
   <meta name="description" content="经过以上一篇上手Android Studio之一(基本配置)折腾，接下来咱就来看看用Android Studio做开发的基本使用。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="上手Android Studio之二(基本使用)">
-<meta property="og:url" content="http://xiaoyaolml.github.io/2016/01/29/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%BA%8C(%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)/index.html">
+<meta property="og:url" content="http://xiaoyaolml.github.io/2016/01/29/%E4%B8%8A%E6%89%8BAndroid-Studio%E4%B9%8B%E4%BA%8C-%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/index.html">
 <meta property="og:site_name" content="Leo&#39;s Blog">
 <meta property="og:description" content="经过以上一篇上手Android Studio之一(基本配置)折腾，接下来咱就来看看用Android Studio做开发的基本使用。">
 <meta property="og:locale" content="zh_CN">
@@ -65,7 +65,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://img.blog.csdn.net/20160205114004416">
 
-<link rel="canonical" href="http://xiaoyaolml.github.io/2016/01/29/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%BA%8C(%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)/">
+<link rel="canonical" href="http://xiaoyaolml.github.io/2016/01/29/%E4%B8%8A%E6%89%8BAndroid-Studio%E4%B9%8B%E4%BA%8C-%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/">
 
 
 <script id="page-configurations">
@@ -237,7 +237,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://xiaoyaolml.github.io/2016/01/29/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%BA%8C(%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)/">
+    <link itemprop="mainEntityOfPage" href="http://xiaoyaolml.github.io/2016/01/29/%E4%B8%8A%E6%89%8BAndroid-Studio%E4%B9%8B%E4%BA%8C-%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://avatars.githubusercontent.com/u/8487928">
@@ -291,7 +291,8 @@
 
       
         <p>经过以上一篇<a href="http://xiaoyaolml.github.io/2016/01/22/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%B8%80%28%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%29/">上手Android Studio之一(基本配置)</a>折腾，接下来咱就来看看用Android Studio做开发的基本使用。</p>
-<a id="more"></a>
+<span id="more"></span>
+
 <h1 id="工程结构"><a href="#工程结构" class="headerlink" title="工程结构"></a>工程结构</h1><p>咱先来看看项目工具窗口（The Project Tool Window），Project主要有三种模式：Project，Packages和Android。Android Studio在默认情况下将模式设置为Android。Project工具窗口呈现你项目中的所有包，目录和文件的概览。如果在项目工具窗口中右击，将会显示一个上下文菜单。此处有三个重要的菜单项：复制路径，文件路径和在资源管理器中显示。点击Copy Path复制操作系统的绝对路径到剪贴板。点击File Path以倒序方式显示目录堆栈，点击任何一个目录都将在操作系统中打开他们。点击 Show in Explorer将会在你的操作系统中打开一个新窗口来显示文件。如下图所示，经过之前的折腾，咱的工程Project主要包括AS生成的工程配置文件，app模块文件，build生成文件，gradle构建工具文件和第三方类库的libraries模块，还有外部依赖库文件。</p>
 <p><img src="http://img.blog.csdn.net/20160205114004416" alt="Project目录结构" title="Project目录结构"></p>
 <p>点来看看app模块的目录结构，如下图所示，主要包括构建目录，依赖包，测试文件夹，主文件夹和一些gradle配置的文件，其中主文件中包含java代码文件和资源文件夹。</p>
@@ -343,8 +344,7 @@
 <th>状态</th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td>红色</td>
 <td>没有add的新文件</td>
 </tr>
@@ -356,8 +356,7 @@
 <td>蓝色</td>
 <td>修改过的文件</td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
 <p>Add红色的文件，选择文件点击右键，Git→Add，操作如下图所示，此时文件变绿色了。</p>
 <p><img src="http://img.blog.csdn.net/20160205114217585" alt="Git Add" title="Git Add"></p>
 <p>上传代码，如下图所示，填写Commit Message后，选择Commit and Push。提交之后可能会弹出警告，继续Commit即可。</p>
@@ -379,11 +378,11 @@
 <h1 id="使用Genymotion"><a href="#使用Genymotion" class="headerlink" title="使用Genymotion"></a>使用Genymotion</h1><p>一般都是直接使用真机开发的，不过有的时候可能需要用模拟器来进行演示，咱选用的是号称<code>the fastest emulator in the world</code>的Genymotion模拟器。在<a href="http://xiaoyaolml.github.io/2016/01/22/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%B8%80%28%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%29/">上一篇的内容</a>中，咱添加了Genymotion插件，这个插件得配合Genymotion模拟器软件来使用。首先，需要在本地安装这个Genymotion模拟器。然后是在AS中做一下配置，如下图所示，设置选择路径为Genymotion模拟器安装的根目录即可。现在就可以使用Android模拟器运行Android App了。</p>
 <p><img src="http://img.blog.csdn.net/20160205114317716" alt="Genymotion配置" title="Genymotion配置"></p>
 <h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><ol>
-<li><a href="http://blog.csdn.net/yanbober/article/details/45306483" target="_blank" rel="external">Android Studio入门到精通</a></li>
-<li><a href="http://blog.csdn.net/column/details/zsl-androidstudio.html" target="_blank" rel="external">Android Studio 权威教程</a></li>
-<li><a href="http://ask.android-studio.org/?/explore/category-studio" target="_blank" rel="external">Android Studio使用教程</a></li>
-<li><a href="http://ask.android-studio.org/?/explore/category-gradle" target="_blank" rel="external">Gradle 使用教程</a></li>
-<li><a href="http://www.2cto.com/kf/201412/364133.html" target="_blank" rel="external">Android Studio Share Project On Github</a></li>
+<li><a target="_blank" rel="noopener" href="http://blog.csdn.net/yanbober/article/details/45306483">Android Studio入门到精通</a></li>
+<li><a target="_blank" rel="noopener" href="http://blog.csdn.net/column/details/zsl-androidstudio.html">Android Studio 权威教程</a></li>
+<li><a target="_blank" rel="noopener" href="http://ask.android-studio.org/?/explore/category-studio">Android Studio使用教程</a></li>
+<li><a target="_blank" rel="noopener" href="http://ask.android-studio.org/?/explore/category-gradle">Gradle 使用教程</a></li>
+<li><a target="_blank" rel="noopener" href="http://www.2cto.com/kf/201412/364133.html">Android Studio Share Project On Github</a></li>
 </ol>
 
     </div>
@@ -400,7 +399,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="http://xiaoyaolml.github.io/2016/01/29/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%BA%8C(%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)/" title="上手Android Studio之二(基本使用)">http://xiaoyaolml.github.io/2016/01/29/上手Android Studio之二(基本使用)/</a>
+    <a href="http://xiaoyaolml.github.io/2016/01/29/%E4%B8%8A%E6%89%8BAndroid-Studio%E4%B9%8B%E4%BA%8C-%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/" title="上手Android Studio之二(基本使用)">http://xiaoyaolml.github.io/2016/01/29/上手Android-Studio之二-基本使用/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -421,7 +420,7 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2016/01/22/%E4%B8%8A%E6%89%8BAndroid%20Studio%E4%B9%8B%E4%B8%80(%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE)/" rel="prev" title="上手Android Studio之一(基本配置)">
+    <a href="/2016/01/22/%E4%B8%8A%E6%89%8BAndroid-Studio%E4%B9%8B%E4%B8%80-%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/" rel="prev" title="上手Android Studio之一(基本配置)">
       <i class="fa fa-chevron-left"></i> 上手Android Studio之一(基本配置)
     </a></div>
       <div class="post-nav-item">
@@ -502,14 +501,14 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">12</span>
+          <span class="site-state-item-count">11</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
