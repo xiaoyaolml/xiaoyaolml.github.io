@@ -6,7 +6,7 @@
   <link href="http://xiaoyaolml.github.io/atom.xml" rel="self"/>
   
   <link href="http://xiaoyaolml.github.io/"/>
-  <updated>2018-03-14T10:00:00.000Z</updated>
+  <updated>2022-03-26T04:36:44.000Z</updated>
   <id>http://xiaoyaolml.github.io/</id>
   
   <author>
@@ -15,6 +15,53 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>nodejs升级</title>
+    <link href="http://xiaoyaolml.github.io/2022/03/26/nodejs%E5%8D%87%E7%BA%A7/"/>
+    <id>http://xiaoyaolml.github.io/2022/03/26/nodejs%E5%8D%87%E7%BA%A7/</id>
+    <published>2022-03-26T04:36:44.000Z</published>
+    <updated>2022-03-26T04:36:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="nodejs在win10下升级"><a href="#nodejs在win10下升级" class="headerlink" title="nodejs在win10下升级"></a>nodejs在win10下升级</h1><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 查看版本</span></span><br><span class="line">node -v</span><br><span class="line"><span class="comment">// 找到旧版nodejs的安装路径</span></span><br><span class="line">where node</span><br></pre></td></tr></table></figure><p>从<a href="http://nodejs.cn/download/">官网下载</a>新版的nodejs直接按照到该路径下</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;nodejs在win10下升级&quot;&gt;&lt;a href=&quot;#nodejs在win10下升级&quot; class=&quot;headerlink&quot; title=&quot;nodejs在win10下升级&quot;&gt;&lt;/a&gt;nodejs在win10下升级&lt;/h1&gt;&lt;figure class=&quot;highli</summary>
+      
+    
+    
+    
+    <category term="nodejs" scheme="http://xiaoyaolml.github.io/categories/nodejs/"/>
+    
+    
+    <category term="nodejs" scheme="http://xiaoyaolml.github.io/tags/nodejs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git仓库迁移记录</title>
+    <link href="http://xiaoyaolml.github.io/2022/03/21/git%E4%BB%93%E5%BA%93%E8%BF%81%E7%A7%BB%E8%AE%B0%E5%BD%95/"/>
+    <id>http://xiaoyaolml.github.io/2022/03/21/git%E4%BB%93%E5%BA%93%E8%BF%81%E7%A7%BB%E8%AE%B0%E5%BD%95/</id>
+    <published>2022-03-21T11:18:23.000Z</published>
+    <updated>2022-03-21T11:18:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>把gitlab1下的某个仓库迁移到gitlab2下，且保留所有的commit记录。</p><span id="more"></span><p>目标是把旧的gitlab1下的某个仓库迁移到新建的gitlab2的某个仓库(<code>git@gitlabe2.ext.net.nokia.com:miali/jenkins-production-flow.git</code>),</p><h1 id="克隆旧地址"><a href="#克隆旧地址" class="headerlink" title="克隆旧地址"></a>克隆旧地址</h1><p>新建文件夹, 然后在该文件夹下输入以下 <code>git clone --bare &lt;old_git_repo&gt;</code> 命令克隆旧地址, 比如</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone --bare git@gitlabe1.ext.net.nokia.com:miali/jenkins-production-flow.git</span><br></pre></td></tr></table></figure><p>执行完成之后在生成一个 <code>xxx.git</code> 文件夹(<code>jenkins-production-flow.git</code>)</p><h1 id="推送到新地址"><a href="#推送到新地址" class="headerlink" title="推送到新地址"></a>推送到新地址</h1><p>进入 <code>xxx.git</code> 文件夹，然后使用 <code>git push --mirror &lt;new_git_repo&gt;</code> 命令推送到新地址, 比如</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd jenkins-production-flow.git/</span><br><span class="line"></span><br><span class="line">git push --mirror git@gitlabe2.ext.net.nokia.com:miali/jenkins-production-flow.git</span><br></pre></td></tr></table></figure><p>以上两步就已经完成了仓库迁移。<br>接下来，可以把第一步生成的 <code>xxx.git</code>文件夹删掉, 然后从新地址直接克隆就行。</p><h1 id="从新地址克隆"><a href="#从新地址克隆" class="headerlink" title="从新地址克隆"></a>从新地址克隆</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone git@gitlabe2.ext.net.nokia.com:miali/jenkins-production-flow.git</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;把gitlab1下的某个仓库迁移到gitlab2下，且保留所有的commit记录。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="working" scheme="http://xiaoyaolml.github.io/categories/working/"/>
+    
+    
+    <category term="git" scheme="http://xiaoyaolml.github.io/tags/git/"/>
+    
+    <category term="working" scheme="http://xiaoyaolml.github.io/tags/working/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo添加文章更新时间</title>

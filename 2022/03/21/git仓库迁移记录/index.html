@@ -20,18 +20,21 @@
     var CONFIG = {"hostname":"xiaoyaolml.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="读书笔记, 成长感想">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Leo&#39;s Blog">
-<meta property="og:url" content="http://xiaoyaolml.github.io/tags/Android/index.html">
+  <meta name="description" content="把gitlab1下的某个仓库迁移到gitlab2下，且保留所有的commit记录。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="git仓库迁移记录">
+<meta property="og:url" content="http://xiaoyaolml.github.io/2022/03/21/git%E4%BB%93%E5%BA%93%E8%BF%81%E7%A7%BB%E8%AE%B0%E5%BD%95/index.html">
 <meta property="og:site_name" content="Leo&#39;s Blog">
-<meta property="og:description" content="读书笔记, 成长感想">
+<meta property="og:description" content="把gitlab1下的某个仓库迁移到gitlab2下，且保留所有的commit记录。">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-03-21T11:18:23.000Z">
+<meta property="article:modified_time" content="2022-03-21T11:18:23.000Z">
 <meta property="article:author" content="Leo">
-<meta property="article:tag" content="读书,笔记,写作,成长">
+<meta property="article:tag" content="git">
+<meta property="article:tag" content="working">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://xiaoyaolml.github.io/tags/Android/">
+<link rel="canonical" href="http://xiaoyaolml.github.io/2022/03/21/git%E4%BB%93%E5%BA%93%E8%BF%81%E7%A7%BB%E8%AE%B0%E5%BD%95/">
 
 
 <script id="page-configurations">
@@ -39,12 +42,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>标签: Android | Leo's Blog</title>
+  <title>git仓库迁移记录 | Leo's Blog</title>
   
 
 
@@ -196,171 +199,120 @@
         <div class="content-wrap">
           
 
-          <div class="content tag">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">Android
-          <small>标签</small>
-        </h2>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://xiaoyaolml.github.io/2022/03/21/git%E4%BB%93%E5%BA%93%E8%BF%81%E7%A7%BB%E8%AE%B0%E5%BD%95/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/8487928">
+      <meta itemprop="name" content="Leo">
+      <meta itemprop="description" content="读书笔记, 成长感想">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Leo's Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          git仓库迁移记录
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-03-21 19:18:23" itemprop="dateCreated datePublished" datetime="2022-03-21T19:18:23+08:00">2022-03-21</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/working/" itemprop="url" rel="index"><span itemprop="name">working</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2016</span>
-    </div>
+        <p>把gitlab1下的某个仓库迁移到gitlab2下，且保留所有的commit记录。</p>
+<span id="more"></span>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+<p>目标是把旧的gitlab1下的某个仓库迁移到新建的gitlab2的某个仓库(<code>git@gitlabe2.ext.net.nokia.com:miali/jenkins-production-flow.git</code>),</p>
+<h1 id="克隆旧地址"><a href="#克隆旧地址" class="headerlink" title="克隆旧地址"></a>克隆旧地址</h1><p>新建文件夹, 然后在该文件夹下输入以下 <code>git clone --bare &lt;old_git_repo&gt;</code> 命令克隆旧地址, 比如</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone --bare git@gitlabe1.ext.net.nokia.com:miali/jenkins-production-flow.git</span><br></pre></td></tr></table></figure>
+<p>执行完成之后在生成一个 <code>xxx.git</code> 文件夹(<code>jenkins-production-flow.git</code>)</p>
+<h1 id="推送到新地址"><a href="#推送到新地址" class="headerlink" title="推送到新地址"></a>推送到新地址</h1><p>进入 <code>xxx.git</code> 文件夹，然后使用 <code>git push --mirror &lt;new_git_repo&gt;</code> 命令推送到新地址, 比如</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd jenkins-production-flow.git/</span><br><span class="line"></span><br><span class="line">git push --mirror git@gitlabe2.ext.net.nokia.com:miali/jenkins-production-flow.git</span><br></pre></td></tr></table></figure>
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2016-05-30T00:46:54+08:00"
-              content="2016-05-30">
-          05-30
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2016/05/30/%E4%BD%BF%E7%94%A8Android-Studio%E8%BF%9B%E8%A1%8CNDK%E5%BC%80%E5%8F%91/" itemprop="url">
-            <span itemprop="name">使用Android Studio进行NDK开发</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2016-05-29T01:15:58+08:00"
-              content="2016-05-29">
-          05-29
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2016/05/29/OpenCV4Android%E5%AD%A6%E4%B9%A0%E5%BD%95Demo1/" itemprop="url">
-            <span itemprop="name">OpenCV4Android学习录Demo1</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2016-03-19T16:34:57+08:00"
-              content="2016-03-19">
-          03-19
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2016/03/19/Android%E8%87%AA%E5%AE%9A%E4%B9%89%E7%94%BB%E6%9D%BF/" itemprop="url">
-            <span itemprop="name">Android自定义画板</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2016-03-13T16:34:57+08:00"
-              content="2016-03-13">
-          03-13
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2016/03/13/Android%E7%94%BB%E5%9B%BE%E4%B8%80%E4%BA%8C/" itemprop="url">
-            <span itemprop="name">Android画图一二</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2016-01-29T12:00:00+08:00"
-              content="2016-01-29">
-          01-29
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2016/01/29/%E4%B8%8A%E6%89%8BAndroid-Studio%E4%B9%8B%E4%BA%8C-%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/" itemprop="url">
-            <span itemprop="name">上手Android Studio之二(基本使用)</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2016-01-22T12:00:00+08:00"
-              content="2016-01-22">
-          01-22
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2016/01/22/%E4%B8%8A%E6%89%8BAndroid-Studio%E4%B9%8B%E4%B8%80-%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/" itemprop="url">
-            <span itemprop="name">上手Android Studio之一(基本配置)</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2016-01-15T12:00:00+08:00"
-              content="2016-01-15">
-          01-15
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2016/01/15/%E4%BB%8EAndroid%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%A7%8B/" itemprop="url">
-            <span itemprop="name">从Android开发环境搭建开始</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
+<p>以上两步就已经完成了仓库迁移。<br>接下来，可以把第一步生成的 <code>xxx.git</code>文件夹删掉, 然后从新地址直接克隆就行。</p>
+<h1 id="从新地址克隆"><a href="#从新地址克隆" class="headerlink" title="从新地址克隆"></a>从新地址克隆</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone git@gitlabe2.ext.net.nokia.com:miali/jenkins-production-flow.git</span><br></pre></td></tr></table></figure>
 
     </div>
-  </div>
-  
-  
-  
 
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>Leo
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://xiaoyaolml.github.io/2022/03/21/git%E4%BB%93%E5%BA%93%E8%BF%81%E7%A7%BB%E8%AE%B0%E5%BD%95/" title="git仓库迁移记录">http://xiaoyaolml.github.io/2022/03/21/git仓库迁移记录/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/git/" rel="tag"># git</a>
+              <a href="/tags/working/" rel="tag"># working</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2018/03/14/hexo%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4/" rel="prev" title="hexo添加文章更新时间">
+      <i class="fa fa-chevron-left"></i> hexo添加文章更新时间
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2022/03/26/nodejs%E5%8D%87%E7%BA%A7/" rel="next" title="nodejs升级">
+      nodejs升级 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
@@ -413,6 +365,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%8B%E9%9A%86%E6%97%A7%E5%9C%B0%E5%9D%80"><span class="nav-number">1.</span> <span class="nav-text">克隆旧地址</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%8E%A8%E9%80%81%E5%88%B0%E6%96%B0%E5%9C%B0%E5%9D%80"><span class="nav-number">2.</span> <span class="nav-text">推送到新地址</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%8E%E6%96%B0%E5%9C%B0%E5%9D%80%E5%85%8B%E9%9A%86"><span class="nav-number">3.</span> <span class="nav-text">从新地址克隆</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
